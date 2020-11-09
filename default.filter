@@ -506,14 +506,14 @@ ItemDisplay[!RW NMAG ETH !SUP ELT EQ2 !uul !uar (SOCK=3 OR SOCK=4) DEF>999]: %GR
 ItemDisplay[!RW NMAG ETH !SUP ELT EQ2 !uul !uar SOCK=0 DEF>666]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[!RW NMAG ETH !SUP (uar OR uul) SOCK=4 DEF>1199]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[!RW NMAG ETH !SUP (uar OR uul) SOCK=0 DEF>799]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
-ItemDisplay[EQ2 !uar !uld ELT NMAG ETH !SOCK=1 ED=15]: %GRAY%[%WHITE%eth%GRAY%]%GRAY%[%WHITE%%15%GRAY%] %NAME% TAN%[%SOCKETS%]%MAP%
-ItemDisplay[EQ2 !uar !uul !uld ELT NMAG ETH !SOCK=1 ED>0 ED<15]: %GRAY%[%WHITE%eth%GRAY%]%GRAY%[%WHITE%%ed%GRAY%] %NAME% TAN%[%SOCKETS%]
-ItemDisplay[EQ2 !uth !ult !uar !uld ELT NMAG !ETH !SOCK=1 ED=15]: %GRAY%[%WHITE%%15%GRAY%] %NAME% TAN%[%SOCKETS%]%MAP%
-ItemDisplay[EQ2 !uth !ult !uar !uul !uld ELT NMAG !ETH !SOCK=1 ED>0 ED<15]: %GRAY%[%WHITE%%ed%GRAY%] %NAME% TAN%[%SOCKETS%]
-ItemDisplay[EQ2 !uar !uul !uld ELT NMAG ETH !SOCK=1]: %GRAY%[%WHITE%eth%GRAY%] %NAME% TAN%[%SOCKETS%]
-ItemDisplay[(utp OR uui OR urs) NMAG ETH !SOCK=1 ED=14]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%[%WHITE%%ed%GRAY%] %NAME% TAN%[%SOCKETS%]%MAP%
-ItemDisplay[(utp OR uui OR urs) NMAG !ETH !SOCK=1 ED=14]: %GRAY%[%WHITE%%ed%GRAY%] %NAME% TAN%[%SOCKETS%]%MAP%
-ItemDisplay[utp NMAG ETH !SOCK=1 ED=13]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%[%WHITE%%ed%GRAY%] %NAME% TAN%[%SOCKETS%]
+ItemDisplay[EQ2 !uar !uld ELT NMAG ETH !SOCK=1 ED=15]: %GRAY%[%WHITE%eth%GRAY%]%GRAY%[%WHITE%%15%GRAY%] %NAME% %TAN%[%SOCKETS%]%MAP%
+ItemDisplay[EQ2 !uar !uul !uld ELT NMAG ETH !SOCK=1 ED>0 ED<15]: %GRAY%[%WHITE%eth%GRAY%]%GRAY%[%WHITE%%ed%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[EQ2 !uth !ult !uar !uld ELT NMAG !ETH !SOCK=1 ED=15]: %GRAY%[%WHITE%%15%GRAY%] %NAME% %TAN%[%SOCKETS%]%MAP%
+ItemDisplay[EQ2 !uth !ult !uar !uul !uld ELT NMAG !ETH !SOCK=1 ED>0 ED<15]: %GRAY%[%WHITE%%ed%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[EQ2 !uar !uul !uld ELT NMAG ETH !SOCK=1]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[(utp OR uui OR urs) NMAG ETH !SOCK=1 ED=14]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%[%WHITE%%ed%GRAY%] %NAME% %TAN%[%SOCKETS%]%MAP%
+ItemDisplay[(utp OR uui OR urs) NMAG !ETH !SOCK=1 ED=14]: %GRAY%[%WHITE%%ed%GRAY%] %NAME% %TAN%[%SOCKETS%]%MAP%
+ItemDisplay[utp NMAG ETH !SOCK=1 ED=13]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%[%WHITE%%ed%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[ltp NMAG !ETH !SOCK=1 CLVL<71]: %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[ltp NMAG ETH !SOCK=1 CLVL<71]: %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[(xtp OR xea OR xui) NMAG !INF !ETH !SOCK=1]: %GRAY%%NAME% %TAN%[%SOCKETS%]
