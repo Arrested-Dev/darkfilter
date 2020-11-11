@@ -61,6 +61,11 @@ ItemDisplay[scou]: %GREEN%o %NAME%%GREEN% o%MAP%
 ItemDisplay[upma]: %BLUE%o %NAME%%BLUE% o%MAP%
 ItemDisplay[lbox]: %WHITE%o %GOLD%%NAME% %WHITE%o%MAP%
 ItemDisplay[wss]: %GREEN%o %PURPLE%%NAME% %GREEN%o%MAP%
+ItemDisplay[dcma]: %RED%o %NAME%%RED% o%MAP%
+ItemDisplay[dcbl]: %RED%o %NAME%%RED% o%MAP%
+ItemDisplay[dcho]: %RED%o %NAME%%RED% o%MAP%
+ItemDisplay[dcso]: %RED%o %NAME%%RED% o%MAP%
+ItemDisplay[imrn]: %RED%o %NAME%%RED% o%MAP%
 //Maps
 ItemDisplay[t11 !ID]: %PURPLE%ooo %RED%%NAME% %PURPLE%ooo%MAP%
 ItemDisplay[t12 !ID]: %PURPLE%ooo %RED%%NAME% %PURPLE%ooo%MAP%
@@ -657,9 +662,11 @@ ItemDisplay[WP13 NMAG !ETH SK102>2 (SOCK=0 OR SOCK>2)]: %GRAY%[%WHITE%3fire%GRAY
 ItemDisplay[fla (ETH AND (NMAG OR RW)) SOCK>3]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[fla (NMAG OR RW) SOCK>3]: %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[crs (ETH AND (NMAG OR RW)) SOCK=5]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
-ItemDisplay[crs (NMAG OR RW) SOCK=5]: %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[crs !ETH (NMAG OR RW) SOCK=5]: %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[WP13 SK117>2 (NMAG OR RW) SOCK=5]: %GRAY%[%PURPLE%holy%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[(wst OR 8ws OR 6ws) (NMAG OR RW) (SK58>2 AND SK50>0) SOCK=5]: %GRAY%[%WHITE%cta%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[2ax (ETH AND (NMAG OR RW)) SOCK=5]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[2ax !ETH (NMAG OR RW) SOCK=5]: %NAME% %TAN%[%SOCKETS%]
 //Memory
 ItemDisplay[(cst OR bst OR 8cs OR 8bs OR 6cs OR 6bs) !INF AND (NMAG OR RW) (SK58>2 AND SK50>0) (SOCK=0 OR SOCK=4)]: %GRAY%[%WHITE%mem%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[(wst OR 8ws OR 6ws) (NMAG OR RW) (SK58>2 AND SK50>0) SOCK=0 (!INF AND !SUP)]: %GRAY%[%WHITE%mem%GRAY%] %NAME% %TAN%[%SOCKETS%]
