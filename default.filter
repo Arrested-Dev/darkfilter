@@ -316,6 +316,7 @@ ItemDisplay[uap UNI !ID !ETH]: %RED%ooo %PURPLE%Shako %RED%ooo%MAP%
 ItemDisplay[uap UNI !ID ETH]: %RED%ooo%GRAY%[%WHITE%eth%GRAY%] %PURPLE%Shako %RED%ooo%MAP%
 ItemDisplay[ulm UNI !ID !ETH]: %RED%ooo %PURPLE%Steel Shade %RED%ooo%MAP%
 ItemDisplay[ulm UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] %RED%Steel Shade o%MAP%
+ItemDisplay[xap UNI !ID !ETH]: %RED%o %GOLD%Peasant Crown %RED%o%MAP%
 ItemDisplay[xrn UNI !ID !ETH]: %RED%o Crown of Thieves o%MAP%
 ItemDisplay[xrn UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %RED%Crown of Thieves%MAP%
 ItemDisplay[uhm UNI !ID !ETH]: %RED%ooo %PURPLE%Veil of Steel or Nightwing's Veil %RED%ooo%MAP%
@@ -370,10 +371,12 @@ ItemDisplay[hgl UNI !ID !ETH]: %RED%oo Frostburn oo%MAP%
 ItemDisplay[xvg UNI !ID !ETH]: %TAN%Gravepalm%MAP%
 ItemDisplay[uvg UNI !ID !ETH]: %RED%ooo %PURPLE%Dracul's Grasp %RED%ooo%MAP%
 ItemDisplay[uvg UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Dracul's Grasp%MAP%
-ItemDisplay[umg UNI !ID !ETH]: %TAN%o Soul Drainer%MAP%
+ItemDisplay[umg UNI !ID !ETH]: %GOLD%o Soul Drainer%MAP%
 ItemDisplay[umg UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %TAN%Soul Drainer%MAP%
-ItemDisplay[uhg UNI !ID !ETH]: %TAN%o Steelrend o%MAP%
-ItemDisplay[uhg UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %TAN%Steelrend%MAP%
+ItemDisplay[uhg UNI !ID !ETH]: %RED%oo %GOLD% Steelrend %RED%oo%MAP%
+ItemDisplay[uhg UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] %GOLD%Steelrend %RED%o%MAP%
+ItemDisplay[tbt UNI !ID !ETH]: %RED%o %GOLD%Goblin Toe %RED%o%MAP%
+ItemDisplay[tbt UNI !ID ETH]: %%RED%o [%WHITE%eth%GRAY%]%GOLD%Goblin Toe %RED%o%MAP%
 ItemDisplay[xvb UNI !ID !ETH]: %RED%oo Waterwalk oo%MAP%
 ItemDisplay[xvb UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %TAN%Waterwalk%MAP%
 ItemDisplay[xmb UNI !ID !ETH]: %RED%oo %PURPLE%Silkweave %RED%oo%MAP%
@@ -492,6 +495,7 @@ ItemDisplay[xul SET !ID]: %RED%o %GREEN%%NAME% Trang-Oul's %RED%o%MAP%
 ItemDisplay[ne9 SET !ID]: %RED%o %GREEN%%NAME% Trang-Oul's %RED%o%MAP%
 ItemDisplay[utc SET !ID]: %RED%o %GREEN%%NAME% Trang-Oul's %RED%o%MAP%
 ItemDisplay[xmg SET !ID]: %RED%o %GREEN%%NAME% Trang-Oul's %RED%o%MAP%
+ItemDisplay[xrs SET !ID CLVL<70]: %GREEN%%NAME% Heaven's Brethren%MAP%
 ////RINGS/AMULETS/JEWELS
 ItemDisplay[(rin OR amu) UNI !ID]: %RED%oooo%PURPLE% %NAME% %RED%oooo%MAP%
 ItemDisplay[jew UNI !ID]: %RED%>>%WHITE%>>%PURPLE%%NAME%%WHITE%<<%RED%<<%MAP%
