@@ -496,6 +496,10 @@ ItemDisplay[ne9 SET !ID]: %RED%o %GREEN%%NAME% Trang-Oul's %RED%o%MAP%
 ItemDisplay[utc SET !ID]: %RED%o %GREEN%%NAME% Trang-Oul's %RED%o%MAP%
 ItemDisplay[xmg SET !ID]: %RED%o %GREEN%%NAME% Trang-Oul's %RED%o%MAP%
 ItemDisplay[xrs SET !ID CLVL<70]: %GREEN%%NAME% Heaven's Brethren%MAP%
+ItemDisplay[xar SET !ID]: %RED%o %GREEN%%NAME% Griswold's %RED%o%MAP%
+ItemDisplay[urn SET !ID]: %RED%o %GREEN%%NAME% Griswold's %RED%o%MAP%
+ItemDisplay[7ws SET !ID]: %RED%o %GREEN%%NAME% Griswold's %RED%o%MAP%
+ItemDisplay[paf SET !ID]: %RED%o %GREEN%%NAME% Griswold's %RED%o%MAP%
 ////RINGS/AMULETS/JEWELS
 ItemDisplay[(rin OR amu) UNI !ID]: %RED%oooo%PURPLE% %NAME% %RED%oooo%MAP%
 ItemDisplay[jew UNI !ID]: %RED%>>%WHITE%>>%PURPLE%%NAME%%WHITE%<<%RED%<<%MAP%
