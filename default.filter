@@ -9,7 +9,8 @@ ItemDisplay[(7tk OR 7bk OR 7ta) (MAG OR RARE OR NMAG) (!ETH AND !INF)]: %WHITE%t
 ItemDisplay[rvl]: %PURPLE%R %WHITE%65%
 ItemDisplay[rvs]: %PURPLE%r %WHITE%35%
 ItemDisplay[hp5]: %RED%!%WHITE%HP%RED%!%WHITE%
-ItemDisplay[mp4 CLVL<79]: %BLUE%!%WHITE%MP%BLUE%!%WHITE%
+ItemDisplay[mp4 CLVL<78]: %BLUE%!%WHITE%MP%BLUE%!%WHITE%
+ItemDisplay[mp4 CLVL>79]:
 ItemDisplay[mp5]: %BLUE%!%WHITE%Mana%BLUE%!%WHITE%
 ItemDisplay[hp1 CLVL<16]: %RED%!%WHITE%Minor Heal
 ItemDisplay[hp2 CLVL<19]: %RED%!%WHITE%Light Heal
@@ -319,6 +320,8 @@ ItemDisplay[ulm UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] %RED%Steel Shade o
 ItemDisplay[xap UNI !ID !ETH]: %RED%o %GOLD%Peasant Crown %RED%o%MAP%
 ItemDisplay[xrn UNI !ID !ETH]: %RED%o Crown of Thieves o%MAP%
 ItemDisplay[xrn UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %RED%Crown of Thieves%MAP%
+ItemDisplay[xkp UNI !ID !ETH]: %GOLD%o Rockstopper o%MAP%
+ItemDisplay[xkp UNI !ID ETH]: %GOLD%o %GRAY%[%WHITE%eth%GRAY%]Rockstopper o%MAP%
 ItemDisplay[uhm UNI !ID !ETH]: %RED%ooo %PURPLE%Veil of Steel or Nightwing's Veil %RED%ooo%MAP%
 ItemDisplay[uhm UNI !ID ETH]: %RED%ooo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Veil of Steel or %GRAY%[%WHITE%eth%GRAY%] %TAN%Nightwing's Veil %RED%ooo%MAP%
 ItemDisplay[usk UNI !ID !ETH]: %RED%ooo %PURPLE%Andariel's Visage %RED%ooo%MAP%
