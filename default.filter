@@ -482,6 +482,10 @@ ItemDisplay[ama UNI !ID ETH]: %RED%oo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Titan's R
 ItemDisplay[amf UNI !ID !ETH]: %RED%o Thunderstroke o%MAP%
 ItemDisplay[amf UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %RED%o %PURPLE%Thunderstroke %RED%o%MAP%
 ItemDisplay[xtb SET !ID]: %RED%o %GREEN%%NAME% Aldur's %RED%o%MAP%
+ItemDisplay[dr8 SET !ID]: %GREEN%%NAME% Aldur's %RED%o%MAP%
+ItemDisplay[uul SET !ID]: %GREEN%%NAME% Aldur's %RED%o%MAP%
+ItemDisplay[9mt SET !ID]: %GREEN%%NAME% Aldur's%MAP%
+ItemDisplay[umc SET !ID]: %GREEN%%NAME% The Disciple%MAP%
 ItemDisplay[ulg SET !ID]: %RED%oo %GREEN%%NAME% The Disciple %RED%oo%MAP%
 ItemDisplay[uar SET !ID]: %PURPLE%ooo %GREEN%%NAME% Immortal King %PURPLE%ooo%MAP%
 ItemDisplay[xh9 SET !ID]: %GREEN%%NAME% Natalya's%MAP%
@@ -503,6 +507,18 @@ ItemDisplay[xar SET !ID]: %RED%o %GREEN%%NAME% Griswold's %RED%o%MAP%
 ItemDisplay[urn SET !ID]: %RED%o %GREEN%%NAME% Griswold's %RED%o%MAP%
 ItemDisplay[7ws SET !ID]: %RED%o %GREEN%%NAME% Griswold's %RED%o%MAP%
 ItemDisplay[paf SET !ID]: %RED%o %GREEN%%NAME% Griswold's %RED%o%MAP%
+ItemDisplay[6cs SET !ID ]: %RED%o %GREEN%%NAME% Naj's %RED%o%MAP%
+ItemDisplay[ci3 SET !ID]: %RED%o %GREEN%%NAME% Mavina's%MAP%
+ItemDisplay[amc SET !ID]: %RED%o %GREEN%%NAME% Mavina's%MAP%
+ItemDisplay[uld SET !ID]: %RED%o %GREEN%%NAME% Mavina's%MAP%
+ItemDisplay[xtg SET !ID]: %RED%o %GREEN%%NAME% Mavina's%MAP%
+ItemDisplay[zvb SET !ID]: %RED%o %GREEN%%NAME% Mavina's%MAP%
+ItemDisplay[ba5 SET !ID]: %RED%o %GREEN%%NAME% Immortal King %RED%o%MAP%
+ItemDisplay[7m7 SET !ID]: %RED%o %GREEN%%NAME% Immortal King %RED%o%MAP%
+ItemDisplay[uar SET !ID]: %PURPLE%ooo %GREEN%%NAME% Immortal King %PURPLE%ooo%MAP%
+ItemDisplay[zhb SET !ID]: %RED%o %GREEN%%NAME% Immortal King %RED%o%MAP%
+ItemDisplay[xhg SET !ID]: %RED%o %GREEN%%NAME% Immortal King %RED%o%MAP%
+ItemDisplay[xhb SET !ID]: %RED%o %GREEN%%NAME% Immortal King %RED%o%MAP%
 ////RINGS/AMULETS/JEWELS
 ItemDisplay[(rin OR amu) UNI !ID]: %RED%oooo%PURPLE% %NAME% %RED%oooo%MAP%
 ItemDisplay[jew UNI !ID]: %RED%>>%WHITE%>>%PURPLE%%NAME%%WHITE%<<%RED%<<%MAP%
