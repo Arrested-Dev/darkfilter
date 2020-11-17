@@ -398,6 +398,8 @@ ItemDisplay[zlb UNI !ID !ETH]: %RED%oo String of Ears oo%MAP%
 ItemDisplay[zlb UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %RED%String of Ears%MAP%
 ItemDisplay[zvb UNI !ID !ETH]: %RED%oo Razortail oo%MAP%
 ItemDisplay[zvb UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %RED%Razortail%MAP%
+ItemDisplay[zmb UNI !ID !ETH]: %GOLD%o Gloom's Trap o%MAP%
+ItemDisplay[zmb UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%Gloom's Trap%MAP%
 ItemDisplay[zhb UNI !ID !ETH]: %RED%ooo %PURPLE%Thundergod's Vigor %RED%ooo%MAP%
 ItemDisplay[zhb UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Thundergod's Vigor%MAP%
 ItemDisplay[ulc UNI !ID !ETH]: %RED%ooo %PURPLE%Arachnid Mesh %RED%ooo%MAP%
@@ -458,6 +460,8 @@ ItemDisplay[7sc UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %RED%Heaven's Light or %G
 ItemDisplay[7ws UNI !ID !ETH]: %RED%o Astreon's Iron Ward o%MAP%
 ItemDisplay[7ws UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %RED%Astreon's Iron Ward%MAP%
 ItemDisplay[dra UNI !ID !ETH]: %RED%ooo %PURPLE%Jalal's Mane %RED%ooo%MAP%
+ItemDisplay[drb UNI !ID !ETH]: %RED%o %GOLD%Cerebus' Bite %RED%o%MAP%
+ItemDisplay[drb UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%Cerebus' Bite%MAP%
 ItemDisplay[dre UNI !ID !ETH]: %RED%oo Ravenlore oo%MAP%
 ItemDisplay[dre UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %RED%Ravenlore%MAP%
 ItemDisplay[drd UNI !ID !ETH]: %RED%oo Spirit Keeper oo%MAP%
