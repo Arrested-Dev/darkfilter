@@ -277,7 +277,7 @@ ItemDisplay[cm3 MAG !ID ILVL<78 ILVL>49]: %BLUE%o %NAME% %BLUE%o%MAP%
 ItemDisplay[cm2 MAG !ID ILVL>77]: %BLUE%%NAME%
 ItemDisplay[cm2 MAG !ID ILVL<78 ILVL>49]: %BLUE%%NAME%
 //Small
-ItemDisplay[cm1 MAG !ID ILVL>89]: %BLUE%o %NAME% %BLUE%%o%MAP%
+ItemDisplay[cm1 MAG !ID ILVL>89]: %BLUE%o %NAME% %BLUE%o%MAP%
 ItemDisplay[cm1 MAG !ID ILVL<90 ILVL>47]: %BLUE%o %NAME% %BLUE%o%MAP%
 ItemDisplay[cm1 MAG !ID ILVL=47]: %BLUE%o %NAME% %BLUE%o%MAP%
 //Catch-all
