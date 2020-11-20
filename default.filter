@@ -482,6 +482,7 @@ ItemDisplay[nef UNI !ID !ETH]: %RED%ooo %PURPLE%Darkforce Spawn %RED%ooo%MAP%
 ItemDisplay[nef UNI !ID ETH]: %RED%ooo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Darkforce Spawn %RED%ooo%MAP%
 ItemDisplay[nee UNI !ID !ETH]: %RED%o %PURPLE%Boneflame %RED%o%MAP%
 ItemDisplay[9tw UNI !ID !ETH]: %GOLD%Bartuc's Cut-Throat%MAP%
+ItemDisplay[7cs UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Shadow Killer %RED%o%MAP%
 ItemDisplay[oba UNI !ID !ETH]: %RED%oo %PURPLE%The Oculus %RED%oo%MAP%
 ItemDisplay[obc UNI !ID !ETH]: %RED%o Eschuta's Temper %RED%o%MAP%
 ItemDisplay[obf UNI !ID !ETH]: %RED%ooo %PURPLE%Death's Fathom %RED%ooo%MAP%
@@ -511,6 +512,7 @@ ItemDisplay[xul SET !ID]: %RED%o %GREEN%%NAME% Trang-Oul's %RED%o%MAP%
 ItemDisplay[ne9 SET !ID]: %RED%o %GREEN%%NAME% Trang-Oul's %RED%o%MAP%
 ItemDisplay[utc SET !ID]: %RED%o %GREEN%%NAME% Trang-Oul's %RED%o%MAP%
 ItemDisplay[xmg SET !ID]: %RED%o %GREEN%%NAME% Trang-Oul's %RED%o%MAP%
+ItemDisplay[xrs SET !ID CLVL<70]: %GREEN%%NAME% Heaven's Brethren%MAP%
 ItemDisplay[xar SET !ID]: %RED%o %GREEN%%NAME% Griswold's %RED%o%MAP%
 ItemDisplay[urn SET !ID]: %RED%o %GREEN%%NAME% Griswold's %RED%o%MAP%
 ItemDisplay[7ws SET !ID]: %RED%o %GREEN%%NAME% Griswold's %RED%o%MAP%
@@ -527,7 +529,10 @@ ItemDisplay[uar SET !ID]: %PURPLE%ooo %GREEN%%NAME% Immortal King %PURPLE%ooo%MA
 ItemDisplay[zhb SET !ID]: %RED%o %GREEN%%NAME% Immortal King %RED%o%MAP%
 ItemDisplay[xhg SET !ID]: %RED%o %GREEN%%NAME% Immortal King %RED%o%MAP%
 ItemDisplay[xhb SET !ID]: %RED%o %GREEN%%NAME% Immortal King %RED%o%MAP%
-ItemDisplay[xrs SET !ID]: %GREEN%%NAME% Heaven's Brethren%GOLD%o%MAP%
+ItemDisplay[xrs SET !ID]: %GREEN%%NAME% Heaven's Brethren%GOLD%%MAP%
+ItemDisplay[7ma SET !ID]: %GREEN%%NAME% Heaven's Brethren%MAP%
+ItemDisplay[uts SET !ID]: %GREEN%%NAME% Heaven's Brethren%MAP%
+ItemDisplay[uhm SET !ID]: %GREEN%%NAME% Heaven's Brethren%MAP%
 ItemDisplay[7gd SET !ID]: %GREEN%%NAME% Bul-Kathos' %RED%o%MAP%
 ItemDisplay[7wd SET !ID]: %GREEN%%NAME% Bul-Kathos' %RED%o%MAP%
 ////RINGS/AMULETS/JEWELS
