@@ -528,6 +528,9 @@ ItemDisplay[uar SET !ID]: %PURPLE%ooo %GREEN%%NAME% Immortal King %PURPLE%ooo%MA
 ItemDisplay[zhb SET !ID]: %RED%o %GREEN%%NAME% Immortal King %RED%o%MAP%
 ItemDisplay[xhg SET !ID]: %RED%o %GREEN%%NAME% Immortal King %RED%o%MAP%
 ItemDisplay[xhb SET !ID]: %RED%o %GREEN%%NAME% Immortal King %RED%o%MAP%
+ItemDisplay[xrs SET !ID]: %GREEN%%NAME% Heaven's Brethren%GOLD%o%MAP%
+ItemDisplay[7gd SET !ID]: %GREEN%%NAME% Bul-Kathos' %RED%o%MAP%
+ItemDisplay[7wd SET !ID]: %GREEN%%NAME% Bul-Kathos' %RED%o%MAP%
 ////RINGS/AMULETS/JEWELS
 ItemDisplay[(rin OR amu) UNI !ID]: %RED%oooo%PURPLE% %NAME% %RED%oooo%MAP%
 ItemDisplay[jew UNI !ID]: %RED%>>%WHITE%>>%PURPLE%%NAME%%WHITE%<<%RED%<<%MAP%
