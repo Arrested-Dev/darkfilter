@@ -410,7 +410,8 @@ ItemDisplay[umc UNI !ID !ETH]: %RED%ooo %PURPLE%Verdungo's Hearty Cord %RED%ooo%
 ItemDisplay[umc UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Verdungo's Hearty Cord%MAP%
 ItemDisplay[7wa UNI !ID !ETH]: %RED%ooo %PURPLE% Death Cleaver %RED%ooo%MAP%
 ItemDisplay[7wa UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Death Cleaver%MAP%
-ItemDisplay[7bt UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%Hellslayer%MAP%
+ItemDisplay[7bt UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %RED%Hellslayer%MAP%
+ItemDisplay[7gi UNI !ID !ETH]: %RED%o Executioner's Justice o%MAP%
 ItemDisplay[7gi UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %RED%Executioner's Justice%MAP%
 ItemDisplay[7sp UNI !ID !ETH]: %RED%o Demon Limb o%MAP%
 ItemDisplay[7fl UNI !ID !ETH]: %RED%oo Horizon's Tornado or Stormlash oo%MAP%
@@ -422,7 +423,7 @@ ItemDisplay[7gm UNI !ID ETH]: %RED%oo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Earth Shi
 ItemDisplay[9bs UNI !ID !ETH]: %RED%o Headstriker %RED%o%MAP%
 ItemDisplay[9bs UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] %RED%Headstriker o%MAP%
 ItemDisplay[7cr UNI !ID]: %RED%ooo %PURPLE%Lightsabre or Azurewrath %RED%ooo%MAP%
-ItemDisplay[7b7 UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %RED%Doombringer%MAP%
+ItemDisplay[7b7 UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Doombringer%MAP%
 ItemDisplay[7gd UNI !ID !ETH]: %RED%oo %PURPLE%The Grandfather %RED%oo%MAP%
 ItemDisplay[7gd UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] %RED%ooo %PURPLE%The Grandfather %RED%ooo%MAP%
 ItemDisplay[7dg UNI !ID !ETH]: %GOLD%o Wizardspike o%MAP%
@@ -512,7 +513,6 @@ ItemDisplay[xul SET !ID]: %RED%o %GREEN%%NAME% Trang-Oul's %RED%o%MAP%
 ItemDisplay[ne9 SET !ID]: %RED%o %GREEN%%NAME% Trang-Oul's %RED%o%MAP%
 ItemDisplay[utc SET !ID]: %RED%o %GREEN%%NAME% Trang-Oul's %RED%o%MAP%
 ItemDisplay[xmg SET !ID]: %RED%o %GREEN%%NAME% Trang-Oul's %RED%o%MAP%
-ItemDisplay[xrs SET !ID CLVL<70]: %GREEN%%NAME% Heaven's Brethren%MAP%
 ItemDisplay[xar SET !ID]: %RED%o %GREEN%%NAME% Griswold's %RED%o%MAP%
 ItemDisplay[urn SET !ID]: %RED%o %GREEN%%NAME% Griswold's %RED%o%MAP%
 ItemDisplay[7ws SET !ID]: %RED%o %GREEN%%NAME% Griswold's %RED%o%MAP%
@@ -541,9 +541,10 @@ ItemDisplay[jew UNI !ID]: %RED%>>%WHITE%>>%PURPLE%%NAME%%WHITE%<<%RED%<<%MAP%
 ItemDisplay[(rin OR amu) SET !ID]: %PURPLE%o %GREEN%%NAME% %PURPLE%o%MAP%
 ///CATCHALL
 ItemDisplay[RW]: %NAME% %TAN%[%SOCKETS%]
-ItemDisplay[(ARMOR OR WEAPON) (MAG OR RARE OR SET OR UNI) ID]: %NAME%
-ItemDisplay[(UNI OR SET)]: %NAME%
-ItemDisplay[(UNI OR SET) AND ETH]: %GRAY%[%WHITE%eth%GRAY%] %NAME%
+ItemDisplay[(ARMOR OR WEAPON) (MAG OR RARE OR SET OR UNI) ID !ETH]: %NAME%
+ItemDisplay[(ARMOR OR WEAPON) (MAG OR RARE OR SET OR UNI) ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %NAME%
+ItemDisplay[(UNI OR SET) AND !ETH !ID]: %NAME%
+ItemDisplay[(UNI OR SET) AND ETH !ID]: %GRAY%[%WHITE%eth%GRAY%] %NAME%
 //Rares Worthy
 ItemDisplay[(7p7 OR 7wa OR 9cr OR 7cr OR 7s8 OR 7wc) RARE !ETH !ID]: %YELLOW%%NAME%
 ItemDisplay[(7p7 OR 7wa OR 9cr OR 7cr OR 7s8 OR 7wc) RARE ETH !ID]: %GRAY%[%WHITE%eth%GRAY%] %YELLOW%%NAME%
