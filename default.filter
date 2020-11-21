@@ -453,6 +453,8 @@ ItemDisplay[8ls UNI !ID !ETH]: %RED%oo %PURPLE%Ribcracker %RED%oo%MAP%
 ItemDisplay[8ls UNI !ID ETH]: %RED%ooo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Ribcracker %RED%ooo%MAP%
 ItemDisplay[6cs UNI !ID !ETH]: %RED%oo Ondal's Wisdom %RED%oo%MAP%
 ItemDisplay[6ws UNI !ID !ETH]: %PURPLE%Mang Song's Lesson o%MAP%
+ItemDisplay[9bw UNI !ID !ETH]: %RED%Arm of King Leoric
+ItemDisplay[9bw UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %RED%Arm of King Leoric
 ItemDisplay[9gw UNI !ID !ETH]: %RED%ooo %PURPLE%Blackhand Key %RED%ooo%MAP%
 ItemDisplay[9gw UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%Blackhand Key%MAP%
 ItemDisplay[7bw UNI !ID !ETH]: %RED%o Boneshade o%MAP%
@@ -717,7 +719,7 @@ ItemDisplay[am6 NMAG ED=15 TABSK0>2 (SOCK=3 OR SOCK=4)]: %GRAY%[%WHITE%%15%GRAY%
 ItemDisplay[am6 NMAG ED>0 ED<15 TABSK0>2 (SOCK=3 OR SOCK=4)]: %GRAY%[%WHITE%%ed%GRAY%] %GRAY%[%WHITE%3bow%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[(amb OR amc) NMAG TABSK0>2 SOCK=0]: %GRAY%[%WHITE%3bow%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ///WP5 THROWING
-ItemDisplay[WP5 ELT ETH]: %GRAY%[%WHITE%eth%GRAY%] %NAME%%GRAY%[%TAN%imbue%GRAY%]
+ItemDisplay[(7tk OR 7ta OR 7bk OR 7b8) ETH]: %GRAY%[%WHITE%eth%GRAY%] %NAME%%GRAY%[%TAN%imbue%GRAY%]
 ///Ghost Glaive & Harpoons
 ItemDisplay[(7gl OR 7ts) ETH]: %GRAY%[%WHITE%eth%GRAY%] %NAME%%GRAY%[%TAN%imbue%GRAY%]
 //Staves
