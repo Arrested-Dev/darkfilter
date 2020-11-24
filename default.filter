@@ -400,6 +400,8 @@ ItemDisplay[zvb UNI !ID !ETH]: %RED%oo Razortail oo%MAP%
 ItemDisplay[zvb UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %RED%Razortail%MAP%
 ItemDisplay[zmb UNI !ID !ETH]: %GOLD%o Gloom's Trap o%MAP%
 ItemDisplay[zmb UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%Gloom's Trap%MAP%
+ItemDisplay[ztb UNI !ID !ETH]: %RED%o Snowclash o%MAP%
+ItemDisplay[ztb UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %RED%Snowclash%MAP%
 ItemDisplay[zhb UNI !ID !ETH]: %RED%ooo %PURPLE%Thundergod's Vigor %RED%ooo%MAP%
 ItemDisplay[zhb UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Thundergod's Vigor%MAP%
 ItemDisplay[ulc UNI !ID !ETH]: %RED%ooo %PURPLE%Arachnid Mesh %RED%ooo%MAP%
@@ -697,6 +699,7 @@ ItemDisplay[7p7 NMAG ETH (SOCK=0 OR SOCK>3) ED=15]: %GRAY%[%WHITE%eth%GRAY%] %GR
 ItemDisplay[7p7 NMAG ETH (SOCK=0 OR SOCK>3) ED>0 ED<15]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%[%WHITE%%ed%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[7p7 NMAG !ETH (SOCK=0 OR SOCK>3) ED=15]: %GRAY%[%WHITE%%15%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[7p7 NMAG !ETH (SOCK=0 OR SOCK>3) ED>0 ED<15]: %GRAY%[%WHITE%%ed%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[7p7 NMAG !ETH AND !INF (SOCK=0 OR SOCK>3)]: %GRAY%%NAME% %TAN%[%SOCKETS%]
 ///WP8 POLEARMS
 //Thresher+Giant Thresher
 ItemDisplay[7wc NMAG ETH (SOCK=0 OR SOCK>2)]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
