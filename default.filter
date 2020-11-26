@@ -95,39 +95,39 @@ ItemDisplay[dhn]: %GOLD%Diablo's Horn%MAP%
 ItemDisplay[bey]: %GOLD%Baal's Eye%MAP%
 ItemDisplay[mbr]: %GOLD%Mephisto's Brain%MAP%
 ////RUNES
-ItemDisplay[r01s OR r01]: %ORANGE%%NAME%
-ItemDisplay[r02s OR r02]: %ORANGE%%NAME%
-ItemDisplay[r03s OR r03]: %ORANGE%%NAME%
-ItemDisplay[r04s OR r04]: %ORANGE%%NAME%
-ItemDisplay[r05s OR r05]: %ORANGE%%NAME%
-ItemDisplay[r06s OR r06]: %ORANGE%%NAME%
-ItemDisplay[r07s OR r07]: %ORANGE%%NAME%
-ItemDisplay[r08s OR r08]: %ORANGE%%NAME%
-ItemDisplay[r09s OR r09]: %ORANGE%%NAME%
-ItemDisplay[r10s OR r10]: %ORANGE%%NAME%
-ItemDisplay[r11s OR r11]: %ORANGE%%NAME%
-ItemDisplay[r12s OR r12]: %ORANGE%%NAME%
-ItemDisplay[r13s OR r13]: %ORANGE%%NAME%
-ItemDisplay[r14s OR r14]: %ORANGE%%NAME%
-ItemDisplay[r15s OR r15]: %ORANGE%%NAME%
-ItemDisplay[r16s OR r16]: %ORANGE%%NAME%
-ItemDisplay[r17s OR r17]: %ORANGE%%NAME%
-ItemDisplay[r18s OR r18]: %ORANGE%%NAME%
-ItemDisplay[r19s OR r19]: %ORANGE%%NAME%
-ItemDisplay[r20s OR r20]: %ORANGE%%NAME%%MAP%
-ItemDisplay[r21s OR r21]: %ORANGE%%NAME%%MAP%
-ItemDisplay[r22s OR r22]: %ORANGE%%NAME%%MAP%
-ItemDisplay[r23s OR r23]: %ORANGE%%NAME%%MAP%
-ItemDisplay[r24s OR r24]: %ORANGE%%NAME%%MAP%
-ItemDisplay[r25s OR r25]: %ORANGE%%NAME%%MAP%
-ItemDisplay[r26s OR r26]: %ORANGE%%NAME%%MAP%
-ItemDisplay[r27s OR r27]: %ORANGE%%NAME%%MAP%
-ItemDisplay[r28s OR r28]: %ORANGE%%NAME%%MAP%
-ItemDisplay[r29s OR r29]: %ORANGE%%NAME%%MAP%
-ItemDisplay[r30s OR r30]: %ORANGE%%NAME%%MAP%
-ItemDisplay[r31s OR r31]: %ORANGE%%NAME%%MAP%
-ItemDisplay[r32s OR r32]: %ORANGE%%NAME%%MAP%
-ItemDisplay[r33s OR r33]: %ORANGE%%NAME%%MAP%
+ItemDisplay[r01s OR r01]: %ORANGE%%NAME% {%ORANGE%rune 1}
+ItemDisplay[r02s OR r02]: %ORANGE%%NAME% {%ORANGE%rune 2}
+ItemDisplay[r03s OR r03]: %ORANGE%%NAME% {%ORANGE%rune 3}
+ItemDisplay[r04s OR r04]: %ORANGE%%NAME% {%ORANGE%rune 4}
+ItemDisplay[r05s OR r05]: %ORANGE%%NAME% {%ORANGE%rune 5}
+ItemDisplay[r06s OR r06]: %ORANGE%%NAME% {%ORANGE%rune 6}
+ItemDisplay[r07s OR r07]: %ORANGE%%NAME% {%ORANGE%rune 7}
+ItemDisplay[r08s OR r08]: %ORANGE%%NAME% {%ORANGE%rune 8}
+ItemDisplay[r09s OR r09]: %ORANGE%%NAME% {%ORANGE%rune 9}
+ItemDisplay[r10s OR r10]: %ORANGE%%NAME% {%ORANGE%rune 10}
+ItemDisplay[r11s OR r11]: %ORANGE%%NAME% {%ORANGE%rune 11}
+ItemDisplay[r12s OR r12]: %ORANGE%%NAME% {%ORANGE%rune 12}
+ItemDisplay[r13s OR r13]: %ORANGE%%NAME% {%ORANGE%rune 13}
+ItemDisplay[r14s OR r14]: %ORANGE%%NAME% {%ORANGE%rune 14}
+ItemDisplay[r15s OR r15]: %ORANGE%%NAME% {%ORANGE%rune 15}
+ItemDisplay[r16s OR r16]: %ORANGE%%NAME% {%ORANGE%rune 16}
+ItemDisplay[r17s OR r17]: %ORANGE%%NAME% {%ORANGE%rune 17}
+ItemDisplay[r18s OR r18]: %ORANGE%%NAME% {%ORANGE%rune 18}
+ItemDisplay[r19s OR r19]: %ORANGE%%NAME% {%ORANGE%rune 19}
+ItemDisplay[r20s OR r20]: %ORANGE%%NAME%%MAP% {%ORANGE%rune 20}
+ItemDisplay[r21s OR r21]: %ORANGE%%NAME%%MAP% {%ORANGE%rune 21}
+ItemDisplay[r22s OR r22]: %ORANGE%%NAME%%MAP% {%ORANGE%rune 22}
+ItemDisplay[r23s OR r23]: %ORANGE%%NAME%%MAP% {%ORANGE%rune 23}
+ItemDisplay[r24s OR r24]: %ORANGE%%NAME%%MAP% {%ORANGE%rune 24}
+ItemDisplay[r25s OR r25]: %ORANGE%%NAME%%MAP% {%ORANGE%rune 25}
+ItemDisplay[r26s OR r26]: %ORANGE%%NAME%%MAP% {%ORANGE%rune 26}
+ItemDisplay[r27s OR r27]: %ORANGE%%NAME%%MAP% {%ORANGE%rune 27}
+ItemDisplay[r28s OR r28]: %ORANGE%%NAME%%MAP% {%ORANGE%rune 28}
+ItemDisplay[r29s OR r29]: %ORANGE%%NAME%%MAP% {%ORANGE%rune 29}
+ItemDisplay[r30s OR r30]: %ORANGE%%NAME%%MAP% {%ORANGE%rune 30}
+ItemDisplay[r31s OR r31]: %ORANGE%%NAME%%MAP% {%ORANGE%rune 31}
+ItemDisplay[r32s OR r32]: %ORANGE%%NAME%%MAP% {%ORANGE%rune 32}
+ItemDisplay[r33s OR r33]: %ORANGE%%NAME%%MAP% {%ORANGE%rune 33}
 ///GEMS
 ItemDisplay[GEM<4 CLVL<25]:%NAME%
 //Flawless
