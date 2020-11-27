@@ -372,6 +372,7 @@ ItemDisplay[xsh UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %RED%Lidless Wall%MAP%
 ItemDisplay[uit UNI !ID !ETH]: %RED%ooo %PURPLE%Stormshield %RED%ooo%MAP%
 ItemDisplay[uml UNI !ID !ETH]: %RED%o Blackoak Shield o%MAP%
 ItemDisplay[uow UNI !ID !ETH]: %RED%oo Medusa's Gaze %RED%oo%MAP%
+ItemDisplay[uts UNI !ID !ETH]: %RED%Spirit Ward%MAP%
 ItemDisplay[mgl UNI !ID !ETH]: %RED%o Chance Guards o%MAP%
 ItemDisplay[tgl UNI !ID !ETH]: %RED%oo Magefist oo%MAP%
 ItemDisplay[hgl UNI !ID !ETH]: %RED%oo Frostburn oo%MAP%
