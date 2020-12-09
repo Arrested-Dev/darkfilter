@@ -338,8 +338,8 @@ ItemDisplay[ci3 UNI !ID !ETH]: %RED%ooo %PURPLE% Griffon's Eye %RED%ooo%MAP%
 ItemDisplay[ci3 UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %PURPLE%o Griffon's Eye o%MAP%
 ItemDisplay[ci2 UNI !ID !ETH]: %RED%oo %PURPLE%Kira's Guardian %RED%oo%MAP%
 ItemDisplay[ci2 UNI !ID ETH]: %RED%oo%GRAY%[%WHITE%eth%GRAY%] %PURPLE%Kira's Guardian %RED%oo%MAP%
-ItemDisplay[xui UNI !ID !ETH]: %RED%The Spirit Shroud
-ItemDisplay[xui UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %RED%The Spirit Shroud
+ItemDisplay[xui UNI !ID !ETH]: %RED%The Spirit Shroud%MAP%
+ItemDisplay[xui UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %RED%The Spirit Shroud%MAP%
 ItemDisplay[xea UNI !ID !ETH]: %RED%ooo %PURPLE%Skin of the Vipermagi %RED%ooo%MAP%
 ItemDisplay[xea UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Skin of the Vipermagi%MAP%
 ItemDisplay[xrs UNI !ID !ETH]: %RED%o Duriel's Shell o%MAP%
@@ -421,8 +421,10 @@ ItemDisplay[7wa UNI !ID !ETH]: %RED%ooo %PURPLE% Death Cleaver %RED%ooo%MAP%
 ItemDisplay[7wa UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Death Cleaver%MAP%
 ItemDisplay[7bt UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %RED%Hellslayer%MAP%
 ItemDisplay[7gi UNI !ID !ETH]: %RED%o Executioner's Justice o%MAP%
-ItemDisplay[7gi UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %RED%Executioner's Justice%MAP%
+ItemDisplay[7gi UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Executioner's Justice%MAP%
 ItemDisplay[7sp UNI !ID !ETH]: %RED%o Demon Limb o%MAP%
+ItemDisplay[9wh UNI !ID !ETH]: %RED%o Earthshaker o%MAP%
+ItemDisplay[9wh UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %RED%Earthshaker%MAP%
 ItemDisplay[9gm UNI !ID !ETH]: %RED%o The Gavel of Pain o%MAP%
 ItemDisplay[9gm UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%]%RED%ooo %PURPLE%The Gavel of Pain %RED%ooo%MAP%
 ItemDisplay[7fl UNI !ID !ETH]: %RED%oo Horizon's Tornado or Stormlash oo%MAP%
@@ -440,7 +442,7 @@ ItemDisplay[7gd UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] %RED%ooo %PURPLE%T
 ItemDisplay[7dg UNI !ID !ETH]: %GOLD%o Wizardspike o%MAP%
 ItemDisplay[7kr UNI !ID !ETH]: %RED%oo Fleshripper oo%MAP%
 ItemDisplay[7kr UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %RED%Fleshripper%MAP%
-ItemDisplay[7bk UNI !ID !ETH]: %RED%ooo %PURPLE%Warshrike %RED%ooo%MAP%
+ItemDisplay[7bk UNI !ID !ETH]: %RED%oo %RED%Warshrike %RED%oo%MAP%
 ItemDisplay[7bk UNI !ID ETH]: %RED%ooo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Warshrike %RED%ooo%MAP%
 ItemDisplay[7b8 UNI !ID !ETH]: %RED%o Lacerator o%MAP%
 ItemDisplay[7b8 UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Lacerator %RED%o%MAP%
@@ -513,7 +515,7 @@ ItemDisplay[9mt SET !ID]: %GREEN%%NAME% Aldur's%MAP%
 ItemDisplay[umc SET !ID]: %GREEN%%NAME% The Disciple%MAP%
 ItemDisplay[ulg SET !ID]: %RED%oo %GREEN%%NAME% The Disciple %RED%oo%MAP%
 ItemDisplay[uar SET !ID]: %PURPLE%ooo %GREEN%%NAME% Immortal King %PURPLE%ooo%MAP%
-ItemDisplay[xh9 SET !ID]: %GREEN%%NAME% Natalya's%MAP%
+ItemDisplay[xh9 SET !ID]: %RED%o %GREEN%%NAME% Natalya's %RED%o%MAP%
 ItemDisplay[7qr SET !ID]: %PURPLE%ooo %GREEN%%NAME% Natalya's %PURPLE%ooo%MAP%
 ItemDisplay[ucl SET !ID]: %GREEN%%NAME% Natalya's %RED%o%MAP%
 ItemDisplay[xmb SET !ID]: %RED%o %GREEN%%NAME% Natalya's %RED%o%MAP%
