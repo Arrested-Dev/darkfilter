@@ -67,14 +67,22 @@ ItemDisplay[dcho]: %RED%o %NAME%%RED% o%MAP%
 ItemDisplay[dcso]: %RED%o %NAME%%RED% o%MAP%
 ItemDisplay[imrn]: %RED%o %NAME%%RED% o%MAP%
 //Maps
-ItemDisplay[t11 !ID]: %PURPLE%ooo %RED%%NAME% %PURPLE%ooo%MAP%
-ItemDisplay[t12 !ID]: %PURPLE%ooo %RED%%NAME% %PURPLE%ooo%MAP%
-ItemDisplay[t13 !ID]: %PURPLE%ooo %RED%%NAME% %PURPLE%ooo%MAP%
-ItemDisplay[t14 !ID]: %PURPLE%ooo %RED%%NAME% %PURPLE%ooo%MAP%
-ItemDisplay[t15 !ID]: %PURPLE%ooo %RED%%NAME% %PURPLE%ooo%MAP%
-ItemDisplay[t16 !ID]: %PURPLE%ooo %RED%%NAME% %PURPLE%ooo
-ItemDisplay[t17 !ID]: %PURPLE%ooo %RED%%NAME% %PURPLE%ooo%MAP%
-ItemDisplay[t18 !ID]: %PURPLE%ooo %RED%%NAME% %PURPLE%ooo%MAP%
+ItemDisplay[t11 MAG !ID]: %PURPLE%ooo %BLUE%%NAME% %PURPLE%ooo%MAP%
+ItemDisplay[t12 MAG !ID]: %PURPLE%ooo %BLUE%%NAME% %PURPLE%ooo%MAP%
+ItemDisplay[t13 MAG !ID]: %PURPLE%ooo %BLUE%%NAME% %PURPLE%ooo%MAP%
+ItemDisplay[t14 MAG !ID]: %PURPLE%ooo %BLUE%%NAME% %PURPLE%ooo%MAP%
+ItemDisplay[t15 MAG !ID]: %PURPLE%ooo %BLUE%%NAME% %PURPLE%ooo%MAP%
+ItemDisplay[t16 MAG !ID]: %PURPLE%ooo %BLUE%%NAME% %PURPLE%ooo
+ItemDisplay[t17 MAG !ID]: %PURPLE%ooo %BLUE%%NAME% %PURPLE%ooo%MAP%
+ItemDisplay[t18 MAG !ID]: %PURPLE%ooo %BLUE%%NAME% %PURPLE%ooo%MAP%
+ItemDisplay[t11 RARE !ID]: %PURPLE%ooo %YELLOW%%NAME% %PURPLE%ooo%MAP%
+ItemDisplay[t12 RARE !ID]: %PURPLE%ooo %YELLOW%%NAME% %PURPLE%ooo%MAP%
+ItemDisplay[t13 RARE !ID]: %PURPLE%ooo %YELLOW%%NAME% %PURPLE%ooo%MAP%
+ItemDisplay[t14 RARE !ID]: %PURPLE%ooo %YELLOW%%NAME% %PURPLE%ooo%MAP%
+ItemDisplay[t15 RARE !ID]: %PURPLE%ooo %YELLOW%%NAME% %PURPLE%ooo%MAP%
+ItemDisplay[t16 RARE !ID]: %PURPLE%ooo %YELLOW%%NAME% %PURPLE%ooo
+ItemDisplay[t17 RARE !ID]: %PURPLE%ooo %YELLOW%%NAME% %PURPLE%ooo%MAP%
+ItemDisplay[t18 RARE !ID]: %PURPLE%ooo %YELLOW%%NAME% %PURPLE%ooo%MAP%
 ItemDisplay[t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 MAG ID]: %RED%oo %BLUE%%NAME% %RED%oo
 ItemDisplay[t17 (NMAG OR !RARE) ID]: %RED%oo %WHITE%%NAME% %RED%oo%MAP%
 ItemDisplay[t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t18 (NMAG OR !RARE) ID]: %RED%oo %WHITE%%NAME% %RED%oo
