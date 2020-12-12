@@ -1,5 +1,7 @@
 // Adev's Loot Filter for PD2, Dark Edition
 //twitch.tv/Adevelopment
+//INF
+ItemDisplay[(ARMOR OR WEAPON) INF !RARE NMAG !UNI !SET !RW CLVL>69]:
 //Gold
 ItemDisplay[GOLD<1000 CLVL<65)]:
 ItemDisplay[GOLD<5000 CLVL>64]:
@@ -161,8 +163,8 @@ ItemDisplay[EQ7 RARE ETH !ID]: %YELLOW%o %GRAY%[%WHITE%eth%GRAY%] %YELLOW%%NAME%
 ItemDisplay[amu RARE !ID]: %YELLOW%ooo %NAME% ooo%MAP%
 ItemDisplay[rin RARE !ID]: %YELLOW%ooo %NAME% ooo%MAP%
 //Jewels
-ItemDisplay[jew MAG !ID]: %TAN%>>%WHITE%>>%BLUE%%NAME%%WHITE%<<%TAN%<<
-ItemDisplay[jew RARE !ID]: %YELLOW%>>%WHITE%>>%YELLOW%%NAME%%WHITE% <<%YELLOW%<<
+ItemDisplay[jew MAG !ID]: %TAN%>>%WHITE%>>%BLUE%%NAME%%WHITE%<<%TAN%<<%MAP%
+ItemDisplay[jew RARE !ID]: %YELLOW%>>%WHITE%>>%YELLOW%%NAME%%WHITE% <<%YELLOW%<<%MAP%
 ////CHARMS
 //Good Charms
 ItemDisplay[cm3 (MAXDMG>6 AND LIFE>0)]: %TAN%Max Dmg %RED%Life %BLUE%Grand Charm 
@@ -320,10 +322,14 @@ ItemDisplay[rin MAG ILVL=94]: %BLUE%%NAME%%WHITE% [%TAN%CLVL 76+%WHITE%]
 ItemDisplay[rin MAG ILVL>94]: %BLUE%%NAME%%WHITE% [%TAN%CLVL 74+%WHITE%]
 ItemDisplay[rin MAG ILVL<86]: %BLUE%%NAME%%WHITE%
 //Uniques
+ItemDisplay[dgr UNI !ID !ETH]: %RED%o Gull o%MAP%
+ItemDisplay[dgr UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] %RED%Gull o%MAP%
+ItemDisplay[9fc UNI !ID !ETH]: %RED%o Blade of Ali Baba o%MAP%
+ItemDisplay[9fc UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] %RED%Blade of Ali Baba o%MAP%
 ItemDisplay[xh9 UNI !ID !ETH]: %RED%ooo %PURPLE%Vampire Gaze %RED%ooo%MAP%
 ItemDisplay[xh9 UNI !ID ETH]: %RED%ooo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Vampire Gaze %RED%ooo%MAP%
 ItemDisplay[xhl UNI !ID !ETH]: %RED%Darksight Helm%MAP%
-ItemDisplay[xhl UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%]%RED%Darksight Helm%MAP%
+ItemDisplay[xhl UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %RED%Darksight Helm%MAP%
 ItemDisplay[uap UNI !ID !ETH]: %RED%ooo %PURPLE%Shako %RED%ooo%MAP%
 ItemDisplay[uap UNI !ID ETH]: %RED%ooo%GRAY%[%WHITE%eth%GRAY%] %PURPLE%Shako %RED%ooo%MAP%
 ItemDisplay[ulm UNI !ID !ETH]: %RED%ooo %PURPLE%Steel Shade %RED%ooo%MAP%
