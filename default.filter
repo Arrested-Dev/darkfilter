@@ -8,8 +8,8 @@ ItemDisplay[GOLD<5000 CLVL>64]:
 //Throws 35k+
 ItemDisplay[(7tk OR 7bk OR 7ta) (MAG OR RARE OR NMAG) (!ETH AND !INF)]: %WHITE%throw %TAN%[$%PRICE%]
 //HP & MPs
-ItemDisplay[rvl]: %PURPLE%R %WHITE%65%
-ItemDisplay[rvs]: %PURPLE%r %WHITE%35%
+ItemDisplay[rvl]: %PURPLE%R %WHITE%Full
+ItemDisplay[rvs]: %PURPLE%r %WHITE%50%
 ItemDisplay[hp5]: %RED%!%WHITE%HP%RED%!%WHITE%
 ItemDisplay[mp4 CLVL<78]: %BLUE%!%WHITE%MP%BLUE%!%WHITE%
 ItemDisplay[mp4 CLVL>79]:
@@ -220,6 +220,7 @@ ItemDisplay[cm1 !UNI PRES>9]: %GREEN%Psn %WHITE%Res %BLUE%Small Charm
 ItemDisplay[cm1 MFIND>5]: %GREEN%MF %BLUE%Small Charm 
 ItemDisplay[cm1 LIFE>16]: %RED%Life %BLUE%Small Charm 
 //Skillers
+ItemDisplay[cm3 (TABSK0>0 AND FHR>0)]: %ORANGE%FHR %GOLD%Bowa Skiller 
 ItemDisplay[cm3 (TABSK2>0 AND FHR>0)]: %ORANGE%FHR %GOLD%Java Skiller 
 ItemDisplay[cm3 (TABSK8>0 AND FHR>0)]: %ORANGE%FHR %GOLD%Fire Skiller 
 ItemDisplay[cm3 (TABSK9>0 AND FHR>0)]: %ORANGE%FHR %GOLD%Light Skiller 
@@ -235,6 +236,7 @@ ItemDisplay[cm3 (TABSK40>0 AND FHR>0)]: %ORANGE%FHR %GOLD%Dru Summon Skiller
 ItemDisplay[cm3 (TABSK41>0 AND FHR>0)]: %ORANGE%FHR %GOLD%ShapeShift Skiller 
 ItemDisplay[cm3 (TABSK42>0 AND FHR>0)]: %ORANGE%FHR %GOLD%Dru Ele Skiller 
 ItemDisplay[cm3 (TABSK48>0 AND FHR>0)]: %ORANGE%FHR %GOLD%Trap Skiller 
+ItemDisplay[cm3 (TABSK0>0 AND FRW>0)]: %ORANGE%frw %GOLD%Bowa Skiller 
 ItemDisplay[cm3 (TABSK2>0 AND FRW>0)]: %ORANGE%frw %GOLD%Java Skiller 
 ItemDisplay[cm3 (TABSK16>0 AND FRW>0)]: %ORANGE%frw %GOLD%Curses Skiller 
 ItemDisplay[cm3 (TABSK17>0 AND FRW>0)]: %ORANGE%frw %GOLD%P&B Skiller 
@@ -247,6 +249,7 @@ ItemDisplay[cm3 (TABSK40>0 AND FRW>0)]: %ORANGE%frw %GOLD%Dru Summon Skiller
 ItemDisplay[cm3 (TABSK41>0 AND FRW>0)]: %ORANGE%frw %GOLD%ShapeShift Skiller 
 ItemDisplay[cm3 (TABSK42>0 AND FRW>0)]: %ORANGE%frw %GOLD%Dru Ele Skiller 
 ItemDisplay[cm3 (TABSK48>0 AND FRW>0)]: %ORANGE%frw %GOLD%Trap Skiller 
+ItemDisplay[cm3 (TABSK0>0 AND LIFE>0)]: %RED%Life %GOLD%Bowa Skiller 
 ItemDisplay[cm3 (TABSK2>0 AND LIFE>0)]: %RED%Life %GOLD%Java Skiller 
 ItemDisplay[cm3 (TABSK8>0 AND LIFE>0)]: %RED%Life %GOLD%Fire Skiller 
 ItemDisplay[cm3 (TABSK9>0 AND LIFE>0)]: %RED%Life %GOLD%Light Skiller 
@@ -261,7 +264,8 @@ ItemDisplay[cm3 (TABSK34>0 AND LIFE>0)]: %RED%Life %GOLD%Warcries Skiller
 ItemDisplay[cm3 (TABSK40>0 AND LIFE>0)]: %RED%Life %GOLD%Dru Summon Skiller 
 ItemDisplay[cm3 (TABSK41>0 AND LIFE>0)]: %RED%Life %GOLD%ShapeShift Skiller 
 ItemDisplay[cm3 (TABSK42>0 AND LIFE>0)]: %RED%Life %GOLD%Dru Ele Skiller 
-ItemDisplay[cm3 (TABSK48>0 AND LIFE>0)]: %RED%Life %GOLD%Trap Skiller 
+ItemDisplay[cm3 (TABSK48>0 AND LIFE>0)]: %RED%Life %GOLD%Trap Skiller
+ItemDisplay[cm3 TABSK0>0]: %GOLD%Bowa Skiller 
 ItemDisplay[cm3 TABSK2>0]: %GOLD%Java Skiller 
 ItemDisplay[cm3 TABSK8>0]: %GOLD%Fire Skiller 
 ItemDisplay[cm3 TABSK9>0]: %GOLD%Light Skiller 
@@ -322,6 +326,8 @@ ItemDisplay[rin MAG ILVL=94]: %BLUE%%NAME%%WHITE% [%TAN%CLVL 76+%WHITE%]
 ItemDisplay[rin MAG ILVL>94]: %BLUE%%NAME%%WHITE% [%TAN%CLVL 74+%WHITE%]
 ItemDisplay[rin MAG ILVL<86]: %BLUE%%NAME%%WHITE%
 //Uniques
+ItemDisplay[skp UNI !ID !ETH]: %GOLD%o Tarnhelm o%MAP%
+ItemDisplay[skp UNI !ID ETH]: %GOLD%o %GRAY%[%WHITE%eth%GRAY%]%GOLD%Tarnhelm o%MAP%
 ItemDisplay[dgr UNI !ID !ETH]: %RED%o Gull o%MAP%
 ItemDisplay[dgr UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] %RED%Gull o%MAP%
 ItemDisplay[9fc UNI !ID !ETH]: %RED%o Blade of Ali Baba o%MAP%
