@@ -56,11 +56,11 @@ ItemDisplay[tr2]: %TAN%%NAME%%MAP%
 ItemDisplay[xyz]: %TAN%%NAME%%MAP%
 ItemDisplay[ice]: %TAN%%NAME%%MAP%
 //PD2 Items
-ItemDisplay[imma]: %YELLOW%o %NAME%%YELLOW% o%MAP%
-ItemDisplay[imra]: %RED%o %NAME%%RED% o%MAP%
-ItemDisplay[rera]: %ORANGE%o %NAME%%ORANGE% o%MAP%
-ItemDisplay[scou]: %GREEN%o %NAME%%GREEN% o%MAP%
-ItemDisplay[upma]: %BLUE%o %NAME%%BLUE% o%MAP%
+ItemDisplay[imma]: %YELLOW%o %NAME%%YELLOW% o%MAP% {%WHITE%+ %BLUE%Jewel %NL%%WHITE% Imbue White to %BLUE%Magic Map}
+ItemDisplay[imra]: %RED%o %NAME%%RED% o%MAP% {%WHITE%+ %BLUE%Jewel %WHITE%+ %TAN%Thul>%NL%%WHITE%White to %YELLOW%Rare Map}
+ItemDisplay[rera]: %ORANGE%o %NAME%%ORANGE% o%MAP% {%WHITE%+ PGem + %TAN%Thul>%NL%%WHITE%Reroll %YELLOW%Rare Map}
+ItemDisplay[scou]: %GREEN%o %NAME%%GREEN% o%MAP% {%WHITE%+ %ORANGE%Hel%NL%%WHITE%Return to White Map}
+ItemDisplay[upma]: %BLUE%o %NAME%%BLUE% o%MAP% {%WHITE%+ PSkull + %TAN%Thul>%NL%%WHITE%Upg %BLUE%Magic %WHITE%to %YELLOW%Rare Map}
 ItemDisplay[lbox]: %WHITE%o %GOLD%%NAME% %WHITE%o%MAP%
 ItemDisplay[wss]: %GREEN%o %PURPLE%%NAME% %GREEN%o%MAP%
 ItemDisplay[dcma]: %RED%o %NAME%%RED% o%MAP%
