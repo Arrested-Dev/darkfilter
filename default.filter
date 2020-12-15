@@ -235,7 +235,8 @@ ItemDisplay[cm3 (TABSK34>0 AND FHR>0)]: %ORANGE%FHR %GOLD%Warcries Skiller
 ItemDisplay[cm3 (TABSK40>0 AND FHR>0)]: %ORANGE%FHR %GOLD%Dru Summon Skiller 
 ItemDisplay[cm3 (TABSK41>0 AND FHR>0)]: %ORANGE%FHR %GOLD%ShapeShift Skiller 
 ItemDisplay[cm3 (TABSK42>0 AND FHR>0)]: %ORANGE%FHR %GOLD%Dru Ele Skiller 
-ItemDisplay[cm3 (TABSK48>0 AND FHR>0)]: %ORANGE%FHR %GOLD%Trap Skiller 
+ItemDisplay[cm3 (TABSK48>0 AND FHR>0)]: %ORANGE%FHR %GOLD%Trap Skiller
+ItemDisplay[cm3 (TABSK49>0 AND FHR>0)]: %ORANGE%FHR %GOLD%Shadow Skiller
 ItemDisplay[cm3 (TABSK0>0 AND FRW>0)]: %ORANGE%frw %GOLD%Bowa Skiller 
 ItemDisplay[cm3 (TABSK2>0 AND FRW>0)]: %ORANGE%frw %GOLD%Java Skiller 
 ItemDisplay[cm3 (TABSK16>0 AND FRW>0)]: %ORANGE%frw %GOLD%Curses Skiller 
@@ -249,6 +250,7 @@ ItemDisplay[cm3 (TABSK40>0 AND FRW>0)]: %ORANGE%frw %GOLD%Dru Summon Skiller
 ItemDisplay[cm3 (TABSK41>0 AND FRW>0)]: %ORANGE%frw %GOLD%ShapeShift Skiller 
 ItemDisplay[cm3 (TABSK42>0 AND FRW>0)]: %ORANGE%frw %GOLD%Dru Ele Skiller 
 ItemDisplay[cm3 (TABSK48>0 AND FRW>0)]: %ORANGE%frw %GOLD%Trap Skiller 
+ItemDisplay[cm3 (TABSK49>0 AND FRW>0)]: %ORANGE%frw %GOLD%Shadow Skiller
 ItemDisplay[cm3 (TABSK0>0 AND LIFE>0)]: %RED%Life %GOLD%Bowa Skiller 
 ItemDisplay[cm3 (TABSK2>0 AND LIFE>0)]: %RED%Life %GOLD%Java Skiller 
 ItemDisplay[cm3 (TABSK8>0 AND LIFE>0)]: %RED%Life %GOLD%Fire Skiller 
@@ -265,6 +267,7 @@ ItemDisplay[cm3 (TABSK40>0 AND LIFE>0)]: %RED%Life %GOLD%Dru Summon Skiller
 ItemDisplay[cm3 (TABSK41>0 AND LIFE>0)]: %RED%Life %GOLD%ShapeShift Skiller 
 ItemDisplay[cm3 (TABSK42>0 AND LIFE>0)]: %RED%Life %GOLD%Dru Ele Skiller 
 ItemDisplay[cm3 (TABSK48>0 AND LIFE>0)]: %RED%Life %GOLD%Trap Skiller
+ItemDisplay[cm3 (TABSK49>0 AND LIFE>0)]: %RED%Life %GOLD%Shadow Skiller
 ItemDisplay[cm3 TABSK0>0]: %GOLD%Bowa Skiller 
 ItemDisplay[cm3 TABSK2>0]: %GOLD%Java Skiller 
 ItemDisplay[cm3 TABSK8>0]: %GOLD%Fire Skiller 
@@ -280,7 +283,8 @@ ItemDisplay[cm3 TABSK34>0]: %GOLD%Warcries Skiller
 ItemDisplay[cm3 TABSK40>0]: %GOLD%Dru Summon Skiller 
 ItemDisplay[cm3 TABSK41>0]: %GOLD%ShapeShift Skiller 
 ItemDisplay[cm3 TABSK42>0]: %GOLD%Dru Ele Skiller 
-ItemDisplay[cm3 TABSK48>0]: %GOLD%Trap Skiller 
+ItemDisplay[cm3 TABSK48>0]: %GOLD%Trap Skiller
+ItemDisplay[cm3 TABSK49>0]: %GOLD%Shadow Skiller
 //All Charms
 ItemDisplay[cm1 OR cm2 OR cm3 !ID CLVL<55]: %NAME%%MAP%
 //Unique Charms
@@ -394,6 +398,7 @@ ItemDisplay[xsh UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %RED%Lidless Wall%MAP%
 ItemDisplay[uit UNI !ID !ETH]: %RED%ooo %PURPLE%Stormshield %RED%ooo%MAP%
 ItemDisplay[uml UNI !ID !ETH]: %RED%o Blackoak Shield o%MAP%
 ItemDisplay[uow UNI !ID !ETH]: %RED%oo Medusa's Gaze %RED%oo%MAP%
+ItemDisplay[ush UNI !ID !ETH]: %RED%o Head Hunter's Glory o%MAP%
 ItemDisplay[uts UNI !ID !ETH]: %RED%Spirit Ward%MAP%
 ItemDisplay[mgl UNI !ID !ETH]: %RED%o Chance Guards o%MAP%
 ItemDisplay[tgl UNI !ID !ETH]: %RED%oo Magefist oo%MAP%
@@ -520,6 +525,8 @@ ItemDisplay[bae UNI !ID !ETH]: %RED%o Halaberd's Reign o%MAP%
 ItemDisplay[pac UNI !ID !ETH]: %RED%oo Alma Negra oo%MAP%
 ItemDisplay[pa9 UNI !ID !ETH]: %RED%oo %PURPLE%Herald of Zakarum %RED%oo%MAP%
 ItemDisplay[pa9 UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %RED%Herald of Zakarum%MAP%
+ItemDisplay[pae UNI !ID !ETH]: %GOLD%Dragonscale%MAP%
+ItemDisplay[pae UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%Dragonscale%MAP%
 ItemDisplay[nea UNI !ID !ETH]: %RED%oo Homunculus %RED%oo%MAP%
 ItemDisplay[nef UNI !ID !ETH]: %RED%ooo %PURPLE%Darkforce Spawn %RED%ooo%MAP%
 ItemDisplay[nef UNI !ID ETH]: %RED%ooo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Darkforce Spawn %RED%ooo%MAP%
