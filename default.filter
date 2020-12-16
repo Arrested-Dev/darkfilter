@@ -544,6 +544,8 @@ ItemDisplay[6sw UNI !ID]: %RED%o Widowmaker o%MAP%
 ItemDisplay[6lw UNI !ID]: %RED%ooo %PURPLE%Windforce %RED%ooo%MAP%
 ItemDisplay[8ls UNI !ID !ETH]: %RED%oo %PURPLE%Ribcracker %RED%oo%MAP%
 ItemDisplay[8ls UNI !ID ETH]: %RED%ooo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Ribcracker %RED%ooo%MAP%
+ItemDisplay[9wn UNI !ID !ETH]: %RED%o Suicide Branch o%MAP%
+ItemDisplay[9wn UNI !ID ETH]: %RED%ooo %GRAY%[%WHITE%eth%GRAY%] Suicide Branch%MAP%
 ItemDisplay[6cs UNI !ID !ETH]: %RED%oo Ondal's Wisdom %RED%oo%MAP%
 ItemDisplay[6ws UNI !ID !ETH]: %PURPLE%Mang Song's Lesson o%MAP%
 ItemDisplay[9bw UNI !ID !ETH]: %RED%Arm of King Leoric
@@ -655,9 +657,7 @@ ItemDisplay[CL1 RARE !ETH ILVL>39 !ID]: %YELLOW%%NAME%
 ItemDisplay[CL2 RARE !ETH !ID]: %YELLOW%%NAME%
 ItemDisplay[(am5 OR ama OR amf OR CL1 OR CL2 OR CL3 OR CL4 OR CL5 OR CL6 OR CL7) !ETH RARE !ID]: %YELLOW%%NAME%
 ItemDisplay[(am5 OR ama OR amf OR CL6 OR CL7) ETH RARE !ID]: %GRAY%[%WHITE%eth%GRAY%] %YELLOW%%NAME%
-ItemDisplay[CL6 RARE !ETH IVL>36 AND (ALVL>50 AND ALVL<60) !ID]: %YELLOW%%NAME%%RED%*
 ItemDisplay[CL6 RARE !ETH IVL>60 !ID]: %YELLOW%%NAME%
-ItemDisplay[CL6 RARE !ETH ILVL>36 AND (ALVL>50 AND ALVL<60) !ID]: %GRAY%[%WHITE%eth%GRAY%] %YELLOW%%NAME%%RED%*
 //Magic
 ItemDisplay[SIN QLVL>40 MAG !ID]: %BLUE%%NAME%
 ItemDisplay[SIN ETH QLVL>40 MAG !ID]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
@@ -731,8 +731,8 @@ ItemDisplay[uit (!INF AND !ETH) AND (NMAG OR RW) (DEF>140) (SOCK=0 OR SOCK=4)]: 
 ItemDisplay[uit (!INF AND !ETH) AND (NMAG OR RW) (ED>0 AND ED<15) (SOCK=0 OR SOCK=4)]: %GRAY%[%WHITE%%ED%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[uit (!INF AND !ETH) AND (NMAG OR RW) (SOCK=0 OR SOCK=4) CLVL<91]: %GRAY%%NAME% %TAN%[%SOCKETS%]
 ItemDisplay[uit NMAG !ETH ED=15 (SOCK=0 OR SOCK=4)]: %GRAY%[%WHITE%15%%GRAY%] %NAME% %TAN%[%SOCKETS%]
-ItemDisplay[CL3 NMAG ELT !ETH RES=45 !SOCK=1]: %GRAY%[%WHITE%45%%GRAY%] %NAME% %TAN%[%SOCKETS%]%MAP%
-ItemDisplay[CL3 NMAG ELT !ETH RES=45 SOCK=0]: %GRAY%[%WHITE%45%%GRAY%] %NAME% %TAN%[%SOCKETS%]%MAP%
+ItemDisplay[CL3 NMAG !INF ELT !ETH RES=45 !SOCK=1]: %GRAY%[%WHITE%45%%GRAY%] %NAME% %TAN%[%SOCKETS%]%MAP%
+ItemDisplay[CL3 NMAG !INF ELT !ETH RES=45 SOCK=0]: %GRAY%[%WHITE%45%%GRAY%] %NAME% %TAN%[%SOCKETS%]%MAP%
 ItemDisplay[CL3 NMAG ELT ETH RES=45 !SOCK=1 !SOCK=2]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%[%WHITE%45%%GRAY%] %NAME% %TAN%[%SOCKETS%]%MAP%
 ///Axes
 //Small Crescent
