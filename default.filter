@@ -545,7 +545,7 @@ ItemDisplay[6lw UNI !ID]: %RED%ooo %PURPLE%Windforce %RED%ooo%MAP%
 ItemDisplay[8ls UNI !ID !ETH]: %RED%oo %PURPLE%Ribcracker %RED%oo%MAP%
 ItemDisplay[8ls UNI !ID ETH]: %RED%ooo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Ribcracker %RED%ooo%MAP%
 ItemDisplay[9wn UNI !ID !ETH]: %RED%o Suicide Branch o%MAP%
-ItemDisplay[9wn UNI !ID ETH]: %RED%ooo %GRAY%[%WHITE%eth%GRAY%] Suicide Branch%MAP%
+ItemDisplay[9wn UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] %RED%Suicide Branch o%MAP%
 ItemDisplay[6cs UNI !ID !ETH]: %RED%oo Ondal's Wisdom %RED%oo%MAP%
 ItemDisplay[6ws UNI !ID !ETH]: %PURPLE%Mang Song's Lesson o%MAP%
 ItemDisplay[9bw UNI !ID !ETH]: %RED%Arm of King Leoric
@@ -581,9 +581,11 @@ ItemDisplay[nea UNI !ID !ETH]: %RED%oo Homunculus %RED%oo%MAP%
 ItemDisplay[nef UNI !ID !ETH]: %RED%ooo %PURPLE%Darkforce Spawn %RED%ooo%MAP%
 ItemDisplay[nef UNI !ID ETH]: %RED%ooo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Darkforce Spawn %RED%ooo%MAP%
 ItemDisplay[nee UNI !ID !ETH]: %RED%o %PURPLE%Boneflame %RED%o%MAP%
+ItemDisplay[nee UNI !ID ETH]:  %RED%o %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Boneflame %RED%o%MAP%
 ItemDisplay[9tw UNI !ID !ETH]: %GOLD%Bartuc's Cut-Throat%MAP%
 ItemDisplay[7cs UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Shadow Killer %RED%o%MAP%
 ItemDisplay[oba UNI !ID !ETH]: %RED%oo %PURPLE%The Oculus %RED%oo%MAP%
+ItemDisplay[oba UNI !ID !ETH]: %RED%oo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%The Oculus %RED%oo%MAP%
 ItemDisplay[obc UNI !ID !ETH]: %RED%o Eschuta's Temper %RED%o%MAP%
 ItemDisplay[obf UNI !ID !ETH]: %RED%ooo %PURPLE%Death's Fathom %RED%ooo%MAP%
 ItemDisplay[obf UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Death's Fathom %RED%o%MAP%
