@@ -462,8 +462,8 @@ ItemDisplay[uhg UNI !ID !ETH]: %RED%oo %GOLD% Steelrend %RED%oo%MAP%
 ItemDisplay[uhg UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] %GOLD%Steelrend %RED%o%MAP%
 ItemDisplay[tbt UNI !ID !ETH]: %RED%o %GOLD%Goblin Toe %RED%o%MAP%
 ItemDisplay[tbt UNI !ID ETH]: %RED%o [%WHITE%eth%GRAY%]%GOLD%Goblin Toe %RED%o%MAP%
-ItemDisplay[xvb UNI !ID !ETH]: %RED%oo Waterwalk oo%MAP%
-ItemDisplay[xvb UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%Waterwalk%MAP%
+ItemDisplay[xvb UNI !ID !ETH]: %RED%oo %PURPLE%Waterwalk %RED%oo%MAP%
+ItemDisplay[xvb UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %RED%Waterwalk%MAP%
 ItemDisplay[xmb UNI !ID !ETH]: %RED%oo %RED%Silkweave %RED%oo%MAP%
 ItemDisplay[xmb UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%Silkweave%MAP%
 ItemDisplay[xtb UNI !ID !ETH]: %RED%ooo %PURPLE%War Traveler %RED%ooo%MAP%
@@ -471,7 +471,7 @@ ItemDisplay[xtb UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %PURPLE%War Traveler%MAP%
 ItemDisplay[xhb UNI !ID !ETH]: %RED%ooo %PURPLE%Gore Rider %RED%ooo%MAP%
 ItemDisplay[xhb UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %RED%Gore Rider%MAP%
 ItemDisplay[uvb UNI !ID !ETH]: %RED%oo Sandstorm Trek oo%MAP%
-ItemDisplay[uvb UNI !ID ETH]:  %RED%oo%GRAY%[%WHITE%eth%GRAY%] %PURPLE%Sandstorm Trek %REDoo%MAP%
+ItemDisplay[uvb UNI !ID ETH]:  %RED%oo%GRAY%[%WHITE%eth%GRAY%] %RED%Sandstorm Trek oo%MAP%
 ItemDisplay[umb UNI !ID !ETH]: %RED%oo Marrowwalk oo%MAP%
 ItemDisplay[umb UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%Marrowwalk%MAP%
 ItemDisplay[uhb UNI !ID !ETH]: %RED%o Shadow Dancer o%MAP%
@@ -546,6 +546,8 @@ ItemDisplay[8ls UNI !ID !ETH]: %RED%oo %PURPLE%Ribcracker %RED%oo%MAP%
 ItemDisplay[8ls UNI !ID ETH]: %RED%ooo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Ribcracker %RED%ooo%MAP%
 ItemDisplay[9wn UNI !ID !ETH]: %RED%o Suicide Branch o%MAP%
 ItemDisplay[9wn UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] %RED%Suicide Branch o%MAP%
+ItemDisplay[9yw UNI !ID !ETH]: %GOLD%Carin Shard%MAP%
+ItemDisplay[9yw UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%Carin Shard%MAP%
 ItemDisplay[6cs UNI !ID !ETH]: %RED%oo Ondal's Wisdom %RED%oo%MAP%
 ItemDisplay[6ws UNI !ID !ETH]: %PURPLE%Mang Song's Lesson o%MAP%
 ItemDisplay[9bw UNI !ID !ETH]: %RED%Arm of King Leoric
