@@ -82,7 +82,7 @@ ItemDisplay[t12 RARE !ID]: %PURPLE%ooo %YELLOW%%NAME% %PURPLE%ooo%MAP%
 ItemDisplay[t13 RARE !ID]: %PURPLE%ooo %YELLOW%%NAME% %PURPLE%ooo%MAP%
 ItemDisplay[t14 RARE !ID]: %PURPLE%ooo %YELLOW%%NAME% %PURPLE%ooo%MAP%
 ItemDisplay[t15 RARE !ID]: %PURPLE%ooo %YELLOW%%NAME% %PURPLE%ooo%MAP%
-ItemDisplay[t16 RARE !ID]: %PURPLE%ooo %YELLOW%%NAME% %PURPLE%ooo
+ItemDisplay[t16 RARE !ID]: %PURPLE%ooo %YELLOW%%NAME% %PURPLE%ooo%MAP%
 ItemDisplay[t17 RARE !ID]: %PURPLE%ooo %YELLOW%%NAME% %PURPLE%ooo%MAP%
 ItemDisplay[t18 RARE !ID]: %PURPLE%ooo %YELLOW%%NAME% %PURPLE%ooo%MAP%
 ItemDisplay[t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 MAG ID]: %RED%oo %BLUE%%NAME% %RED%oo
@@ -741,6 +741,8 @@ ItemDisplay[CL3 NMAG ELT ETH RES=45 !SOCK=1 !SOCK=2]: %GRAY%[%WHITE%eth%GRAY%] %
 ///Axes
 //Small Crescent
 ItemDisplay[7ax NMAG ETH SOCK=4]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
+//robo wax
+ItemDisplay[(2ax OR wax) !ETH (NMAG OR RW) SOCK=6]: %NAME% %TAN%[%SOCKETS%]
 //Ettin Axe
 ItemDisplay[72a NMAG ETH ED=15 (SOCK=0 OR SOCK>2)]: %GRAY%[%WHITE%eth%GRAY%][%WHITE%%15%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[72a ETH NMAG ED>0 ED<15 (SOCK=0 OR SOCK>2)]: %GRAY%[%WHITE%eth%GRAY%][%WHITE%%ED%GRAY%] %NAME% %TAN%[%SOCKETS%]
@@ -868,8 +870,8 @@ ItemDisplay[crs (ETH AND (NMAG OR RW)) SOCK=5]: %GRAY%[%WHITE%eth%GRAY%] %NAME% 
 ItemDisplay[crs !ETH (NMAG OR RW) SOCK=5]: %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[WP13 SK117>2 (NMAG OR RW) SOCK=5]: %GRAY%[%PURPLE%holy%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[(wst OR 8ws OR 6ws) (NMAG OR RW) (SK58>2 AND SK50>0) SOCK=5]: %GRAY%[%WHITE%cta%GRAY%] %NAME% %TAN%[%SOCKETS%]
-ItemDisplay[2ax (ETH AND (NMAG OR RW)) SOCK=5]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
-ItemDisplay[2ax !ETH (NMAG OR RW) SOCK=5]: %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[(2ax OR wax OR mpi) (ETH AND (NMAG OR RW)) SOCK=5]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[(2ax OR wax OR mpi) !ETH (NMAG OR RW) SOCK=5]: %NAME% %TAN%[%SOCKETS%]
 //Memory
 ItemDisplay[(cst OR bst OR 8cs OR 8bs OR 6cs OR 6bs) !INF AND (NMAG OR RW) (SK58>2 AND SK50>0) (SOCK=0 OR SOCK=4)]: %GRAY%[%WHITE%mem%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[(wst OR 8ws OR 6ws) (NMAG OR RW) (SK58>2 AND SK50>0) SOCK=0 (!INF AND !SUP)]: %GRAY%[%WHITE%mem%GRAY%] %NAME% %TAN%[%SOCKETS%]
