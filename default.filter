@@ -455,8 +455,8 @@ ItemDisplay[xvg UNI !ID !ETH]: %RED%Gravepalm%MAP%
 ItemDisplay[xhg UNI !ID !ETH]: %RED%Hellmouth%MAP%
 ItemDisplay[xhg UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %RED%Hellmouth%MAP%
 ItemDisplay[uvg UNI !ID !ETH]: %RED%ooo %PURPLE%Dracul's Grasp %RED%ooo%MAP%
-ItemDisplay[uvg UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Dracul's Grasp%MAP%
-ItemDisplay[umg UNI !ID !ETH]: %GOLD%o Soul Drainer o%MAP%
+ItemDisplay[uvg UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %RED%Dracul's Grasp%MAP%
+ItemDisplay[umg UNI !ID !ETH]: %RED%o Soul Drainer o%MAP%
 ItemDisplay[umg UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%Soul Drainer%MAP%
 ItemDisplay[uhg UNI !ID !ETH]: %RED%oo %GOLD% Steelrend %RED%oo%MAP%
 ItemDisplay[uhg UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] %GOLD%Steelrend %RED%o%MAP%
@@ -516,7 +516,8 @@ ItemDisplay[7gm UNI !ID ETH]: %RED%oo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Earth Shi
 ItemDisplay[9bs UNI !ID !ETH]: %RED%o Headstriker %RED%o%MAP%
 ItemDisplay[9bs UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] %RED%Headstriker o%MAP%
 ItemDisplay[7cr UNI !ID]: %RED%ooo %PURPLE%Lightsabre or Azurewrath %RED%ooo%MAP%
-ItemDisplay[7b7 UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Doombringer%MAP%
+ItemDisplay[7b7 UNI !ID !ETH]: %RED%o Doombringer o%MAP%
+ItemDisplay[7b7 UNI !ID ETH]: %RED%ooo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Doombringer %RED%ooo%MAP%
 ItemDisplay[7gd UNI !ID !ETH]: %RED%oo %PURPLE%The Grandfather %RED%oo%MAP%
 ItemDisplay[7gd UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] %RED%ooo %PURPLE%The Grandfather %RED%ooo%MAP%
 ItemDisplay[7dg UNI !ID !ETH]: %GOLD%o Wizardspike o%MAP%
@@ -527,7 +528,7 @@ ItemDisplay[7bk UNI !ID ETH]: %RED%ooo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Warshrik
 ItemDisplay[7b8 UNI !ID !ETH]: %RED%o Lacerator o%MAP%
 ItemDisplay[7b8 UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Lacerator %RED%o%MAP%
 ItemDisplay[7s7 UNI !ID !ETH]: %GOLD%Demon's Arch%MAP%
-ItemDisplay[7s7 UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %RED% Demon's Arch%MAP%
+ItemDisplay[7s7 UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %RED%Demon's Arch%MAP%
 ItemDisplay[7gl UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %RED%Wraith Flight%MAP%
 ItemDisplay[7ts UNI !ID !ETH]: %GOLD%Gargoyle's Bite%MAP%
 ItemDisplay[7ts UNI !ID ETH]: %%GRAY%[%WHITE%eth%GRAY%] %RED%Gargoyle's Bite%MAP%
@@ -536,7 +537,7 @@ ItemDisplay[7p7 UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %RED%o %PURPLE%Steel Pill
 ItemDisplay[7s8 UNI !ID !ETH]: %RED%o Reaper's Toll o%MAP%
 ItemDisplay[7s8 UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Reaper's Toll %RED%o%MAP%
 ItemDisplay[7pa UNI !ID !ETH]: %RED%o Tomb Reaver o%MAP%
-ItemDisplay[7pa UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] %RED%Tomb Reaver o%MAP%
+ItemDisplay[7pa UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Tomb Reaver %RED%o%MAP%
 ItemDisplay[8s8 UNI !ID]: %RED%Witchwild String%MAP%
 ItemDisplay[6l7 UNI !ID]: %RED%o Eaglehorn o%MAP%
 ItemDisplay[8lw UNI !ID]: %RED%ooo Goldstrike Arch ooo%MAP%
@@ -549,9 +550,11 @@ ItemDisplay[9wn UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] %RED%Suicide Branc
 ItemDisplay[9yw UNI !ID !ETH]: %GOLD%Carin Shard%MAP%
 ItemDisplay[9yw UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%Carin Shard%MAP%
 ItemDisplay[6cs UNI !ID !ETH]: %RED%oo Ondal's Wisdom %RED%oo%MAP%
-ItemDisplay[6ws UNI !ID !ETH]: %PURPLE%Mang Song's Lesson o%MAP%
-ItemDisplay[9bw UNI !ID !ETH]: %RED%Arm of King Leoric
-ItemDisplay[9bw UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %RED%Arm of King Leoric
+ItemDisplay[6cs UNI !ID !ETH]: %RED%oo [%WHITE%eth%GRAY%] Ondal's Wisdom %RED%oo%MAP%
+ItemDisplay[6ws UNI !ID !ETH]: %RED%oo %PURPLE%Mang Song's Lesson %RED%oo%MAP%
+ItemDisplay[6ws UNI !ID ETH]: %RED%oo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Mang Song's Lesson %RED%o%MAP%
+ItemDisplay[9bw UNI !ID !ETH]: %RED%Arm of King Leoric%MAP%
+ItemDisplay[9bw UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %RED%Arm of King Leoric%MAP%
 ItemDisplay[9gw UNI !ID !ETH]: %RED%ooo %PURPLE%Blackhand Key %RED%ooo%MAP%
 ItemDisplay[9gw UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%Blackhand Key%MAP%
 ItemDisplay[7bw UNI !ID !ETH]: %RED%o Boneshade o%MAP%
@@ -565,30 +568,36 @@ ItemDisplay[7sc UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %RED%Heaven's Light or %G
 ItemDisplay[7ws UNI !ID !ETH]: %RED%o Astreon's Iron Ward o%MAP%
 ItemDisplay[7ws UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %RED%Astreon's Iron Ward%MAP%
 ItemDisplay[dra UNI !ID !ETH]: %RED%ooo %PURPLE%Jalal's Mane %RED%ooo%MAP%
-ItemDisplay[drb UNI !ID !ETH]: %RED%o %GOLD%Cerebus' Bite %RED%o%MAP%
-ItemDisplay[drb UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%Cerebus' Bite%MAP%
+ItemDisplay[dra UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Jalal's Mane %RED%o%MAP%
+ItemDisplay[drb UNI !ID !ETH]: %RED%o %RED%Cerebus' Bite %RED%o%MAP%
+ItemDisplay[drb UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %RED%Cerebus' Bite%MAP%
 ItemDisplay[dre UNI !ID !ETH]: %RED%oo Ravenlore oo%MAP%
 ItemDisplay[dre UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %RED%Ravenlore%MAP%
 ItemDisplay[drd UNI !ID !ETH]: %RED%oo Spirit Keeper oo%MAP%
 ItemDisplay[drd UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%Spirit Keeper%MAP%
 ItemDisplay[baa UNI !ID !ETH]: %RED%ooo %PURPLE%Arreat's Face %RED%ooo%MAP%
+ItemDisplay[baa UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Arreat's Face %RED%o%MAP%
 ItemDisplay[bac UNI !ID !ETH]: %RED%oo Wolfhowl oo%MAP%
 ItemDisplay[bae UNI !ID !ETH]: %RED%o Halaberd's Reign o%MAP%
+ItemDisplay[bae UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] Halaberd's Reign o%MAP%
 ItemDisplay[pac UNI !ID !ETH]: %RED%oo Alma Negra oo%MAP%
 ItemDisplay[pa9 UNI !ID !ETH]: %RED%oo %PURPLE%Herald of Zakarum %RED%oo%MAP%
 ItemDisplay[pa9 UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %RED%Herald of Zakarum%MAP%
 ItemDisplay[pae UNI !ID !ETH]: %GOLD%Dragonscale%MAP%
 ItemDisplay[pae UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%Dragonscale%MAP%
 ItemDisplay[nea UNI !ID !ETH]: %RED%oo Homunculus %RED%oo%MAP%
+ItemDisplay[nea UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] Homunculus %RED%o%MAP%
 ItemDisplay[nef UNI !ID !ETH]: %RED%ooo %PURPLE%Darkforce Spawn %RED%ooo%MAP%
 ItemDisplay[nef UNI !ID ETH]: %RED%ooo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Darkforce Spawn %RED%ooo%MAP%
 ItemDisplay[nee UNI !ID !ETH]: %RED%o %PURPLE%Boneflame %RED%o%MAP%
 ItemDisplay[nee UNI !ID ETH]:  %RED%o %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Boneflame %RED%o%MAP%
 ItemDisplay[9tw UNI !ID !ETH]: %GOLD%Bartuc's Cut-Throat%MAP%
+ItemDisplay[9tw UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%Bartuc's Cut-Throat%MAP%
 ItemDisplay[7cs UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Shadow Killer %RED%o%MAP%
 ItemDisplay[oba UNI !ID !ETH]: %RED%oo %PURPLE%The Oculus %RED%oo%MAP%
 ItemDisplay[oba UNI !ID !ETH]: %RED%oo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%The Oculus %RED%oo%MAP%
 ItemDisplay[obc UNI !ID !ETH]: %RED%o Eschuta's Temper %RED%o%MAP%
+ItemDisplay[obc UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] Eschuta's Temper %RED%o%MAP%
 ItemDisplay[obf UNI !ID !ETH]: %RED%ooo %PURPLE%Death's Fathom %RED%ooo%MAP%
 ItemDisplay[obf UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Death's Fathom %RED%o%MAP%
 ItemDisplay[ama UNI !ID !ETH]: %RED%oo Titan's Revenge oo%MAP%
