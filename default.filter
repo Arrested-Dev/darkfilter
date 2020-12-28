@@ -450,7 +450,9 @@ ItemDisplay[ush UNI !ID !ETH]: %RED%o Head Hunter's Glory o%MAP%
 ItemDisplay[uts UNI !ID !ETH]: %RED%Spirit Ward%MAP%
 ItemDisplay[mgl UNI !ID !ETH]: %RED%o Chance Guards o%MAP%
 ItemDisplay[tgl UNI !ID !ETH]: %RED%oo Magefist oo%MAP%
-ItemDisplay[hgl UNI !ID !ETH]: %RED%oo Frostburn oo%MAP%
+ItemDisplay[hgl UNI !ID !ETH]: %RED%o %GOLD%Frostburn %RED%o%MAP%
+ItemDisplay[vgl UNI !ID !ETH]: %RED%o Bloodfist o%MAP%
+ItemDisplay[vgl UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %RED%o Bloodfist o%MAP%
 ItemDisplay[xvg UNI !ID !ETH]: %RED%Gravepalm%MAP%
 ItemDisplay[xhg UNI !ID !ETH]: %RED%Hellmouth%MAP%
 ItemDisplay[xhg UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %RED%Hellmouth%MAP%
