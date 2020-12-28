@@ -554,13 +554,13 @@ ItemDisplay[9yw UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%Carin Shard%MAP%
 ItemDisplay[6cs UNI !ID !ETH]: %RED%oo Ondal's Wisdom %RED%oo%MAP%
 ItemDisplay[6cs UNI !ID !ETH]: %RED%oo [%WHITE%eth%GRAY%] Ondal's Wisdom %RED%oo%MAP%
 ItemDisplay[6ws UNI !ID !ETH]: %RED%oo %PURPLE%Mang Song's Lesson %RED%oo%MAP%
-ItemDisplay[6ws UNI !ID ETH]: %RED%oo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Mang Song's Lesson %RED%o%MAP%
+ItemDisplay[6ws UNI !ID ETH]: %RED%oo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Mang Song's Lesson %RED%oo%MAP%
 ItemDisplay[9bw UNI !ID !ETH]: %RED%Arm of King Leoric%MAP%
 ItemDisplay[9bw UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %RED%Arm of King Leoric%MAP%
 ItemDisplay[9gw UNI !ID !ETH]: %RED%ooo %PURPLE%Blackhand Key %RED%ooo%MAP%
 ItemDisplay[9gw UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%Blackhand Key%MAP%
 ItemDisplay[7bw UNI !ID !ETH]: %RED%o Boneshade o%MAP%
-ItemDisplay[7bw UNI !ID ETH]: %GOLD%o %GRAY%[%WHITE%eth%GRAY%] %GOLD%Boneshade o
+ItemDisplay[7bw UNI !ID ETH]: %GOLD%o %GRAY%[%WHITE%eth%GRAY%] %GOLD%Boneshade o%MAP%
 ItemDisplay[7gw UNI !ID !ETH]: %RED%ooo %PURPLE%Death's Web %RED%ooo%MAP%
 ItemDisplay[7gw UNI !ID ETH]: %RED%oo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Death's Web %RED%oo%MAP%
 ItemDisplay[9ws UNI !ID !ETH]: %RED%oo Hand of Blessed Light oo%MAP%
