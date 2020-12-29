@@ -682,6 +682,27 @@ ItemDisplay[CL2 MAG !ETH IVL>60 !ID]: %BLUE%%NAME%
 ItemDisplay[CL6 MAG !ETH IVL>60 !ID]: %BLUE%%NAME%
 ItemDisplay[CL1 OR CL2 OR CL3 OR CL4 OR CL5 OR CL6 OR CL7 MAG !ETH !ID]: %BLUE%%NAME%
 ItemDisplay[CL5 OR CL7 MAG !ETH !ID]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
+///Crafting Blue Weaps
+//Axes
+ItemDisplay[(9ax OR 7ax OR 72a OR 7mp OR 9wa OR 7wa OR 9la OR 7la OR 7ba OR 7bt OR 7ga OR 7gi) MAG ETH !ID]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
+//Mauls
+ItemDisplay[(9fl OR 7fl OR 9wh OR 7wh OR 9m9 OR 7m7 OR 9gm OR 7gm) MAG ETH !ID]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
+//Swords
+ItemDisplay[(9cr OR 9ls OR 7ls OR 7gs OR 7b7 OR 7fb OR 7gd) MAG ETH !ID]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
+//Fanged knife
+ItemDisplay[7kr MAG ETH !ID]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
+//Elite throw + jav
+ItemDisplay[(7tk OR 7bk OR 7b8 OR 7ta OR 7ts OR 7gl) MAG ETH !ID]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
+//Ghost Spear + Warpike
+ItemDisplay[(7st OR 7p7) MAG ETH !ID]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
+//Cryptic axe + Giant Thresher
+ItemDisplay[(7pa OR 7wc) MAG ETH !ID]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
+//Archon Staff, Shillelagh, Stalagmite
+ItemDisplay[(6ws OR 6cs OR 6ls) MAG ETH !ID]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
+//Caddy
+ItemDisplay[7ws MAG ETH !ID]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
+//Claws
+ItemDisplay[CL5 (EXC OR ELT) MAG ETH !ID]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
 //SOCKETS
 //Armors
 ItemDisplay[(xtp OR uui) (!INF AND !ETH) AND (NMAG OR RW) (SOCK=0 OR SOCK>2) DEF>440]: %GRAY%%NAME% %TAN%[%SOCKETS%]
@@ -960,8 +981,8 @@ ItemDisplay[(ARMOR OR WEAPON) NMAG AND (!ETH AND !INF) SOCK>1 CLVL<40]: %GRAY%%N
 ItemDisplay[WEAPON NMAG AND (ETH AND !INF) SOCK=4 CLVL<60]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[(ARMOR OR WEAPON) (EXC OR ELT) NMAG AND (!ETH AND !INF) SOCK>1 CLVL>39 AND CLVL<86]: %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[(ARMOR OR WEAPON) (EXC OR ELT) NMAG ETH SOCK>1 CLVL>39 AND CLVL<86]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
-ItemDisplay[(ARMOR OR WEAPON) ELT NMAG AND (!ETH AND !INF) (SOCK=0 OR !SOCK=1) CLVL>39 AND CLVL<99]: %NAME% %TAN%[%SOCKETS%]
-ItemDisplay[(ARMOR OR WEAPON) ELT NMAG ETH (SOCK=0 OR !SOCK=1) CLVL>39 AND CLVL<99]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[(CHEST OR SHIELD OR WEAPON) ELT NMAG AND (!ETH AND !INF) (SOCK=0 OR !SOCK=1) CLVL>39 AND CLVL<99]: %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[(CHEST OR SHIELD OR WEAPON) ELT NMAG ETH (SOCK=0 OR !SOCK=1) CLVL>39 AND CLVL<99]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[(ARMOR OR WEAPON) (!EXC OR !ELT) NMAG CLVL>40]:
 ItemDisplay[(ARMOR OR WEAPON) INF]:
 ItemDisplay[(ARMOR OR WEAPON) ETH SOCK>0 CLVL<19]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
