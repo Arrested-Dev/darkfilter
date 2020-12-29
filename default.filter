@@ -936,9 +936,9 @@ ItemDisplay[(clw OR btl OR skr OR 9ar OR 9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7lw 
 ItemDisplay[(9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) (!ETH AND !INF) AND (NMAG OR RW) SK276>2 (SOCK=0 OR SOCK=3)]: %GRAY%[%WHITE%3ds%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[(9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) (!ETH AND !INF) AND (NMAG OR RW) SK271>2 (SOCK=0 OR SOCK=3)]: %GRAY%[%WHITE%3ls%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[(9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) (!ETH AND !INF) AND (NMAG OR RW) SK272>2 (SOCK=0 OR SOCK=3)]: %GRAY%[%WHITE%3woi%GRAY%] %NAME% %TAN%[%SOCKETS%]
-ItemDisplay[(7lw OR 7tw OR 7qr) (!ETH AND !INF) AND (NMAG OR RW) SK266>2 (SOCK=0 OR SOCK=3)]: %GRAY%[%WHITE%3bf%GRAY%] %NAME% %TAN%[%SOCKETS%]
-ItemDisplay[(7lw OR 7tw OR 7qr) (!ETH AND !INF) AND (NMAG OR RW) SK262>2 (SOCK=0 OR SOCK=3)]: %GRAY%[%WHITE%3wof%GRAY%] %NAME% %TAN%[%SOCKETS%]
-ItemDisplay[(7lw OR 7tw OR 7qr) (!ETH AND !INF) AND (NMAG OR RW) SK263>2 (SOCK=0 OR SOCK=3)]: %GRAY%[%WHITE%3wb%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[(9ar OR 9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) (!ETH AND !INF) AND (NMAG OR RW) SK266>2 (SOCK=0 OR SOCK=3)]: %GRAY%[%WHITE%3bf%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[(9ar OR 9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) (!ETH AND !INF) AND (NMAG OR RW) SK262>2 (SOCK=0 OR SOCK=3)]: %GRAY%[%WHITE%3wof%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[(9ar OR 9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) (!ETH AND !INF) AND (NMAG OR RW) SK263>2 (SOCK=0 OR SOCK=3)]: %GRAY%[%WHITE%3wb%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[(9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) (!ETH AND !INF) AND (NMAG OR RW) SK253>2 (SOCK=0 OR SOCK=3)]: %GRAY%[%WHITE%3ph%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[(9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) (!ETH AND !INF) AND (NMAG OR RW) (SK278>2) AND (SK273>0 AND SK275>0) (SOCK=0 OR SOCK=3)]: %GRAY%[%WHITE%fury%GRAY%] %NAME% %TAN%[%SOCKETS%]
 //Silence
