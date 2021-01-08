@@ -515,7 +515,7 @@ ItemDisplay[7wh UNI !ID !ETH]: %RED%oo Stone Crusher or Schaefer's Hammer oo%MAP
 ItemDisplay[7wh UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %RED%Stone Crusher or %GRAY%[%WHITE%eth%GRAY%] %RED%Schaefer's Hammer%MAP%
 ItemDisplay[7gm UNI !ID !ETH]: %RED%ooo %PURPLE% Earth Shifter or The Cranium Basher %RED%ooo%MAP%
 ItemDisplay[7gm UNI !ID ETH]: %RED%oo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Earth Shifter or %GRAY%[%WHITE%eth%GRAY%] %PURPLE%The Cranium Basher %RED%oo%MAP%
-ItemDisplay[9bs UNI !ID !ETH]: %RED%o Headstriker %RED%o%MAP%
+ItemDisplay[9bs UNI !ID !ETH]: %GOLD%o Headstriker %RED%o%MAP%
 ItemDisplay[9bs UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] %RED%Headstriker o%MAP%
 ItemDisplay[7cr UNI !ID]: %RED%ooo %PURPLE%Lightsabre or Azurewrath %RED%ooo%MAP%
 ItemDisplay[7b7 UNI !ID !ETH]: %RED%o Doombringer o%MAP%
@@ -542,7 +542,7 @@ ItemDisplay[7pa UNI !ID !ETH]: %RED%o Tomb Reaver o%MAP%
 ItemDisplay[7pa UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Tomb Reaver %RED%o%MAP%
 ItemDisplay[8s8 UNI !ID]: %RED%Witchwild String%MAP%
 ItemDisplay[6l7 UNI !ID]: %RED%o Eaglehorn o%MAP%
-ItemDisplay[8lw UNI !ID]: %RED%ooo Goldstrike Arch ooo%MAP%
+ItemDisplay[8lw UNI !ID]: %GOLD%o Goldstrike Arch o%MAP%
 ItemDisplay[6sw UNI !ID]: %RED%o Widowmaker o%MAP%
 ItemDisplay[6lw UNI !ID]: %RED%ooo %PURPLE%Windforce %RED%ooo%MAP%
 ItemDisplay[8ls UNI !ID !ETH]: %RED%oo %PURPLE%Ribcracker %RED%oo%MAP%
