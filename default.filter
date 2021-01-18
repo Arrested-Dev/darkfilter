@@ -602,6 +602,8 @@ ItemDisplay[nee UNI !ID ETH]:  %RED%o %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Boneflame
 ItemDisplay[9tw UNI !ID !ETH]: %GOLD%Bartuc's Cut-Throat%MAP%
 ItemDisplay[9tw UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%Bartuc's Cut-Throat%MAP%
 ItemDisplay[7cs UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Shadow Killer %RED%o%MAP%
+ItemDisplay[7lw UNI !ID !ETH]: %RED%o Firelizard's Talons o%MAP%
+ItemDisplay[7lw UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] %RED%Firelizard's Talons o%MAP%
 ItemDisplay[oba UNI !ID !ETH]: %RED%oo %PURPLE%The Oculus %RED%oo%MAP%
 ItemDisplay[oba UNI !ID !ETH]: %RED%oo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%The Oculus %RED%oo%MAP%
 ItemDisplay[obc UNI !ID !ETH]: %RED%o Eschuta's Temper %RED%o%MAP%
@@ -830,28 +832,46 @@ ItemDisplay[(crs OR bsd OR lsd) (ETH AND (NMAG OR RW)) SOCK=0 (ILVL>25 AND ILVL<
 //eth crystal for imbue/roll
 ItemDisplay[crs (ETH AND (NMAG OR RW)) SOCK=0]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ///Spears
-ItemDisplay[7br NMAG ETH (SOCK=0 OR SOCK>3) ED=15]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%[%WHITE%%15%GRAY%] %NAME% %TAN%[%SOCKETS%]%MAP%
-ItemDisplay[7br NMAG ETH (SOCK=0 OR SOCK>3) ED>0 ED<15]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%[%WHITE%%ed%GRAY%] %NAME% %TAN%[%SOCKETS%]
-ItemDisplay[7st NMAG ETH (SOCK=0 OR SOCK>3) ED=15]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%[%WHITE%%15%GRAY%] %NAME% %TAN%[%SOCKETS%]%MAP%
-ItemDisplay[7st NMAG ETH (SOCK=0 OR SOCK>3) ED>0 ED<15]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%[%WHITE%%ed%GRAY%] %NAME% %TAN%[%SOCKETS%]
-ItemDisplay[7st NMAG !ETH (SOCK=0 OR SOCK>3) ED=15]: %GRAY%[%WHITE%%15%GRAY%] %NAME% %TAN%[%SOCKETS%]
-ItemDisplay[7p7 NMAG ETH (SOCK=0 OR SOCK>3) ED=15]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%[%WHITE%%15%GRAY%] %NAME% %TAN%[%SOCKETS%]%MAP%
-ItemDisplay[7p7 NMAG ETH (SOCK=0 OR SOCK>3) ED>0 ED<15]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%[%WHITE%%ed%GRAY%] %NAME% %TAN%[%SOCKETS%]
-ItemDisplay[7p7 NMAG !ETH (SOCK=0 OR SOCK>3) ED=15]: %GRAY%[%WHITE%%15%GRAY%] %NAME% %TAN%[%SOCKETS%]
-ItemDisplay[7p7 NMAG !ETH (SOCK=0 OR SOCK>3) ED>0 ED<15]: %GRAY%[%WHITE%%ed%GRAY%] %NAME% %TAN%[%SOCKETS%]
-ItemDisplay[7p7 NMAG !ETH AND !INF (SOCK=0 OR SOCK>3)]: %GRAY%%NAME% %TAN%[%SOCKETS%]
+//War Pike
+ItemDisplay[7p7 NMAG ETH (SOCK=0 OR SOCK>2) ED=15]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%[%WHITE%%15%GRAY%] %NAME% %TAN%[%SOCKETS%]%MAP%
+ItemDisplay[7p7 NMAG ETH (SOCK=0 OR SOCK>2) ED>0 ED<15]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%[%WHITE%%ed%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[7p7 NMAG !ETH (SOCK=0 OR SOCK>2) ED=15]: %GRAY%[%WHITE%%15%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[7p7 NMAG !ETH (SOCK=0 OR SOCK>2) ED>0 ED<15]: %GRAY%[%WHITE%%ed%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[7p7 NMAG ETH (SOCK=0 OR SOCK>2)]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[7p7 NMAG !INF (SOCK=0 OR SOCK=4)]: %GRAY%%NAME% %TAN%[%SOCKETS%]
+//Mancatcher
+ItemDisplay[7br NMAG ETH (SOCK=0 OR SOCK>2) ED=15]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%[%WHITE%%15%GRAY%] %NAME% %TAN%[%SOCKETS%]%MAP%
+ItemDisplay[7br NMAG ETH (SOCK=0 OR SOCK>2) ED>0 ED<15]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%[%WHITE%%ed%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[7br NMAG !ETH (SOCK=0 OR SOCK>2) ED=15]: %GRAY%[%WHITE%%15%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[7br NMAG ETH (SOCK=0 OR SOCK>2)]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
+//Ghost Spear
+ItemDisplay[7st NMAG ETH (SOCK=0 OR SOCK>2) ED=15]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%[%WHITE%%15%GRAY%] %NAME% %TAN%[%SOCKETS%]%MAP%
+ItemDisplay[7st NMAG ETH (SOCK=0 OR SOCK>2) ED>0 ED<15]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%[%WHITE%%ed%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[7st NMAG !ETH (SOCK=0 OR SOCK>2) ED=15]: %GRAY%[%WHITE%%15%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[7st NMAG !INF (SOCK=0 OR SOCK=4)]: %GRAY%%NAME% %TAN%[%SOCKETS%]
+//Exceptional bases
+ItemDisplay[(9br OR 9st)  ETH NMAG SOCK=4 CLVL<65]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[(9br OR 9st) !ETH !INF NMAG SOCK=4 CLVL<65]: %GRAY%%NAME% %TAN%[%SOCKETS%]
 ///WP8 POLEARMS
 //Thresher+Giant Thresher
+ItemDisplay[7wc NMAG ETH (SOCK=0 OR SOCK>2) ED=15]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%[%WHITE%%15%GRAY%] %NAME% %TAN%[%SOCKETS%]%MAP%
+ItemDisplay[7wc NMAG ETH (SOCK=0 OR SOCK>2) ED>0 ED<15]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%[%WHITE%%ed%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[7s8 NMAG ETH (SOCK=0 OR SOCK>2) ED=15]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%[%WHITE%%15%GRAY%] %NAME% %TAN%[%SOCKETS%]%MAP%
+ItemDisplay[7s8 NMAG ETH (SOCK=0 OR SOCK>2) ED>0 ED<15]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%[%WHITE%%ed%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[7wc NMAG ETH (SOCK=0 OR SOCK>2)]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
-ItemDisplay[7wc NMAG !ETH (SOCK=0 OR SOCK>2)]: %GRAY%%NAME% %TAN%[%SOCKETS%]
+ItemDisplay[7wc NMAG !ETH !INF (SOCK=0 OR SOCK>2)]: %GRAY%%NAME% %TAN%[%SOCKETS%]
 ItemDisplay[7s8 NMAG ETH (SOCK=0 OR SOCK>2)]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
-ItemDisplay[7s8 NMAG !ETH (SOCK=0 OR SOCK>2)]: %GRAY%%NAME% %WHITE%%TAN%[%SOCKETS%]
+ItemDisplay[7s8 NMAG !ETH !INF (SOCK=0 OR SOCK>2)]: %GRAY%%NAME% %WHITE%%TAN%[%SOCKETS%]
 //Colossus Voulge
+ItemDisplay[7vo NMAG ETH (SOCK=0 OR SOCK=4) ED=15]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%[%WHITE%%15%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[7vo NMAG ETH (SOCK=0 OR SOCK=4) ED>0 ED<15]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%[%WHITE%%ed%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[7vo NMAG ETH (SOCK=0 OR SOCK=4)]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
-ItemDisplay[7vo NMAG !ETH SOCK=4]: %GRAY%%NAME% %TAN%[%SOCKETS%]
+ItemDisplay[7vo NMAG !ETH !INF SOCK=4]: %GRAY%%NAME% %TAN%[%SOCKETS%]
 //Cryptic Axe+Great Poleaxe
-ItemDisplay[(7pa OR 7h7) NMAG ETH (SOCK=0 OR SOCK>3)]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
-ItemDisplay[(7pa OR 7h7) NMAG !ETH SOCK>3]: %GRAY%%NAME% %TAN%[%SOCKETS%]
+ItemDisplay[(7pa OR 7h7) NMAG ETH (SOCK=0 OR SOCK>2) ED=15]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%[%WHITE%%15%GRAY%] %NAME% %TAN%[%SOCKETS%]%MAP%
+ItemDisplay[(7pa OR 7h7) NMAG ETH (SOCK=0 OR SOCK>2) ED>0 ED<15]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%[%WHITE%%ed%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[(7pa OR 7h7) NMAG ETH (SOCK=0 OR SOCK>2)]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[(7pa OR 7h7) NMAG !ETH !INF SOCK>2]: %GRAY%%NAME% %TAN%[%SOCKETS%]
 //Norm+Exceptional bases (-Bardiche/Lochaber Axe)
 ItemDisplay[WP8 EXC !9b7 ETH NMAG SOCK=4 CLVL<75]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[WP8 EXC !9b7 !ETH NMAG SOCK=4 CLVL<75]: %GRAY%%NAME% %TAN%[%SOCKETS%]
