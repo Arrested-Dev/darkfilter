@@ -2,6 +2,7 @@
 //twitch.tv/Adevelopment
 //INF
 ItemDisplay[(ARMOR OR WEAPON) INF !RARE NMAG !UNI !SET !RW CLVL>69]:
+ItemDisplay[(ARMOR OR WEAPON OR amu OR rin) CRAFT]: %NAME%
 //Gold
 ItemDisplay[GOLD<1000 CLVL<65)]:
 ItemDisplay[GOLD<5000 CLVL>64]:
