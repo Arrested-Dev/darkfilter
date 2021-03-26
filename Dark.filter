@@ -419,6 +419,8 @@ ItemDisplay[lbl UNI !ID !ETH]: %GREEN%o %RED%Lenymo %GREEN%o%MAP%
 ItemDisplay[lbl UNI !ID ETH]: %GREEN%o %GRAY%[%WHITE%eth%GRAY%] %RED%Lenymo %GREEN%o%MAP%
 ItemDisplay[buc UNI !ID !ETH]: %GREEN%o %GOLD%Pelta Lunata %GREEN%o%MAP%
 ItemDisplay[buc UNI !ID ETH]: %GREEN%o %GRAY%[%WHITE%eth%GRAY%] %GOLD%Pelta Lunata %GREEN%o%MAP%
+ItemDisplay[bhm UNI !ID !ETH]: %GOLD%Wormskull%MAP%
+ItemDisplay[bhm UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%Wormskull%MAP%
 ItemDisplay[skp UNI !ID !ETH]: %GOLD%o Tarnhelm o%MAP%
 ItemDisplay[skp UNI !ID ETH]: %GOLD%o %GRAY%[%WHITE%eth%GRAY%] %GOLD%Tarnhelm o%MAP%
 ItemDisplay[crn UNI !ID !ETH]: %GOLD%o Undead Crown o%MAP%
