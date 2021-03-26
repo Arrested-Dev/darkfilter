@@ -354,6 +354,7 @@ ItemDisplay[cm1 UNI !ID]: %PURPLE%ooooo %GOLD%Annihilus %PURPLE%ooooo%MAP%
 ItemDisplay[cm2 UNI !ID]: %PURPLE%ooooo %GOLD%Hellfire Torch %PURPLE%ooooo%MAP%
 ItemDisplay[cm3 UNI !ID]: %PURPLE%ooo %GOLD%Gheed's Fortune %PURPLE%ooo%MAP%
 //Grand
+ItemDisplay[cm3 MAG !ID ILVL>90]: %RED%o %BLUE%%NAME% %RED%o%MAP% {%RED%ilvl91+ GC for rerolling}
 ItemDisplay[cm3 MAG !ID ILVL>77]: %BLUE%o %NAME% %BLUE%o%MAP%
 ItemDisplay[cm3 MAG !ID ILVL<78 ILVL>49]: %BLUE%o %NAME% %BLUE%o%MAP%
 //Large
@@ -699,7 +700,7 @@ ItemDisplay[xml UNI !ID !ETH]: %GOLD%o Moser's Blessed Circle o
 ItemDisplay[xml UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%Moser's Blessed Circle%MAP%
 ItemDisplay[upk UNI !ID !ETH]: %RED%Spike Thorn%MAP%
 ItemDisplay[upk UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %RED%Spike Thorn%MAP%
-ItemDisplay[pae UNI !ID !ETH]: %GOLD%Dragonscale%MAP%
+ItemDisplay[pae UNI !ID !ETH]: %RED%o Dragonscale o%MAP%
 ItemDisplay[pae UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%Dragonscale%MAP%
 ItemDisplay[nea UNI !ID !ETH]: %RED%oo Homunculus %RED%oo%MAP%
 ItemDisplay[nea UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] Homunculus %RED%o%MAP%
@@ -728,6 +729,7 @@ ItemDisplay[8lx UNI !ID]: %GOLD%Langer Briser%MAP%
 ItemDisplay[am7 UNI !ID]: %RED%o Lycander's Aim o%MAP%
 ItemDisplay[8hx UNI !ID]: %RED%oo %PURPLE%Buriza-Do Kyanon %RED%oo%MAP%
 ItemDisplay[hxb UNI !ID]: %GOLD%Hellcast%MAP%
+ItemDisplay[6rx UNI !ID]: %RED%o Gut Siphon o%MAP%
 ItemDisplay[8mx UNI !ID]: %RED%o Pus Spitter o%MAP%
 ItemDisplay[6hx UNI !ID]: %RED%oo Hellrack oo%MAP%
 ItemDisplay[9p9 UNI !ID !ETH]: %GOLD%o Spire of Honor o%MAP%
@@ -785,6 +787,15 @@ ItemDisplay[xap SET !ID]: %RED%o %GREEN%%NAME% Cow King's %RED%o%MAP%
 ItemDisplay[stu SET !ID]: %RED%o %GREEN%%NAME% Cow King's %RED%o%MAP%
 ItemDisplay[vbt SET !ID]: %RED%o %GREEN%%NAME% Sander's or Cow King's %RED%o%MAP%
 ItemDisplay[vgl SET !ID]: %GREEN%%NAME% Sander's%MAP%
+///DClone Uniques
+ItemDisplay[uth UNI !ETH !ID]: %PURPLE%ooooo Dark Abyss ooooo%MAP%
+ItemDisplay[uth UNI ETH !ID]: %PURPLE%ooooo %GRAY%[%WHITE%eth%GRAY%] Dark Abyss ooooo%MAP%
+ItemDisplay[7qr UNI !ID]: %PURPLE%ooooo Aidan's Scar ooooo%MAP%
+ItemDisplay[uhl UNI !ETH !ID]: %PURPLE%ooooo Overlord's Helm ooooo%MAP%
+ItemDisplay[uhl UNI ETH !ID]: %PURPLE%ooooo %GRAY%[%WHITE%eth%GRAY%] Overlord's Helm ooooo%MAP%
+ItemDisplay[utb UNI !ETH !ID]: %PURPLE%ooooo Itherael's Path ooooo%MAP%
+ItemDisplay[utb UNI ETH !ID]: %PURPLE%ooooo %GRAY%[%WHITE%eth%GRAY%] Itherael's Path ooooo%MAP%
+ItemDisplay[utb UNI !ETH !ID]: %PURPLE%ooooo Hadriel's Hand ooooo%MAP%
 ////RINGS/AMULETS/JEWELS
 ItemDisplay[(rin OR amu) UNI !ID]: %RED%oooo%PURPLE% %NAME% %RED%oooo%MAP%
 ItemDisplay[jew UNI !ID]: %RED%>>%WHITE%>>%PURPLE%%NAME%%WHITE%<<%RED%<<%MAP%
@@ -841,7 +852,7 @@ ItemDisplay[(9tw OR 9lw OR 7tw OR 7lw OR 7ar OR 9ar) MAG ETH ILVL>70 !ID]: %GRAY
 ItemDisplay[(EQ1 ELT) OR (xrn OR xm9 OR xhm) MAG ETH !ID]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
 //Chest
 ItemDisplay[(utp OR uui) MAG !ETH !ID]: %BLUE%%NAME%
-ItemDisplay[(EQ2 ELT) OR (xar OR xth OR aar) MAG ETH !ID]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%%MAP%
+ItemDisplay[(EQ2 ELT) OR (xar OR xth OR aar) MAG ETH !ID]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
 //Shield
 ItemDisplay[uit MAG !ETH ILVL>70 !ID]: %BLUE%%NAME%
 ItemDisplay[CL3 MAG ETH ILVL>70 !ID]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
