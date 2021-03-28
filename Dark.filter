@@ -766,6 +766,7 @@ ItemDisplay[urn SET !ID]: %RED%o %GREEN%%NAME% Griswold's %RED%o%MAP%
 ItemDisplay[7ws SET !ID]: %RED%o %GREEN%%NAME% Griswold's %RED%o%MAP%
 ItemDisplay[paf SET !ID]: %RED%o %GREEN%%NAME% Griswold's %RED%o%MAP%
 ItemDisplay[6cs SET !ID]: %GREEN%%NAME% Naj's%MAP%
+ItemDisplay[ult SET !ID]: %GREEN%%NAME% Naj's%MAP%
 ItemDisplay[ci3 SET !ID]: %RED%o %GREEN%%NAME% Mavina's %RED%o%MAP%
 ItemDisplay[amc SET !ID]: %RED%o %GREEN%%NAME% Mavina's %RED%o%MAP%
 ItemDisplay[uld SET !ID]: %RED%o %GREEN%%NAME% Mavina's %RED%o%MAP%
