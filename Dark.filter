@@ -856,7 +856,7 @@ ItemDisplay[(clw OR btl) ELT MAG ETH ILVL>70 !ID]: %GRAY%[%WHITE%eth%GRAY%] %BLU
 ItemDisplay[(EQ1 ELT) OR (xrn OR xm9 OR xhm) MAG ETH !ID]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
 //Chest
 ItemDisplay[EQ2 ELT MAG !ETH !ID]: %BLUE%%NAME%
-ItemDisplay[(EQ2 ELT) OR (xar OR xth OR aar) MAG ETH !ID]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%%MAP%
+ItemDisplay[(EQ2 ELT) OR (xar OR xth OR aar) MAG ETH !ID]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
 //Shield
 ItemDisplay[uit MAG !ETH (ILVL>70 AND CLVL<90) !ID]: %BLUE%%NAME%
 ItemDisplay[(uit OR xit OR xow OR uow OR xts OR uts) MAG ETH !ID]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
