@@ -790,6 +790,7 @@ ItemDisplay[xap SET !ID]: %RED%o %GREEN%%NAME% Cow King's %RED%o%MAP%
 ItemDisplay[stu SET !ID]: %RED%o %GREEN%%NAME% Cow King's %RED%o%MAP%
 ItemDisplay[vbt SET !ID]: %RED%o %GREEN%%NAME% Sander's or Cow King's %RED%o%MAP%
 ItemDisplay[vgl SET !ID]: %GREEN%%NAME% Sander's%MAP%
+ItemDisplay[kit SET !ID]: %GREEN%%NAME% Milabrega's%MAP%
 ///DClone Uniques
 ItemDisplay[uth UNI !ETH !ID]: %PURPLE%ooooo Dark Abyss ooooo%MAP%
 ItemDisplay[uth UNI ETH !ID]: %PURPLE%ooooo %GRAY%[%WHITE%eth%GRAY%] Dark Abyss ooooo%MAP%
@@ -830,48 +831,52 @@ ItemDisplay[CL1 OR CL2 OR CL3 OR CL4 OR CL5 OR CL6 OR CL7 MAG !ETH !ID]: %BLUE%%
 ItemDisplay[CL5 OR CL7 MAG !ETH !ID]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
 ///Crafting Blue Weaps
 //Axes
-ItemDisplay[(9ax OR 7ax OR 72a OR 7mp OR 9wa OR 7wa OR 9la OR 7la OR 7ba OR 7bt OR 7ga OR 7gi) MAG ETH ILVL>70 !ID]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
+ItemDisplay[(9ax OR 7ax OR 72a OR 7mp OR 9wa OR 7wa OR 9la OR 7la OR 7ba OR 7bt OR 7ga OR 7gi OR wax) MAG ETH ILVL>70 !ID]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
 //Mauls
 ItemDisplay[(9fl OR 7fl OR 9wh OR 7wh OR 9m9 OR 7m7 OR 9gm OR 7gm) MAG ETH ILVL>70 !ID]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
 //Swords
-ItemDisplay[(9cr OR 9ls OR 7ls OR 7gs OR 7b7 OR 7fb OR 7gd) MAG ETH ILVL>70 !ID]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
+ItemDisplay[(9cr OR 9ls OR 7ls OR 7gs OR 9gs OR 7b7 OR 9b9 OR 7fb OR 9fb OR 7gd OR 9gd OR crs) MAG ETH ILVL>70 !ID]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
 //Fanged knife
-ItemDisplay[7kr MAG ETH ILVL>70 !ID]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
-//Elite throw + jav
-ItemDisplay[(7tk OR 7bk OR 7b8 OR 7ta OR 7ts OR 7gl) MAG ETH ILVL>70 !ID]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
+ItemDisplay[(7kr OR 9kr) MAG ETH ILVL>70 !ID]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
+//throw + jav
+ItemDisplay[(7tk OR 7bk OR 7b8 OR 7ta OR 7ts OR 7gl OR 9ts OR 9gl OR 9b8 OR glv OR tsp OR bal) MAG ETH ILVL>70 !ID]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
 //Ghost Spear + Warpike
-ItemDisplay[(7st OR 7p7) MAG ETH ILVL>70 !ID]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
+ItemDisplay[(7st OR 7p7 OR 9p9 OR pik) MAG ETH ILVL>70 !ID]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
 //Cryptic axe + Giant Thresher
-ItemDisplay[(7pa OR 7wc) MAG ETH ILVL>70 !ID]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
+ItemDisplay[(7pa OR 9pa OR 7wc OR 9wc OR 7h7 OR 9h9) MAG ETH ILVL>70 !ID]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
 //Archon Staff, Shillelagh, Stalagmite
 ItemDisplay[(6ws OR 6cs OR 6ls) MAG ETH ILVL>70 !ID]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
 //Caddy
-ItemDisplay[7ws MAG ETH ILVL>70 !ID]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
+ItemDisplay[(7ws OR 9ws) MAG ETH ILVL>70 !ID]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
 //Claws
 ItemDisplay[(9tw OR 9lw OR 7tw OR 7lw OR 7ar OR 9ar) MAG !ETH ILVL>70 !ID]: %BLUE%%NAME%
-ItemDisplay[(9tw OR 9lw OR 7tw OR 7lw OR 7ar OR 9ar) MAG ETH ILVL>70 !ID]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
+ItemDisplay[(clw OR btl) ELT MAG ETH ILVL>70 !ID]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
 ///Armour
 //Helm (merc)
 ItemDisplay[(EQ1 ELT) OR (xrn OR xm9 OR xhm) MAG ETH !ID]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
 //Chest
-ItemDisplay[(utp OR uui) MAG !ETH !ID]: %BLUE%%NAME%
-ItemDisplay[(EQ2 ELT) OR (xar OR xth OR aar) MAG ETH !ID]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
+ItemDisplay[EQ2 ELT MAG !ETH !ID]: %BLUE%%NAME%
+ItemDisplay[(EQ2 ELT) OR (xar OR xth OR aar) MAG ETH !ID]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%%MAP%
 //Shield
-ItemDisplay[uit MAG !ETH ILVL>70 !ID]: %BLUE%%NAME%
+ItemDisplay[uit MAG !ETH (ILVL>70 AND CLVL<90) !ID]: %BLUE%%NAME%
+ItemDisplay[(uit OR xit OR xow OR uow OR xts OR uts) MAG ETH !ID]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
 ItemDisplay[CL3 MAG ETH ILVL>70 !ID]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
 //Gloves
 ItemDisplay[(EQ4 ELT) OR (xtg OR xhg OR xmg) MAG ETH !ID]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
 //Belts
-ItemDisplay[(EQ6 ELT) MAG ETH !ID]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
+ItemDisplay[(EQ6 ELT) OR (zmb OR ztb) MAG ETH !ID]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
 //Boots
-ItemDisplay[(EQ5 ELT) MAG ETH !ID]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
+ItemDisplay[(EQ5 ELT) OR (xtb OR xhb OR xhn) MAG ETH !ID]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
 //Bows & X-Bows
-ItemDisplay[(WP9 OR WP10) (ELT) MAG !ETH ILVL>70 !ID]: %BLUE%%NAME%
+ItemDisplay[(WP9 OR WP10) (ELT) MAG !ETH (ILVL>70 AND CLVL<90) !ID]: %BLUE%%NAME%
 ///Other Class Specific
 ItemDisplay[(drb OR drd OR drf OR dra OR dr8 OR dr6) MAG !ETH !ID]: %BLUE%%NAME%
-ItemDisplay[CL2 (EXC OR ELT) MAG !ETH !ID]: %BLUE%%NAME%
-ItemDisplay[(pab OR pac) MAG !ETH !ID]: %BLUE%%NAME%
+ItemDisplay[(drb OR drd OR drf OR dra OR dr8 OR dr6) MAG !ETH !ID]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
+ItemDisplay[CL2 MAG !ETH !ID]: %BLUE%%NAME%
+ItemDisplay[CL2 MAG ETH !ID]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
+ItemDisplay[DIN MAG !ETH !ID]: %BLUE%%NAME%
 ItemDisplay[(obf OR oba) MAG !ETH !ID]: %BLUE%%NAME%
+ItemDisplay[(obf OR oba) MAG ETH !ID]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
 ItemDisplay[(7wn OR 7yw OR 7bw OR 7gw OR 9gw OR 9bw OR 9yw) MAG !ETH !ID]: %BLUE%%NAME%
 ItemDisplay[(ne8 OR ne9 OR nea OR ned OR nee OR nef) MAG !ETH !ID]: %BLUE%%NAME%
 ItemDisplay[(amc OR amb OR 6rx OR 8rx OR 6lb OR 6lw OR 8lw OR 8lb) MAG !ETH !ID]: %BLUE%%NAME%
@@ -1053,9 +1058,9 @@ ItemDisplay[am6 NMAG ED=15 TABSK0>2 (SOCK=3 OR SOCK=4)]: %GRAY%[%WHITE%%15%GRAY%
 ItemDisplay[am6 NMAG ED>0 ED<15 TABSK0>2 (SOCK=3 OR SOCK=4)]: %GRAY%[%WHITE%%ed%GRAY%] %GRAY%[%WHITE%3bow%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[(amb OR amc) NMAG TABSK0>2 SOCK=0]: %GRAY%[%WHITE%3bow%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ///WP5 THROWING
-ItemDisplay[(7tk OR 7ta OR 7bk OR 7b8) ETH]: %GRAY%[%WHITE%eth%GRAY%] %NAME%%GRAY%[%TAN%imbue%GRAY%]
+ItemDisplay[(7tk OR 7ta OR 7bk OR 7b8) (ETH AND (NMAG OR RW))]: %GRAY%[%WHITE%eth%GRAY%] %NAME%%GRAY%[%TAN%imbue%GRAY%]
 ///Ghost Glaive & Harpoons
-ItemDisplay[(7gl OR 7ts) ETH]: %GRAY%[%WHITE%eth%GRAY%] %NAME%%GRAY%[%TAN%imbue%GRAY%]
+ItemDisplay[(7gl OR 7ts) (ETH AND (NMAG OR RW))]: %GRAY%[%WHITE%eth%GRAY%] %NAME%%GRAY%[%TAN%imbue%GRAY%]
 //Staves
 //+3 ES+Shiver
 ItemDisplay[WP11 NMAG SOCK=4 !ETH (SK58>2 AND SK50>0)]: %GRAY%[%WHITE%mem%GRAY%] %NAME% %TAN%[%SOCKETS%]%MAP%
@@ -1154,6 +1159,9 @@ ItemDisplay[(9ar OR 9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) (!ETH 
 ItemDisplay[(9ar OR 9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) (!ETH AND !INF) AND (NMAG OR RW) SK263>2 (SOCK=0 OR SOCK=3)]: %GRAY%[%WHITE%3wb%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[(9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) (!ETH AND !INF) AND (NMAG OR RW) SK253>2 (SOCK=0 OR SOCK=3)]: %GRAY%[%WHITE%3ph%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[(9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) (!ETH AND !INF) AND (NMAG OR RW) (SK278>2) AND (SK273>0 AND SK275>0) (SOCK=0 OR SOCK=3)]: %GRAY%[%WHITE%fury%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[(7ar OR 7wb OR 7lw OR 7tw OR 7qr) (ETH AND !INF) AND (NMAG OR RW) AND ED>14 AND SK275>0 (SOCK=0 OR SOCK=3)]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%[%WHITE%%15%GRAY%] %GRAY%[%WHITE%chaos%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[(clw OR btl OR skr OR 9ar OR 9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) ELT (ETH ELT AND !INF) AND (NMAG OR RW) ED=15 (SOCK=0 OR SOCK=3)]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%[%WHITE%%15%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[(clw OR btl OR skr OR 9ar OR 9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) ELT ETH (NMAG OR RW) (SOCK=0 OR SOCK=3) CLVL<93]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
 //Silence
 ItemDisplay[7gd (!INF AND ETH) AND (NMAG OR RW) (SOCK=0 OR SOCK=6)]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ////CATCHALL/HIDING
