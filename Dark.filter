@@ -713,7 +713,7 @@ ItemDisplay[nee UNI !ID ETH]:  %RED%o %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Boneflame
 ItemDisplay[9tw UNI !ID !ETH]: %RED%oo Bartuc's Cut-Throat oo%MAP%
 ItemDisplay[9tw UNI !ID ETH]: %RED%oo %GRAY%[%WHITE%eth%GRAY%] %RED%Bartuc's Cut-Throat oo%MAP%
 ItemDisplay[7cs UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Shadow Killer %RED%o%MAP%
-ItemDisplay[7lw UNI !ID !ETH]: %RED%oo %PURPLE%Firelizard's Talons oo%MAP%
+ItemDisplay[7lw UNI !ID !ETH]: %RED%oo %PURPLE%Firelizard's Talons %RED%oo%MAP%
 ItemDisplay[7lw UNI !ID ETH]: %RED%oo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Firelizard's Talons %RED%oo%MAP%
 ItemDisplay[7wb UNI !ID !ETH]: %RED%Jade Talon%MAP%
 ItemDisplay[7wb UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %RED%Jade Talon%MAP%
