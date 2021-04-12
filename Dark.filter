@@ -588,7 +588,7 @@ ItemDisplay[9wh UNI !ID !ETH]: %RED%o Earthshaker o%MAP%
 ItemDisplay[9wh UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %RED%Earthshaker%MAP%
 ItemDisplay[9gm UNI !ID !ETH]: %RED%o The Gavel of Pain o%MAP%
 ItemDisplay[9gm UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%]%RED%ooo %PURPLE%The Gavel of Pain %RED%ooo%MAP%
-ItemDisplay[7fl UNI !ID !ETH]: %RED%oo %PURPLE%Horizon's Tornado or Stormlash oo%MAP%
+ItemDisplay[7fl UNI !ID !ETH]: %RED%oo %PURPLE%Horizon's Tornado or Stormlash %RED%oo%MAP%
 ItemDisplay[7fl UNI !ID ETH]: %RED%oo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Horizon's Tornado or %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Stormlash %RED%oo%MAP%
 ItemDisplay[7m7 UNI !ID !ETH]: %RED%Windhammer%MAP%
 ItemDisplay[7m7 UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %RED%Windhammer%MAP%
@@ -871,9 +871,9 @@ ItemDisplay[(EQ5 ELT) OR (xtb OR xhb OR xhn) MAG ETH !ID]: %GRAY%[%WHITE%eth%GRA
 ItemDisplay[(WP9 OR WP10) (ELT) MAG !ETH ILVL>70 CLVL<90 !ID]: %BLUE%%NAME%
 ///Other Class Specific
 ItemDisplay[(drb OR drd OR drf OR dra OR dr8 OR dr6) MAG !ETH !ID]: %BLUE%%NAME%
-ItemDisplay[(drb OR drd OR drf OR dra OR dr8 OR dr6) MAG ETH !ID]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%%MAP%
+ItemDisplay[(drb OR drd OR drf OR dra OR dr8 OR dr6) MAG ETH !ID]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
 ItemDisplay[(baa OR baf OR ba9 OR bae OR ba4 OR ba5) MAG !ETH !ID]: %BLUE%%NAME%
-ItemDisplay[(baa OR baf OR ba9 OR bae OR ba4 OR ba5) MAG ETH !ID]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%%MAP%
+ItemDisplay[(baa OR baf OR ba9 OR bae OR ba4 OR ba5) MAG ETH !ID]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
 ItemDisplay[DIN (EXC OR ELT) MAG !ETH !ID]: %BLUE%%NAME%
 ItemDisplay[(obf OR oba) MAG !ETH !ID]: %BLUE%%NAME%
 ItemDisplay[(obf OR oba) MAG ETH !ID]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
