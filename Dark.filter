@@ -698,7 +698,7 @@ ItemDisplay[pac UNI !ID !ETH]: %RED%oo Alma Negra oo%MAP%
 ItemDisplay[pac UNI !ID ETH]: %RED%oo %GRAY%[%WHITE%eth%GRAY%] %RED%Alma Negra oo%MAP%
 ItemDisplay[pa9 UNI !ID !ETH]: %RED%oo %PURPLE%Herald of Zakarum %RED%oo%MAP%
 ItemDisplay[pa9 UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Herald of Zakarum%MAP%
-ItemDisplay[xml UNI !ID !ETH]: %GOLD%o Moser's Blessed Circle o
+ItemDisplay[xml UNI !ID !ETH]: %GOLD%o Moser's Blessed Circle o%MAP%
 ItemDisplay[xml UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%Moser's Blessed Circle%MAP%
 ItemDisplay[upk UNI !ID !ETH]: %RED%Spike Thorn%MAP%
 ItemDisplay[upk UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %RED%Spike Thorn%MAP%
