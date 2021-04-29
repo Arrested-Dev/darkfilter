@@ -522,7 +522,7 @@ ItemDisplay[xvg UNI !ID !ETH]: %RED%o Gravepalm o%MAP%
 ItemDisplay[xhg UNI !ID !ETH]: %RED%oo Hellmouth oo%MAP%
 ItemDisplay[xmg UNI !ID !ETH]: %RED%Ghoulhide%MAP%
 ItemDisplay[xmg UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %RED%Ghoulhide%MAP%
-ItemDisplay[xhg UNI !ID ETH]: %RED%oo %GRAY%[%WHITE%eth%GRAY%] Hellmouth oo%MAP%
+ItemDisplay[xhg UNI !ID ETH]: %RED%oo %GRAY%[%WHITE%eth%GRAY%] %RED%Hellmouth oo%MAP%
 ItemDisplay[xtg UNI !ID !ETH]: %RED%Lava Gout%MAP%
 ItemDisplay[xtg UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %RED%Lava Gout%MAP%
 ItemDisplay[uvg UNI !ID !ETH]: %RED%ooo %PURPLE%Dracul's Grasp %RED%ooo%MAP%
