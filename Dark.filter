@@ -791,6 +791,9 @@ ItemDisplay[stu SET !ID]: %RED%o %GREEN%%NAME% Cow King's %RED%o%MAP%
 ItemDisplay[vbt SET !ID]: %RED%o %GREEN%%NAME% Sander's or Cow King's %RED%o%MAP%
 ItemDisplay[vgl SET !ID]: %GREEN%%NAME% Sander's%MAP%
 ItemDisplay[kit SET !ID]: %GREEN%%NAME% Milabrega's%MAP%
+ItemDisplay[tgl SET !ID]: %GREEN%%NAME% Iratha's Cuff or Arctic Mitts%MAP%
+ItemDisplay[tbl SET !ID]: %GREEN%%NAME% Infernal Sign or Iratha's Cord%MAP%
+ItemDisplay[crn SET !ID]: %GREEN%%NAME% Iratha's Coil or Milabrega's Diadem%MAP%
 ///DClone Uniques
 ItemDisplay[uth UNI !ETH !ID]: %PURPLE%ooooo Dark Abyss ooooo%MAP%
 ItemDisplay[uth UNI ETH !ID]: %PURPLE%ooooo %GRAY%[%WHITE%eth%GRAY%] Dark Abyss ooooo%MAP%
