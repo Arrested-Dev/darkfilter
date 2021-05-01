@@ -145,21 +145,21 @@ ItemDisplay[r33s OR r33]: %ORANGE%%NAME%%MAP% {%ORANGE%rune 33}
 ///GEMS
 ItemDisplay[GEM<4 CLVL<25]:%NAME%
 //Flawless
-ItemDisplay[GEM=4 GEMTYPE=1 OR gzv]: %ORANGE%Amethyst
-ItemDisplay[GEM=4 GEMTYPE=2 OR glw]: %ORANGE%Diamond
-ItemDisplay[GEM=4 GEMTYPE=3 OR glg]: %ORANGE%Emerald
-ItemDisplay[GEM=4 GEMTYPE=4 OR glr]: %ORANGE%Ruby
-ItemDisplay[GEM=4 GEMTYPE=5 OR glb]: %ORANGE%Sapphire
-ItemDisplay[GEM=4 GEMTYPE=6 OR gly]: %ORANGE%Topaz
-ItemDisplay[GEM=4 GEMTYPE=7 OR skl]: %ORANGE%Skull
+ItemDisplay[GEM=4 GEMTYPE=1 OR gzv OR gzvs]: %ORANGE%Amethyst
+ItemDisplay[GEM=4 GEMTYPE=2 OR glw OR glws]: %ORANGE%Diamond
+ItemDisplay[GEM=4 GEMTYPE=3 OR glg OR glgs]: %ORANGE%Emerald
+ItemDisplay[GEM=4 GEMTYPE=4 OR glr OR glrs]: %ORANGE%Ruby
+ItemDisplay[GEM=4 GEMTYPE=5 OR glb OR glbs]: %ORANGE%Sapphire
+ItemDisplay[GEM=4 GEMTYPE=6 OR gly OR glys]: %ORANGE%Topaz
+ItemDisplay[GEM=4 GEMTYPE=7 OR skl OR skls]: %ORANGE%Skull
 //Perfect
-ItemDisplay[GEM=5 GEMTYPE=1 OR gpv]: %ORANGE%Amethyst+
-ItemDisplay[GEM=5 GEMTYPE=2 OR gpw]: %ORANGE%Diamond+
-ItemDisplay[GEM=5 GEMTYPE=3 OR gpg]: %ORANGE%Emerald+
-ItemDisplay[GEM=5 GEMTYPE=4 OR gpr]: %ORANGE%Ruby+
-ItemDisplay[GEM=5 GEMTYPE=5 OR gpb]: %ORANGE%Sapphire+
-ItemDisplay[GEM=5 GEMTYPE=6 OR gpy]: %ORANGE%Topaz+
-ItemDisplay[GEM=5 GEMTYPE=7 OR skz]: %ORANGE%Skull+
+ItemDisplay[GEM=5 GEMTYPE=1 OR gpv OR gpvs]: %ORANGE%Amethyst+
+ItemDisplay[GEM=5 GEMTYPE=2 OR gpw OR gpws]: %ORANGE%Diamond+
+ItemDisplay[GEM=5 GEMTYPE=3 OR gpg OR gpgs]: %ORANGE%Emerald+
+ItemDisplay[GEM=5 GEMTYPE=4 OR gpr OR gprs]: %ORANGE%Ruby+
+ItemDisplay[GEM=5 GEMTYPE=5 OR gpb OR gpbs]: %ORANGE%Sapphire+
+ItemDisplay[GEM=5 GEMTYPE=6 OR gpy OR gpys]: %ORANGE%Topaz+
+ItemDisplay[GEM=5 GEMTYPE=7 OR skz OR skzs]: %ORANGE%Skull+
 ItemDisplay[GEM<4 CLVL>24]:
 //Circlets,Amulets,Rings,Jewels
 ItemDisplay[EQ7 RARE !ETH !ID]: %YELLOW%ooo %NAME% ooo%MAP%
