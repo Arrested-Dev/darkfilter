@@ -1169,6 +1169,7 @@ ItemDisplay[7gd NMAG ETH !SOCK=1 !SOCK=2]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%
 ItemDisplay[(crs OR bsd OR lsd) (ETH AND (NMAG OR RW)) SOCK=4]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[(crs OR bsd OR lsd) (NMAG OR RW) SOCK=4]: %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[(crs OR bsd OR lsd) (ETH AND (NMAG OR RW)) SOCK=0 (ILVL>25 AND ILVL<40)]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[(crs OR bsd OR lsd) (!ETH AND (NMAG OR RW)) SOCK=0 (ILVL>25 AND ILVL<40)]: %NAME% %TAN%[%SOCKETS%]
 //eth crystal for imbue/roll
 ItemDisplay[crs (ETH AND (NMAG OR RW)) SOCK=0]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ///Spears
