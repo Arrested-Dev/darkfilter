@@ -248,7 +248,7 @@ ItemDisplay[cm1 MFIND>5 AND AR>19]: %GREEN%MF %ORANGE%AR %BLUE%Small Charm
 ItemDisplay[cm1 MFIND>5 AND DEF>19]: %GREEN%MF %WHITE%Def %BLUE%Small Charm
 ItemDisplay[cm1 MFIND>5]: %GREEN%MF %BLUE%Small Charm
 ItemDisplay[cm1 DEF>19 AND LIFE>16]: %RED%Life %WHITE%Def %BLUE%Small Charm
-ItemDisplay[cm1 MANA>15 AND LIFE>16]: %RED%Life %BLUE%Mana %BLUE%Small Charm
+ItemDisplay[cm1 MANA>13 AND LIFE>12]: %RED%Life %BLUE%Mana %BLUE%Small Charm
 ItemDisplay[cm1 LIFE>16]: %RED%Life %BLUE%Small Charm 
 //Skillers
 ItemDisplay[cm3 (TABSK0>0 AND FHR>0)]: %ORANGE%FHR %GOLD%Bowa Skiller 
