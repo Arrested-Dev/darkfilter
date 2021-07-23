@@ -1,4 +1,4 @@
-// Adev's Loot Filter for PD2, Dark Edition. S2 v2.1
+// Adev's Loot Filter for PD2, Dark Edition. S3 v3.1
 //twitch.tv/Adevelopment
 //INF
 ItemDisplay[(ARMOR OR WEAPON) INF !RARE NMAG !UNI !SET !RW CLVL>69]:
