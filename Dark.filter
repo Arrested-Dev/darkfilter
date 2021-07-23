@@ -633,7 +633,7 @@ ItemDisplay[amd UNI !ID !ETH]: %RED%o Stoneraven o%MAP%
 ItemDisplay[amd UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Stoneraven %RED%o%MAP%
 ItemDisplay[am9 UNI !ID !ETH]: %GOLD%o Lycander's Flank o%MAP%
 ItemDisplay[am9 UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] %RED%Lycander's Flank o%MAP%
-ItemDisplay[7wc UNI !ID !ETH]: %RED%Stormspire%MAP%
+ItemDisplay[7wc UNI !ID !ETH]: %RED%o Stormspire o%MAP%
 ItemDisplay[7wc UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Stormspire %RED%o%MAP%
 ItemDisplay[7wh UNI !ID !ETH]: %RED%oo %PURPLE%Stone Crusher or Schaefer's Hammer %RED%oo%MAP%
 ItemDisplay[7wh UNI !ID ETH]: %RED%oooo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Stone Crusher or %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Schaefer's Hammer %RED%oooo%MAP%
