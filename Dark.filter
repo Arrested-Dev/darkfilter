@@ -380,8 +380,8 @@ ItemDisplay[cm3 MAG !ID ILVL>90]: %RED%o %BLUE%%NAME% %RED%o%MAP% {%RED%ilvl91+ 
 ItemDisplay[cm3 MAG !ID ILVL>77]: %BLUE%o %NAME% %BLUE%o%MAP%
 ItemDisplay[cm3 MAG !ID ILVL<78 ILVL>49]: %BLUE%o %NAME% %BLUE%o%MAP%
 //Large
-ItemDisplay[cm2 MAG !ID ILVL>77]: %BLUE%%NAME%
-ItemDisplay[cm2 MAG !ID ILVL<78 ILVL>49]: %BLUE%%NAME%
+ItemDisplay[cm2 MAG !ID ILVL>77]: %BLUE%o %NAME% %BLUE%o%MAP%
+ItemDisplay[cm2 MAG !ID ILVL<78 ILVL>49]: %BLUE%o %NAME% %BLUE%o%MAP%
 //Small
 ItemDisplay[cm1 MAG !ID ILVL>89]: %BLUE%o %NAME% %BLUE%o%MAP%
 ItemDisplay[cm1 MAG !ID ILVL<90 ILVL>47]: %BLUE%o %NAME% %BLUE%o%MAP%
