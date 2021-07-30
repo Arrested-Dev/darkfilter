@@ -474,8 +474,8 @@ ItemDisplay[xlm UNI !ID !ETH]: %GOLD%oo Stealskull oo%MAP%
 ItemDisplay[xlm UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%Stealskull%MAP%
 ItemDisplay[dgr UNI !ID !ETH]: %GREEN%o %RED%Gull %GREEN%o%MAP%
 ItemDisplay[dgr UNI !ID ETH]: %GREEN%o %GRAY%[%WHITE%eth%GRAY%] %RED%Gull %GREEN%o%MAP%
-ItemDisplay[9bl UNI !ID !ETH]: %GOLD%Stormspike
-ItemDisplay[9bl UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%Stormspike
+ItemDisplay[9bl UNI !ID !ETH]: %GOLD%Stormspike%MAP%
+ItemDisplay[9bl UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%Stormspike%MAP%
 ItemDisplay[9fc UNI !ID !ETH]: %RED%ooo Blade of Ali Baba ooo%MAP%
 ItemDisplay[9fc UNI !ID ETH]: %RED%ooo %GRAY%[%WHITE%eth%GRAY%] %RED%Blade of Ali Baba ooo%MAP%
 ItemDisplay[xh9 UNI !ID !ETH]: %RED%oo %PURPLE%Vampire Gaze %RED%oo%MAP%
@@ -553,8 +553,8 @@ ItemDisplay[xth UNI !ID !ETH]: %RED%o %PURPLE%Atma's Wail %RED%o%MAP%
 ItemDisplay[xth UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Atma's Wail %RED%o%MAP%
 ItemDisplay[xul UNI !ID !ETH]: %GOLD%ooo Black Hades ooo%MAP%
 ItemDisplay[xul UNI !ID ETH]: %RED%ooo %GRAY%[%WHITE%eth%GRAY%] %RED%Black Hades ooo%MAP%
-ItemDisplay[xar UNI !ID !ETH]: %GOLD%Corpsemourn
-ItemDisplay[xar UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%Corpsemourn
+ItemDisplay[xar UNI !ID !ETH]: %GOLD%Corpsemourn%MAP%
+ItemDisplay[xar UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%Corpsemourn%MAP%
 ItemDisplay[uui UNI !ID !ETH]: %RED%o %PURPLE%Ormus' Robes %RED%o%MAP%
 ItemDisplay[uui UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %RED%Ormus' Robes%MAP%
 ItemDisplay[xng UNI !ID !ETH]: %GOLD%ooo Spirit Forge ooo%MAP%
@@ -828,8 +828,6 @@ ItemDisplay[9dg UNI !ID !ETH]: %GOLD%Spineripper%MAP%
 ItemDisplay[9dg UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%Spineripper%MAP%
 ItemDisplay[9di UNI !ID !ETH]: %GOLD%Heart Carver%MAP%
 ItemDisplay[9di UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%Heart Carver%MAP%
-ItemDisplay[9bl UNI !ID !ETH]: %GOLD%Stormspike%MAP%
-ItemDisplay[9bl UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%Stormspike%MAP%
 ItemDisplay[amd UNI !ID !ETH]: %RED%o Stoneraven o%MAP%
 ItemDisplay[amd UNI !ID ETH]: %RED%ooo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Stoneraven %RED%ooo%MAP%
 ItemDisplay[am9 UNI !ID !ETH]: %GOLD%ooo Lycander's Flank ooo%MAP%
