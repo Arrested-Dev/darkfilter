@@ -1,4 +1,4 @@
-// Adev's Loot Filter for PD2, Dark Edition. S3 v3.3
+// Adev's Loot Filter for PD2, Dark Edition. S3 v3.4
 //twitch.tv/Adevelopment
 //INF
 ItemDisplay[(ARMOR OR WEAPON) INF !RARE NMAG !UNI !SET !RW CLVL>69]:
@@ -458,13 +458,13 @@ ItemDisplay[buc UNI !ID !ETH]: %GREEN%o %GOLD%Pelta Lunata %GREEN%o%MAP%
 ItemDisplay[buc UNI !ID ETH]: %GREEN%o %GRAY%[%WHITE%eth%GRAY%] %GOLD%Pelta Lunata %GREEN%o%MAP%
 ItemDisplay[hlm UNI !ID !ETH]: %GOLD%Coif of Glory%MAP%
 ItemDisplay[hlm UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%Coif of Glory%MAP%
-ItemDisplay[fhl UNI !ID !ETH]: %GOLD%Duskdeep%MAP%
-ItemDisplay[fhl UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%Duskdeep%MAP%
+ItemDisplay[fhl UNI !ID !ETH]: %GOLD%o Duskdeep o%MAP%
+ItemDisplay[fhl UNI !ID ETH]: %GOLD%o %GRAY%[%WHITE%eth%GRAY%] %GOLD%Duskdeep o%MAP%
 ItemDisplay[ghm UNI !ID !ETH]: %GOLD%Howltusk%MAP%
 ItemDisplay[ghm UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%Howltusk%MAP%
-ItemDisplay[msk UNI !ID !ETH]: %GOLD%The Face of Horror%MAP%
-ItemDisplay[msk UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%The Face of Horror%MAP%
-ItemDisplay[bhm UNI !ID !ETH]: %GOLD%Wormskull%MAP%
+ItemDisplay[msk UNI !ID !ETH]: %GOLD%o The Face of Horror o%MAP%
+ItemDisplay[msk UNI !ID ETH]: %GOLD%o %GRAY%[%WHITE%eth%GRAY%] %GOLD%The Face of Horror o%MAP%
+ItemDisplay[bhm UNI !ID !ETH]: %GOLD%o Wormskull o%MAP%
 ItemDisplay[bhm UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%Wormskull%MAP%
 ItemDisplay[skp UNI !ID !ETH]: %GOLD%oo Tarnhelm oo%MAP%
 ItemDisplay[skp UNI !ID ETH]: %GOLD%oo %GRAY%[%WHITE%eth%GRAY%] %GOLD%Tarnhelm oo%MAP%
