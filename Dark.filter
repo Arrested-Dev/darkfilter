@@ -1,4 +1,4 @@
-// Adev's Loot Filter for PD2, Dark Edition. S3 v3.4
+// Adev's Loot Filter for PD2, Dark Edition. S3 v3.41
 //twitch.tv/Adevelopment
 //INF
 ItemDisplay[(ARMOR OR WEAPON) INF !RARE NMAG !UNI !SET !RW CLVL>69]:
@@ -798,7 +798,7 @@ ItemDisplay[9sb UNI !ID !ETH]: %GOLD%oo Hexfire oo%MAP%
 ItemDisplay[9sb UNI !ID ETH]: %GOLD%oo %GRAY%[%WHITE%eth%GRAY%] %GOLD%Hexfire oo%MAP%
 ItemDisplay[9cr UNI !ID !ETH]: %GOLD%Ginther's Rift%MAP%
 ItemDisplay[9cr UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %RED%Ginther's Rift%MAP%
-ItemDisplay[9wd UNI !ID !ETH]: %GOLD%The Atlantean%MAP%%MAP%
+ItemDisplay[9wd UNI !ID !ETH]: %GOLD%The Atlantean%MAP%
 ItemDisplay[9wd UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%The Atlantean%MAP%
 ItemDisplay[92h UNI !ID !ETH]: %GOLD%Crainte Vomir%MAP%
 ItemDisplay[92h UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%Crainte Vomir%MAP%
