@@ -5,7 +5,7 @@ ItemDisplay[(ARMOR OR WEAPON) INF !RARE NMAG !UNI !SET !RW CLVL>69]:
 ItemDisplay[(ARMOR OR WEAPON OR amu OR rin) CRAFT !ETH ID]: %ORANGE%%NAME%
 ItemDisplay[(ARMOR OR WEAPON OR amu OR rin) CRAFT ETH ID]: %GRAY%[%WHITE%eth%GRAY%] %ORANGE%%NAME%
 //Gold
-ItemDisplay[GOLD<1000 CLVL<65)]:
+ItemDisplay[GOLD<1000 CLVL<65]:
 ItemDisplay[GOLD<5000 CLVL>64]:
 //HP & MPs
 ItemDisplay[rvl]: %PURPLE%R %WHITE%65%
