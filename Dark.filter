@@ -1,5 +1,6 @@
 // Adev's Loot Filter for PD2, Dark Edition. S3 v3.43
 //twitch.tv/Adevelopment
+//twitch.tv/DarkHumility
 //INF
 ItemDisplay[(ARMOR OR WEAPON) INF !RARE NMAG !UNI !SET !RW CLVL>69]:
 ItemDisplay[(ARMOR OR WEAPON OR amu OR rin) CRAFT !ETH ID]: %ORANGE%%NAME%
