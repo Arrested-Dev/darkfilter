@@ -1,4 +1,4 @@
-// Adev's Loot Filter for PD2, Dark Edition. S3 v3.42
+// Adev's Loot Filter for PD2, Dark Edition. S3 v3.43
 //twitch.tv/Adevelopment
 //INF
 ItemDisplay[(ARMOR OR WEAPON) INF !RARE NMAG !UNI !SET !RW CLVL>69]:
@@ -642,7 +642,7 @@ ItemDisplay[hbt UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %RED%Tearhaunch%MAP%
 ItemDisplay[xlb UNI !ID !ETH]: %RED%o Infernostride o%MAP%
 ItemDisplay[xlb UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%Infernostride%MAP%
 ItemDisplay[xvb UNI !ID !ETH]: %RED%ooo %PURPLE%Waterwalk %RED%ooo%MAP%
-ItemDisplay[xvb UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Waterwalk%MAP%
+ItemDisplay[xvb UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Waterwalk %RED%o%MAP%
 ItemDisplay[xmb UNI !ID !ETH]: %RED%oo %RED%Silkweave %RED%oo%MAP%
 ItemDisplay[xmb UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%Silkweave%MAP%
 ItemDisplay[xtb UNI !ID !ETH]: %RED%ooo %PURPLE%War Traveler %RED%ooo%MAP%
@@ -717,7 +717,7 @@ ItemDisplay[7ha UNI !ID !ETH]: %GOLD%ooo Razor's Edge ooo%MAP%
 ItemDisplay[7ha UNI !ID ETH]: %GOLD%ooo %GRAY%[%WHITE%eth%GRAY%] %GOLD%Razor's Edge ooo%MAP%
 ItemDisplay[7mp UNI !ID !ETH]: %GOLD%Cranebeak %MAP%
 ItemDisplay[7mp UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%Cranebeak%MAP%
-ItemDisplay[7ba UNI !ID ETH]: %GOLD%[%WHITE%eth%GRAY%] Ethereal Edge%MAP%
+ItemDisplay[7ba UNI !ID ETH]: %GOLD%ooo [%WHITE%eth%GRAY%] %GOLD%Ethereal Edge ooo%MAP%
 ItemDisplay[spc UNI !ID !ETH]: %GOLD%Stoutnail%MAP%
 ItemDisplay[spc UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%Stoutnail%MAP%
 ItemDisplay[mac UNI !ID !ETH]: %GOLD%Crushflange%MAP%
