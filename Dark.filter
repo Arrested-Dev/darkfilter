@@ -1,4 +1,4 @@
-// Adev's Loot Filter for PD2, Dark Edition. S3 v3.41
+// Adev's Loot Filter for PD2, Dark Edition. S3 v3.42
 //twitch.tv/Adevelopment
 //INF
 ItemDisplay[(ARMOR OR WEAPON) INF !RARE NMAG !UNI !SET !RW CLVL>69]:
@@ -415,19 +415,19 @@ ItemDisplay[rin MAG ILVL=94]: %BLUE%%NAME%%WHITE% [%TAN%CLVL 76+%WHITE%]
 ItemDisplay[rin MAG ILVL>94]: %BLUE%%NAME%%WHITE% [%TAN%CLVL 74+%WHITE%]
 ItemDisplay[rin MAG ILVL<86]: %BLUE%%NAME%%WHITE%
 //s3 PD2 Uniques
-ItemDisplay[am5 UNI !ID !ETH]: %BLUE%ooo %GOLD%True Silver %BLUE%o%MAP%
+ItemDisplay[am5 UNI !ID !ETH]: %BLUE%ooo %GOLD%True Silver %BLUE%ooo%MAP%
 ItemDisplay[am5 UNI !ID ETH]: %BLUE%o %GRAY%[%WHITE%eth%GRAY%] %GOLD%True Silver %BLUE%o%MAP%
-ItemDisplay[ne6 UNI !ID !ETH]: %BLUE%oo %GOLD%Kalan's Legacy %BLUE%o%MAP%
+ItemDisplay[ne6 UNI !ID !ETH]: %BLUE%oo %GOLD%Kalan's Legacy %BLUE%oo%MAP%
 ItemDisplay[ne6 UNI !ID ETH]: %BLUE%o %GRAY%[%WHITE%eth%GRAY%] %GOLD%Kalan's Legacy %BLUE%o%MAP%
-ItemDisplay[ba6 UNI !ID !ETH]: %BLUE%ooo %GOLD%Cyclopean Roar %BLUE%o%MAP%
+ItemDisplay[ba6 UNI !ID !ETH]: %BLUE%ooo %GOLD%Cyclopean Roar %BLUE%ooo%MAP%
 ItemDisplay[ba6 UNI !ID ETH]: %BLUE%o %GRAY%[%WHITE%eth%GRAY%] %GOLD%Cyclopean Roar %BLUE%o%MAP%
 ItemDisplay[dr2 UNI !ID !ETH]: %BLUE%o %GOLD%Quetzalcoatl %BLUE%o%MAP%
-ItemDisplay[dr2 UNI !ID ETH]: %BLUE%ooo %GRAY%[%WHITE%eth%GRAY%] %GOLD%Quetzalcoatl %BLUE%o%MAP%
+ItemDisplay[dr2 UNI !ID ETH]: %BLUE%ooo %GRAY%[%WHITE%eth%GRAY%] %GOLD%Quetzalcoatl %BLUE%ooo%MAP%
 ItemDisplay[ob6 UNI !ID !ETH]: %BLUE%o %GOLD%Tempest %BLUE%o%MAP%
 ItemDisplay[ob6 UNI !ID ETH]: %BLUE%o %GRAY%[%WHITE%eth%GRAY%] %GOLD%Tempest %BLUE%o%MAP%
 ItemDisplay[pa3 UNI !ID !ETH]: %BLUE%o %GOLD%Sankekur's Fall %BLUE%o%MAP%
 ItemDisplay[pa3 UNI !ID ETH]: %BLUE%o %GRAY%[%WHITE%eth%GRAY%] %GOLD%Sankekur's Fall %BLUE%o%MAP%
-ItemDisplay[9ar UNI !ID !ETH]: %BLUE%oo %GOLD%Mage Slayer %BLUE%o%MAP%
+ItemDisplay[9ar UNI !ID !ETH]: %BLUE%oo %GOLD%Mage Slayer %BLUE%oo%MAP%
 ItemDisplay[9ar UNI !ID ETH]: %BLUE%o %GRAY%[%WHITE%eth%GRAY%] %GOLD%Mage Slayer %BLUE%o%MAP%
 //Uniques
 ItemDisplay[cap UNI !ID !ETH]: %GREEN%o %GOLD%Biggin's Bonnet %GREEN%o%MAP%
@@ -571,7 +571,7 @@ ItemDisplay[uul UNI !ID !ETH]: %RED%ooo Steel Carapace ooo%MAP%
 ItemDisplay[uul UNI !ID ETH]: %RED%ooo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Steel Carapace %RED%ooo%MAP%
 ItemDisplay[uar UNI !ID !ETH]: %PURPLE%oooo %PURPLE%Tyrael's Might or Templar's Might %PURPLE%oooo%MAP%
 ItemDisplay[uar UNI !ID ETH]: %PURPLE%oooo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Templar's Might %PURPLE%oooo%MAP%
-ItemDisplay[xow UNI !ID !ETH]: %RED%o %PURPLE%Gerke's Sanctuary o%MAP%
+ItemDisplay[xow UNI !ID !ETH]: %RED%o %PURPLE%Gerke's Sanctuary %RED%o%MAP%
 ItemDisplay[xow UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] %RED%Gerke's Sanctuary o%MAP%
 ItemDisplay[xsh UNI !ID !ETH]: %RED%o %PURPLE%Lidless Wall %RED%o%MAP%
 ItemDisplay[xsh UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Lidless Wall%MAP%
@@ -590,7 +590,7 @@ ItemDisplay[uts UNI !ID !ETH]: %RED%o %PURPLE%Spirit Ward %RED%o%MAP%
 ItemDisplay[uts UNI !ID !ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Spirit Ward %RED%o%MAP%
 ItemDisplay[lrg UNI !ID !ETH]: %GOLD%Stormguild%MAP%
 ItemDisplay[lrg UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%Stormguild%MAP%
-ItemDisplay[kit UNI !ID !ETH]: %GOLD%Steelclash%MAP%
+ItemDisplay[kit UNI !ID !ETH]: %GOLD%o Steelclash o%MAP%
 ItemDisplay[kit UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%Steelclash%MAP%
 ItemDisplay[spk UNI !ID !ETH]: %GOLD%Swordback Hold%MAP%
 ItemDisplay[spk UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%Swordback Hold%MAP%
@@ -646,9 +646,9 @@ ItemDisplay[xvb UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Waterwalk%MAP%
 ItemDisplay[xmb UNI !ID !ETH]: %RED%oo %RED%Silkweave %RED%oo%MAP%
 ItemDisplay[xmb UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%Silkweave%MAP%
 ItemDisplay[xtb UNI !ID !ETH]: %RED%ooo %PURPLE%War Traveler %RED%ooo%MAP%
-ItemDisplay[xtb UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %PURPLE%War Traveler%MAP%
+ItemDisplay[xtb UNI !ID ETH]: %RED%ooo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%War Traveler %RED%ooo%MAP%
 ItemDisplay[xhb UNI !ID !ETH]: %RED%oo %PURPLE%Gore Rider %RED%oo%MAP%
-ItemDisplay[xhb UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Gore Rider%MAP%
+ItemDisplay[xhb UNI !ID ETH]: %RED%oo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Gore Rider %RED%oo%MAP%
 ItemDisplay[uvb UNI !ID !ETH]: %GOLD%ooo Sandstorm Trek ooo%MAP%
 ItemDisplay[uvb UNI !ID ETH]:  %RED%ooo%GRAY%[%WHITE%eth%GRAY%] %RED%Sandstorm Trek %RED%ooo%MAP%
 ItemDisplay[umb UNI !ID !ETH]: %RED%ooo Marrowwalk ooo%MAP%
@@ -810,14 +810,14 @@ ItemDisplay[9b9 UNI !ID !ETH]: %GOLD%Cloudcrack%MAP%
 ItemDisplay[9b9 UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%Cloudcrack%MAP%
 ItemDisplay[9fb UNI !ID !ETH]: %GOLD%Todesfaelle Flamme%MAP%
 ItemDisplay[9fb UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%Todesfaelle Flamme%MAP%
-ItemDisplay[9gd UNI !ID !ETH]: %GOLD%oo Swordguard oo%MAP%
+ItemDisplay[9gd UNI !ID !ETH]: %GOLD%o Swordguard o%MAP%
 ItemDisplay[9gd UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %RED%Swordguard%MAP%
 ItemDisplay[7sm UNI !ID !ETH]: %GOLD%Djinn Slayer%MAP%
 ItemDisplay[7sm UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%Djinn Slayer%MAP%
 ItemDisplay[7sb UNI !ID !ETH]: %GOLD%Bloodmoon%MAP%
 ItemDisplay[7sb UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%Bloodmoon%MAP%
-ItemDisplay[7gs UNI !ID !ETH]: %GOLD%Flamebellow%MAP%
-ItemDisplay[7gs UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%Flamebellow%MAP%
+ItemDisplay[7gs UNI !ID !ETH]: %GOLD%o Flamebellow o%MAP%
+ItemDisplay[7gs UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] %RED%Flamebellow o%MAP%
 ItemDisplay[dir UNI !ID !ETH]: %GOLD%The Diggler%MAP%
 ItemDisplay[dir UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%The Diggler%MAP%
 ItemDisplay[kri UNI !ID !ETH]: %GOLD%The Jade Tan Do%MAP%
@@ -914,8 +914,8 @@ ItemDisplay[9b7 UNI !ID !ETH]: %GOLD%The Meat Scraper%MAP%
 ItemDisplay[9b7 UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%The Meat Scraper%MAP%
 ItemDisplay[9vo UNI !ID !ETH]: %GOLD%Blackleach Blade%MAP%
 ItemDisplay[9vo UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%Blackleach Blade%MAP%
-ItemDisplay[9s8 UNI !ID !ETH]: %GOLD%o Athena's Wrath o%MAP%
-ItemDisplay[9s8 UNI !ID ETH]: %GOLD%o %GRAY%[%WHITE%eth%GRAY%] %GOLD%Athena's Wrath o%MAP%
+ItemDisplay[9s8 UNI !ID !ETH]: %RED%o Athena's Wrath o%MAP%
+ItemDisplay[9s8 UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] %RED%Athena's Wrath o%MAP%
 ItemDisplay[9pa UNI !ID !ETH]: %GOLD%Pierre Tombale Couant%MAP%
 ItemDisplay[9pa UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%Pierre Tombale Couant%MAP%
 ItemDisplay[9h9 UNI !ID !ETH]: %GOLD%Husoldal Evo%MAP%
@@ -1058,6 +1058,7 @@ ItemDisplay[hxb UNI !ID]: %GOLD%Hellcast%MAP%
 ItemDisplay[6rx UNI !ID]: %RED%oo Gut Siphon oo%MAP%
 ItemDisplay[8mx UNI !ID]: %RED%ooo Pus Spitter ooo%MAP%
 ItemDisplay[6hx UNI !ID]: %RED%ooo Hellrack ooo%MAP%
+ItemDisplay[8rx UNI !ID]: %RED%ooo Demon Machine ooo%MAP%
 ItemDisplay[9p9 UNI !ID !ETH]: %GOLD%ooo Spire of Honor ooo%MAP%
 ItemDisplay[9p9 UNI !ID ETH]: %RED%ooo %GRAY%[%WHITE%eth%GRAY%] %RED%Spire of Honor ooo%MAP%
 ItemDisplay[7sr UNI !ID !ETH]: %RED%o Arioc's Needle o%MAP%
@@ -1076,7 +1077,7 @@ ItemDisplay[xmb SET !ID]: %RED%oo %GREEN%%NAME% Natalya's %RED%oo%MAP%
 ItemDisplay[oba SET !ID]: %RED%ooo %GREEN%%NAME% Tal Rasha's %RED%ooo%MAP%
 ItemDisplay[xsk SET !ID]: %RED%ooo %GREEN%%NAME% Tal Rasha's %RED%ooo%MAP%
 ItemDisplay[uth SET !ID]: %RED%oooo %GREEN%%NAME% Tal Rasha's %RED%oooo%MAP%
-ItemDisplay[zmb SET !ID]: %RED%ooo %GREEN%%NAME% Tal Rasha's %RED%ooo%MAP%
+ItemDisplay[zmb SET !ID]: %RED%oo %GREEN%%NAME% Tal Rasha's %RED%oo%MAP%
 ItemDisplay[uh9 SET !ID]: %RED%o %GREEN%%NAME% Trang-Oul's %RED%o%MAP%
 ItemDisplay[xul SET !ID]: %RED%oo %GREEN%%NAME% Trang-Oul's %RED%oo%MAP%
 ItemDisplay[ne9 SET !ID]: %RED%oo %GREEN%%NAME% Trang-Oul's %RED%oo%MAP%
@@ -1557,7 +1558,7 @@ ItemDisplay[7wc NMAG !ETH !INF (SOCK=0 OR SOCK>2)]: %GRAY%%NAME% %TAN%[%SOCKETS%
 ItemDisplay[7s8 NMAG ETH (SOCK=0 OR SOCK>2)]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[7s8 NMAG !ETH !INF (SOCK=0 OR SOCK>2)]: %GRAY%%NAME% %WHITE%%TAN%[%SOCKETS%]
 //Colossus Voulge + Ogre Axe
-ItemDisplay[7vo OR 7o7 NMAG ETH (SOCK=0 OR SOCK=4) ED=15]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%[%WHITE%%15%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[7vo OR 7o7 NMAG ETH (SOCK=0 OR SOCK=4) ED=15]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%[%WHITE%%15%GRAY%] %NAME% %TAN%[%SOCKETS%]%MAP%
 ItemDisplay[7vo OR 7o7 NMAG ETH (SOCK=0 OR SOCK=4) ED>0 ED<15]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%[%WHITE%%ed%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[7vo OR 7o7 NMAG ETH (SOCK=0 OR SOCK=4)]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[7vo OR 7o7 NMAG !ETH !INF SOCK=4]: %GRAY%%NAME% %TAN%[%SOCKETS%]
@@ -1614,12 +1615,25 @@ ItemDisplay[WP11 NMAG SK47=2 ILVL<67]: %GRAY%[%WHITE%2fb%GRAY%] %NAME% %TAN%[%SO
 ///Scepters
 ItemDisplay[wsp !ETH AND (NMAG OR RW) SOCK=4]: %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[WP13 NMAG !ETH SOCK=4]: %NAME% %TAN%[%SOCKETS%]
-ItemDisplay[WP13 NMAG !ETH SK112>2 (SOCK=0 OR SOCK=4)]: %GRAY%[%WHITE%3ham%GRAY%] %NAME% %TAN%[%SOCKETS%]
-ItemDisplay[WP13 NMAG !ETH SK113>2 (SOCK=0 OR SOCK=4)]: %GRAY%[%WHITE%3conc%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[WP13 NMAG ETH SOCK=4]: %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[WP13 NMAG !ETH SK112>2 (SOCK=0 OR SOCK>2)]: %GRAY%[%WHITE%3ham%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[WP13 NMAG !ETH SK113>2 (SOCK=0 OR SOCK>2)]: %GRAY%[%WHITE%3conc%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[WP13 NMAG !ETH SK101>2 (SOCK=0 OR SOCK>2)]: %GRAY%[%WHITE%3bolt%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[WP13 NMAG !ETH SK118>2 (SOCK=0 OR SOCK>2)]: %GRAY%[%WHITE%3shok%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[WP13 NMAG !ETH SK114>2 (SOCK=0 OR SOCK>2)]: %GRAY%[%WHITE%3frz%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[WP13 NMAG !ETH SK102>2 (SOCK=0 OR SOCK>2)]: %GRAY%[%WHITE%3fire%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[WP13 NMAG !ETH SK121>2 (SOCK=0 OR SOCK>2)]: %GRAY%[%WHITE%3foh%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[WP13 NMAG !ETH SK111>2 (SOCK=0 OR SOCK>2)]: %GRAY%[%WHITE%3veng%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[WP13 NMAG ETH SK112>2 (SOCK=0 OR SOCK>2)]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%[%WHITE%3ham%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[WP13 NMAG ETH SK113>2 (SOCK=0 OR SOCK>2)]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%[%WHITE%3conc%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[WP13 NMAG ETH SK101>2 (SOCK=0 OR SOCK>2)]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%[%WHITE%3bolt%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[WP13 NMAG ETH SK118>2 (SOCK=0 OR SOCK>2)]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%[%WHITE%3shok%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[WP13 NMAG ETH SK114>2 (SOCK=0 OR SOCK>2)]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%[%WHITE%3frz%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[WP13 NMAG ETH SK102>2 (SOCK=0 OR SOCK>2)]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%[%WHITE%3fire%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[WP13 NMAG ETH SK121>2 (SOCK=0 OR SOCK>2)]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%[%WHITE%3foh%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[WP13 NMAG ETH SK111>2 (SOCK=0 OR SOCK>2)]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%[%WHITE%3veng%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[WP13 NMAG !ETH SK117>1 (SOCK=3 OR SOCK=5)]: %GRAY%[%WHITE%3holy%GRAY%] %NAME% %TAN%[%SOCKETS%]%MAP%
+ItemDisplay[WP13 NMAG ETH SK117>1 (SOCK=3 OR SOCK=5)]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%[%WHITE%3holy%GRAY%] %NAME% %TAN%[%SOCKETS%]%MAP%
 //Clubs (Plague)
 ItemDisplay[(clb OR 9cl OR 7cl OR spc OR 9sp OR 7sp) NMAG !ETH SOCK=3 SK225>2]: %GRAY%[%WHITE%3Fstorm%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[(clb OR 9cl OR 7cl OR spc OR 9sp OR 7sp) NMAG !ETH SOCK=3 SK229>2]: %GRAY%[%WHITE%3MBou%GRAY%] %NAME% %TAN%[%SOCKETS%]
@@ -1641,7 +1655,7 @@ ItemDisplay[fla (ETH AND (NMAG OR RW)) SOCK>3]: %GRAY%[%WHITE%eth%GRAY%] %NAME% 
 ItemDisplay[fla (NMAG OR RW) SOCK>3]: %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[crs (ETH AND (NMAG OR RW)) SOCK=5]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[crs !ETH (NMAG OR RW) SOCK=5]: %NAME% %TAN%[%SOCKETS%]
-ItemDisplay[WP13 SK117>2 (NMAG OR RW) SOCK=5]: %GRAY%[%PURPLE%holy%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[WP13 SK117>1 (NMAG OR RW) SOCK=5]: %GRAY%[%PURPLE%holy%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[(wst OR 8ws OR 6ws) (NMAG OR RW) (SK58>2 AND SK50>0) SOCK=5]: %GRAY%[%WHITE%cta%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[(2ax OR wax OR mpi) (ETH AND (NMAG OR RW)) SOCK=5]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[(2ax OR wax OR mpi) !ETH (NMAG OR RW) SOCK=5]: %NAME% %TAN%[%SOCKETS%]
