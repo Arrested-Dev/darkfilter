@@ -89,10 +89,10 @@ ItemDisplay[(t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37) RARE !ID]: %RED%ooo 
 ItemDisplay[t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 MAG ID]: %RED%oo %BLUE%%NAME% %RED%oo%MAP%
 ItemDisplay[t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 (NMAG OR !RARE) ID]: %RED%oo %WHITE%%NAME% %RED%oo%MAP%
 ///tier4
-ItemDisplay[t41 OR t42 MAG !ID]: %PURPLE%ooo %BLUE%%NAME% %PURPLE%ooo%MAP%
-ItemDisplay[t41 OR t42 RARE !ID]: %PURPLE%ooo %YELLOW%%NAME% %PURPLE%ooo%MAP%
-ItemDisplay[t41 OR t42 MAG ID]: %PURPLE%oo %BLUE%%NAME% %PURPLE%oo%MAP%
-ItemDisplay[t41 OR t42 (NMAG OR !RARE) ID]: %PURPLE%oo %WHITE%%NAME% %PURPLE%oo%MAP%
+ItemDisplay[t41 OR t42 OR t43 MAG !ID]: %PURPLE%ooo %BLUE%%NAME% %PURPLE%ooo%MAP%
+ItemDisplay[t41 OR t42 OR t43 RARE !ID]: %PURPLE%ooo %YELLOW%%NAME% %PURPLE%ooo%MAP%
+ItemDisplay[t41 OR t42 OR t43 MAG ID]: %PURPLE%oo %BLUE%%NAME% %PURPLE%oo%MAP%
+ItemDisplay[t41 OR t42 OR t43 (NMAG OR !RARE) ID]: %PURPLE%oo %WHITE%%NAME% %PURPLE%oo%MAP%
 //Misc
 ItemDisplay[leg]: %NAME%%MAP%
 ItemDisplay[ear]: %ORANGE%%NAME%%MAP%
