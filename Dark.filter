@@ -1,4 +1,4 @@
-// Adev's Loot Filter for PD2, Dark Edition. S3 v3.45
+// Adev's Loot Filter for PD2, Dark Edition. S3 v3.451
 //twitch.tv/Adevelopment
 //twitch.tv/DarkHumility
 //INF
@@ -422,7 +422,7 @@ ItemDisplay[ne6 UNI !ID !ETH]: %BLUE%oo %GOLD%Kalan's Legacy %BLUE%oo%MAP%
 ItemDisplay[ne6 UNI !ID ETH]: %BLUE%o %GRAY%[%WHITE%eth%GRAY%] %GOLD%Kalan's Legacy %BLUE%o%MAP%
 ItemDisplay[ba6 UNI !ID !ETH]: %BLUE%ooo %GOLD%Cyclopean Roar %BLUE%ooo%MAP%
 ItemDisplay[ba6 UNI !ID ETH]: %BLUE%o %GRAY%[%WHITE%eth%GRAY%] %GOLD%Cyclopean Roar %BLUE%o%MAP%
-ItemDisplay[dr2 UNI !ID !ETH]: %BLUE%o %GOLD%Quetzalcoatl %BLUE%o%MAP%
+ItemDisplay[dr2 UNI !ID !ETH]: %BLUE%ooo %GOLD%Quetzalcoatl %BLUE%ooo%MAP%
 ItemDisplay[dr2 UNI !ID ETH]: %BLUE%ooo %GRAY%[%WHITE%eth%GRAY%] %GOLD%Quetzalcoatl %BLUE%ooo%MAP%
 ItemDisplay[ob6 UNI !ID !ETH]: %BLUE%o %GOLD%Tempest %BLUE%o%MAP%
 ItemDisplay[ob6 UNI !ID ETH]: %BLUE%o %GRAY%[%WHITE%eth%GRAY%] %GOLD%Tempest %BLUE%o%MAP%
