@@ -1,10 +1,8 @@
-// Adev's Loot Filter for PD2, Dark Edition. S3 v3.50
+// Adev's Loot Filter for PD2, Dark Edition. S3 v3.51
 //twitch.tv/Adevelopment
 //twitch.tv/DarkHumility
 //INF
 ItemDisplay[(ARMOR OR WEAPON) INF !RARE NMAG !UNI !SET !RW CLVL>69]:
-ItemDisplay[(ARMOR OR WEAPON OR amu OR rin) CRAFT !ETH ID]: %ORANGE%%NAME%
-ItemDisplay[(ARMOR OR WEAPON OR amu OR rin) CRAFT ETH ID]: %GRAY%[%WHITE%eth%GRAY%] %ORANGE%%NAME%
 //Gold
 ItemDisplay[GOLD<1000 CLVL<65]:
 ItemDisplay[GOLD<5000 CLVL>64]:
@@ -112,24 +110,43 @@ ItemDisplay[bey]: %GOLD%Baal's Eye%MAP%
 ItemDisplay[mbr]: %GOLD%Mephisto's Brain%MAP%
 ItemDisplay[ubtm]: %PURPLE%o%RED%o%GREEN%o %GOLD%Pandemonium Talisman %GREEN%o%RED%o%PURPLE%o%MAP%
 ////RUNES
+ItemDisplay[r01s OR r01 CLVL<81]: %ORANGE%%NAME% {%ORANGE%rune 1}%MAP%
 ItemDisplay[r01s OR r01]: %ORANGE%%NAME% {%ORANGE%rune 1}
+ItemDisplay[r02s OR r02 CLVL<81]: %ORANGE%%NAME% {%ORANGE%rune 2}%MAP%
 ItemDisplay[r02s OR r02]: %ORANGE%%NAME% {%ORANGE%rune 2}
+ItemDisplay[r03s OR r03 CLVL<81]: %ORANGE%%NAME% {%ORANGE%rune 3}%MAP%
 ItemDisplay[r03s OR r03]: %ORANGE%%NAME% {%ORANGE%rune 3}
+ItemDisplay[r04s OR r04 CLVL<81]: %ORANGE%%NAME% {%ORANGE%rune 4}%MAP%
 ItemDisplay[r04s OR r04]: %ORANGE%%NAME% {%ORANGE%rune 4}
+ItemDisplay[r05s OR r05 CLVL<81]: %ORANGE%%NAME% {%ORANGE%rune 5}%MAP%
 ItemDisplay[r05s OR r05]: %ORANGE%%NAME% {%ORANGE%rune 5}
+ItemDisplay[r06s OR r06 CLVL<81]: %ORANGE%%NAME% {%ORANGE%rune 6}%MAP%
 ItemDisplay[r06s OR r06]: %ORANGE%%NAME% {%ORANGE%rune 6}
+ItemDisplay[r07s OR r07 CLVL<81]: %ORANGE%%NAME% {%ORANGE%rune 7}%MAP%
 ItemDisplay[r07s OR r07]: %ORANGE%%NAME% {%ORANGE%rune 7}
+ItemDisplay[r08s OR r08 CLVL<81]: %ORANGE%%NAME% {%ORANGE%rune 8}%MAP%
 ItemDisplay[r08s OR r08]: %ORANGE%%NAME% {%ORANGE%rune 8}
+ItemDisplay[r09s OR r09 CLVL<81]: %ORANGE%%NAME% {%ORANGE%rune 9}%MAP%
 ItemDisplay[r09s OR r09]: %ORANGE%%NAME% {%ORANGE%rune 9}
+ItemDisplay[r10s OR r10 CLVL<81]: %ORANGE%%NAME% {%ORANGE%rune 10}%MAP%
 ItemDisplay[r10s OR r10]: %ORANGE%%NAME% {%ORANGE%rune 10}
+ItemDisplay[r11s OR r11 CLVL<81]: %ORANGE%%NAME% {%ORANGE%rune 11}%MAP%
 ItemDisplay[r11s OR r11]: %ORANGE%%NAME% {%ORANGE%rune 11}
+ItemDisplay[r12s OR r12 CLVL<81]: %ORANGE%%NAME% {%ORANGE%rune 12}%MAP%
 ItemDisplay[r12s OR r12]: %ORANGE%%NAME% {%ORANGE%rune 12}
+ItemDisplay[r13s OR r13 CLVL<81]: %ORANGE%%NAME% {%ORANGE%rune 13}%MAP%
 ItemDisplay[r13s OR r13]: %ORANGE%%NAME% {%ORANGE%rune 13}
+ItemDisplay[r14s OR r14 CLVL<81]: %ORANGE%%NAME% {%ORANGE%rune 14}%MAP%
 ItemDisplay[r14s OR r14]: %ORANGE%%NAME% {%ORANGE%rune 14}
+ItemDisplay[r15s OR r15 CLVL<91]: %ORANGE%%NAME% {%ORANGE%rune 15}%MAP%
 ItemDisplay[r15s OR r15]: %ORANGE%%NAME% {%ORANGE%rune 15}
+ItemDisplay[r16s OR r16 CLVL<91]: %ORANGE%%NAME% {%ORANGE%rune 16}%MAP%
 ItemDisplay[r16s OR r16]: %ORANGE%%NAME% {%ORANGE%rune 16}
+ItemDisplay[r17s OR r17 CLVL<91]: %ORANGE%%NAME% {%ORANGE%rune 17}%MAP%
 ItemDisplay[r17s OR r17]: %ORANGE%%NAME% {%ORANGE%rune 17}
+ItemDisplay[r18s OR r18 CLVL<91]: %ORANGE%%NAME% {%ORANGE%rune 18}%MAP%
 ItemDisplay[r18s OR r18]: %ORANGE%%NAME% {%ORANGE%rune 18}
+ItemDisplay[r19s OR r19 CLVL<91]: %ORANGE%%NAME% {%ORANGE%rune 19}%MAP%
 ItemDisplay[r19s OR r19]: %ORANGE%%NAME% {%ORANGE%rune 19}
 ItemDisplay[r20s OR r20]: %ORANGE%%NAME%%MAP% {%ORANGE%rune 20}
 ItemDisplay[r21s OR r21]: %ORANGE%%NAME%%MAP% {%ORANGE%rune 21}
@@ -391,31 +408,31 @@ ItemDisplay[cm1 MAG !ID ILVL=47]: %BLUE%o %NAME% %BLUE%o%MAP%
 //Catch-all
 ItemDisplay[cm1 OR cm2 OR cm3 ID]: %NAME%
 //Amulets
-ItemDisplay[amu MAG ILVL=88]: %BLUE%%NAME%%WHITE% [%TAN%CLVL 92+%WHITE%]
-ItemDisplay[amu MAG ILVL=89]: %BLUE%%NAME%%WHITE% [%TAN%CLVL 92+%WHITE%]
-ItemDisplay[amu MAG ILVL=90]: %BLUE%%NAME%%WHITE% [%TAN%CLVL 90+%WHITE%]
-ItemDisplay[amu MAG ILVL=91]: %BLUE%%NAME%%WHITE% [%TAN%CLVL 90+%WHITE%]
-ItemDisplay[amu MAG ILVL=92]: %BLUE%%NAME%%WHITE% [%TAN%CLVL 88+%WHITE%]
-ItemDisplay[amu MAG ILVL=93]: %BLUE%%NAME%%WHITE% [%TAN%CLVL 88+%WHITE%]
-ItemDisplay[amu MAG ILVL=94]: %BLUE%%NAME%%WHITE% [%TAN%CLVL 86+%WHITE%]
-ItemDisplay[amu MAG ILVL=95]: %BLUE%%NAME%%WHITE% [%TAN%CLVL 86+%WHITE%]
-ItemDisplay[amu MAG ILVL=96]: %BLUE%%NAME%%WHITE% [%TAN%CLVL 84+%WHITE%]
-ItemDisplay[amu MAG ILVL=97]: %BLUE%%NAME%%WHITE% [%TAN%CLVL 84+%WHITE%]
-ItemDisplay[amu MAG ILVL=98]: %BLUE%%NAME%%WHITE% [%TAN%CLVL 82+%WHITE%]
-ItemDisplay[amu MAG ILVL=99]: %BLUE%%NAME%%WHITE% [%TAN%CLVL 82+%WHITE%]
-ItemDisplay[amu MAG ILVL<88]: %BLUE%%NAME%%WHITE%
+ItemDisplay[amu MAG ILVL=88]: %BLUE%%NAME%%WHITE% [%TAN%CLVL 92+%WHITE%] {%RED%Blood %WHITE%+ %ORANGE%Amn %WHITE%| %Purple%Cast %WHITE%+ %ORANGE%Ral %NL%%GREEN%Safe %WHITE%+ %ORANGE%Thul %WHITE%| %GRAY%Vamp %WHITE%+ %ORANGE%Dol %NL%%YELLOW%Bount %WHITE%+ %ORANGE%Ko %WHITE%| %BLUE%Hitpow %WHITE%+ %ORANGE%Thul}
+ItemDisplay[amu MAG ILVL=89]: %BLUE%%NAME%%WHITE% [%TAN%CLVL 92+%WHITE%] {%RED%Blood %WHITE%+ %ORANGE%Amn %WHITE%| %Purple%Cast %WHITE%+ %ORANGE%Ral %NL%%GREEN%Safe %WHITE%+ %ORANGE%Thul %WHITE%| %GRAY%Vamp %WHITE%+ %ORANGE%Dol %NL%%YELLOW%Bount %WHITE%+ %ORANGE%Ko %WHITE%| %BLUE%Hitpow %WHITE%+ %ORANGE%Thul}
+ItemDisplay[amu MAG ILVL=90]: %BLUE%%NAME%%WHITE% [%TAN%CLVL 90+%WHITE%] {%RED%Blood %WHITE%+ %ORANGE%Amn %WHITE%| %Purple%Cast %WHITE%+ %ORANGE%Ral %NL%%GREEN%Safe %WHITE%+ %ORANGE%Thul %WHITE%| %GRAY%Vamp %WHITE%+ %ORANGE%Dol %NL%%YELLOW%Bount %WHITE%+ %ORANGE%Ko %WHITE%| %BLUE%Hitpow %WHITE%+ %ORANGE%Thul}
+ItemDisplay[amu MAG ILVL=91]: %BLUE%%NAME%%WHITE% [%TAN%CLVL 90+%WHITE%] {%RED%Blood %WHITE%+ %ORANGE%Amn %WHITE%| %Purple%Cast %WHITE%+ %ORANGE%Ral %NL%%GREEN%Safe %WHITE%+ %ORANGE%Thul %WHITE%| %GRAY%Vamp %WHITE%+ %ORANGE%Dol %NL%%YELLOW%Bount %WHITE%+ %ORANGE%Ko %WHITE%| %BLUE%Hitpow %WHITE%+ %ORANGE%Thul}
+ItemDisplay[amu MAG ILVL=92]: %BLUE%%NAME%%WHITE% [%TAN%CLVL 88+%WHITE%] {%RED%Blood %WHITE%+ %ORANGE%Amn %WHITE%| %Purple%Cast %WHITE%+ %ORANGE%Ral %NL%%GREEN%Safe %WHITE%+ %ORANGE%Thul %WHITE%| %GRAY%Vamp %WHITE%+ %ORANGE%Dol %NL%%YELLOW%Bount %WHITE%+ %ORANGE%Ko %WHITE%| %BLUE%Hitpow %WHITE%+ %ORANGE%Thul}
+ItemDisplay[amu MAG ILVL=93]: %BLUE%%NAME%%WHITE% [%TAN%CLVL 88+%WHITE%] {%RED%Blood %WHITE%+ %ORANGE%Amn %WHITE%| %Purple%Cast %WHITE%+ %ORANGE%Ral %NL%%GREEN%Safe %WHITE%+ %ORANGE%Thul %WHITE%| %GRAY%Vamp %WHITE%+ %ORANGE%Dol %NL%%YELLOW%Bount %WHITE%+ %ORANGE%Ko %WHITE%| %BLUE%Hitpow %WHITE%+ %ORANGE%Thul}
+ItemDisplay[amu MAG ILVL=94]: %BLUE%%NAME%%WHITE% [%TAN%CLVL 86+%WHITE%] {%RED%Blood %WHITE%+ %ORANGE%Amn %WHITE%| %Purple%Cast %WHITE%+ %ORANGE%Ral %NL%%GREEN%Safe %WHITE%+ %ORANGE%Thul %WHITE%| %GRAY%Vamp %WHITE%+ %ORANGE%Dol %NL%%YELLOW%Bount %WHITE%+ %ORANGE%Ko %WHITE%| %BLUE%Hitpow %WHITE%+ %ORANGE%Thul}
+ItemDisplay[amu MAG ILVL=95]: %BLUE%%NAME%%WHITE% [%TAN%CLVL 86+%WHITE%] {%RED%Blood %WHITE%+ %ORANGE%Amn %WHITE%| %Purple%Cast %WHITE%+ %ORANGE%Ral %NL%%GREEN%Safe %WHITE%+ %ORANGE%Thul %WHITE%| %GRAY%Vamp %WHITE%+ %ORANGE%Dol %NL%%YELLOW%Bount %WHITE%+ %ORANGE%Ko %WHITE%| %BLUE%Hitpow %WHITE%+ %ORANGE%Thul}
+ItemDisplay[amu MAG ILVL=96]: %BLUE%%NAME%%WHITE% [%TAN%CLVL 84+%WHITE%] {%RED%Blood %WHITE%+ %ORANGE%Amn %WHITE%| %Purple%Cast %WHITE%+ %ORANGE%Ral %NL%%GREEN%Safe %WHITE%+ %ORANGE%Thul %WHITE%| %GRAY%Vamp %WHITE%+ %ORANGE%Dol %NL%%YELLOW%Bount %WHITE%+ %ORANGE%Ko %WHITE%| %BLUE%Hitpow %WHITE%+ %ORANGE%Thul}
+ItemDisplay[amu MAG ILVL=97]: %BLUE%%NAME%%WHITE% [%TAN%CLVL 84+%WHITE%] {%RED%Blood %WHITE%+ %ORANGE%Amn %WHITE%| %Purple%Cast %WHITE%+ %ORANGE%Ral %NL%%GREEN%Safe %WHITE%+ %ORANGE%Thul %WHITE%| %GRAY%Vamp %WHITE%+ %ORANGE%Dol %NL%%YELLOW%Bount %WHITE%+ %ORANGE%Ko %WHITE%| %BLUE%Hitpow %WHITE%+ %ORANGE%Thul}
+ItemDisplay[amu MAG ILVL=98]: %BLUE%%NAME%%WHITE% [%TAN%CLVL 82+%WHITE%] {%RED%Blood %WHITE%+ %ORANGE%Amn %WHITE%| %Purple%Cast %WHITE%+ %ORANGE%Ral %NL%%GREEN%Safe %WHITE%+ %ORANGE%Thul %WHITE%| %GRAY%Vamp %WHITE%+ %ORANGE%Dol %NL%%YELLOW%Bount %WHITE%+ %ORANGE%Ko %WHITE%| %BLUE%Hitpow %WHITE%+ %ORANGE%Thul}
+ItemDisplay[amu MAG ILVL=99]: %BLUE%%NAME%%WHITE% [%TAN%CLVL 82+%WHITE%] {%RED%Blood %WHITE%+ %ORANGE%Amn %WHITE%| %Purple%Cast %WHITE%+ %ORANGE%Ral %NL%%GREEN%Safe %WHITE%+ %ORANGE%Thul %WHITE%| %GRAY%Vamp %WHITE%+ %ORANGE%Dol %NL%%YELLOW%Bount %WHITE%+ %ORANGE%Ko %WHITE%| %BLUE%Hitpow %WHITE%+ %ORANGE%Thul}
+ItemDisplay[amu MAG ILVL<88]: %BLUE%%NAME%%WHITE% {%RED%Blood %WHITE%+ %ORANGE%Amn %WHITE%| %Purple%Cast %WHITE%+ %ORANGE%Ral %NL%%GREEN%Safe %WHITE%+ %ORANGE%Thul %WHITE%| %GRAY%Vamp %WHITE%+ %ORANGE%Dol %NL%%YELLOW%Bount %WHITE%+ %ORANGE%Ko %WHITE%| %BLUE%Hitpow %WHITE%+ %ORANGE%Thul}
 //Rings
-ItemDisplay[rin MAG ILVL=86]: %BLUE%%NAME%%WHITE% [%TAN%CLVL 84+%WHITE%]
-ItemDisplay[rin MAG ILVL=87]: %BLUE%%NAME%%WHITE% [%TAN%CLVL 84+%WHITE%]
-ItemDisplay[rin MAG ILVL=88]: %BLUE%%NAME%%WHITE% [%TAN%CLVL 82+%WHITE%]
-ItemDisplay[rin MAG ILVL=89]: %BLUE%%NAME%%WHITE% [%TAN%CLVL 82+%WHITE%]
-ItemDisplay[rin MAG ILVL=90]: %BLUE%%NAME%%WHITE% [%TAN%CLVL 80+%WHITE%]
-ItemDisplay[rin MAG ILVL=91]: %BLUE%%NAME%%WHITE% [%TAN%CLVL 78+%WHITE%]
-ItemDisplay[rin MAG ILVL=92]: %BLUE%%NAME%%WHITE% [%TAN%CLVL 78+%WHITE%]
-ItemDisplay[rin MAG ILVL=93]: %BLUE%%NAME%%WHITE% [%TAN%CLVL 76+%WHITE%]
-ItemDisplay[rin MAG ILVL=94]: %BLUE%%NAME%%WHITE% [%TAN%CLVL 76+%WHITE%]
-ItemDisplay[rin MAG ILVL>94]: %BLUE%%NAME%%WHITE% [%TAN%CLVL 74+%WHITE%]
-ItemDisplay[rin MAG ILVL<86]: %BLUE%%NAME%%WHITE%
+ItemDisplay[rin MAG ILVL=86]: %BLUE%%NAME%%WHITE% [%TAN%CLVL 84+%WHITE%] {%RED%Blood %WHITE%+ %ORANGE%Sol %WHITE%| %YELLOW%Bount %WHITE%+ %ORANGE%Lum %NL%%GRAY%Vamp %WHITE%+ %ORANGE%Hel}
+ItemDisplay[rin MAG ILVL=87]: %BLUE%%NAME%%WHITE% [%TAN%CLVL 84+%WHITE%] {%RED%Blood %WHITE%+ %ORANGE%Sol %WHITE%| %YELLOW%Bount %WHITE%+ %ORANGE%Lum %NL%%GRAY%Vamp %WHITE%+ %ORANGE%Hel}
+ItemDisplay[rin MAG ILVL=88]: %BLUE%%NAME%%WHITE% [%TAN%CLVL 82+%WHITE%] {%RED%Blood %WHITE%+ %ORANGE%Sol %WHITE%| %YELLOW%Bount %WHITE%+ %ORANGE%Lum %NL%%GRAY%Vamp %WHITE%+ %ORANGE%Hel}
+ItemDisplay[rin MAG ILVL=89]: %BLUE%%NAME%%WHITE% [%TAN%CLVL 82+%WHITE%] {%RED%Blood %WHITE%+ %ORANGE%Sol %WHITE%| %YELLOW%Bount %WHITE%+ %ORANGE%Lum %NL%%GRAY%Vamp %WHITE%+ %ORANGE%Hel}
+ItemDisplay[rin MAG ILVL=90]: %BLUE%%NAME%%WHITE% [%TAN%CLVL 80+%WHITE%] {%RED%Blood %WHITE%+ %ORANGE%Sol %WHITE%| %YELLOW%Bount %WHITE%+ %ORANGE%Lum %NL%%GRAY%Vamp %WHITE%+ %ORANGE%Hel}
+ItemDisplay[rin MAG ILVL=91]: %BLUE%%NAME%%WHITE% [%TAN%CLVL 78+%WHITE%] {%RED%Blood %WHITE%+ %ORANGE%Sol %WHITE%| %YELLOW%Bount %WHITE%+ %ORANGE%Lum %NL%%GRAY%Vamp %WHITE%+ %ORANGE%Hel}
+ItemDisplay[rin MAG ILVL=92]: %BLUE%%NAME%%WHITE% [%TAN%CLVL 78+%WHITE%] {%RED%Blood %WHITE%+ %ORANGE%Sol %WHITE%| %YELLOW%Bount %WHITE%+ %ORANGE%Lum %NL%%GRAY%Vamp %WHITE%+ %ORANGE%Hel}
+ItemDisplay[rin MAG ILVL=93]: %BLUE%%NAME%%WHITE% [%TAN%CLVL 76+%WHITE%] {%RED%Blood %WHITE%+ %ORANGE%Sol %WHITE%| %YELLOW%Bount %WHITE%+ %ORANGE%Lum %NL%%GRAY%Vamp %WHITE%+ %ORANGE%Hel}
+ItemDisplay[rin MAG ILVL=94]: %BLUE%%NAME%%WHITE% [%TAN%CLVL 76+%WHITE%] {%RED%Blood %WHITE%+ %ORANGE%Sol %WHITE%| %YELLOW%Bount %WHITE%+ %ORANGE%Lum %NL%%GRAY%Vamp %WHITE%+ %ORANGE%Hel}
+ItemDisplay[rin MAG ILVL>94]: %BLUE%%NAME%%WHITE% [%TAN%CLVL 74+%WHITE%] {%RED%Blood %WHITE%+ %ORANGE%Sol %WHITE%| %YELLOW%Bount %WHITE%+ %ORANGE%Lum %NL%%GRAY%Vamp %WHITE%+ %ORANGE%Hel}
+ItemDisplay[rin MAG ILVL<86]: %BLUE%%NAME%%WHITE% {%RED%Blood %WHITE%+ %ORANGE%Sol %WHITE%| %YELLOW%Bount %WHITE%+ %ORANGE%Lum %NL%%GRAY%Vamp %WHITE%+ %ORANGE%Hel}
 //s3 PD2 Uniques
 ItemDisplay[am5 UNI !ID !ETH]: %BLUE%ooo %GOLD%True Silver %BLUE%ooo%MAP%
 ItemDisplay[am5 UNI !ID ETH]: %BLUE%ooo %GRAY%[%WHITE%eth%GRAY%] %GOLD%True Silver %BLUE%ooo%MAP%
@@ -488,7 +505,7 @@ ItemDisplay[uap UNI !ID !ETH]: %RED%ooo %PURPLE%Shako %RED%ooo%MAP%
 ItemDisplay[uap UNI !ID ETH]: %RED%ooo%GRAY%[%WHITE%eth%GRAY%] %PURPLE%Shako %RED%ooo%MAP%
 ItemDisplay[ulm UNI !ID !ETH]: %RED%oo %PURPLE%Steel Shade %RED%oo%MAP%
 ItemDisplay[ulm UNI !ID ETH]: %RED%oo %GRAY%[%WHITE%eth%GRAY%] %RED%Steel Shade oo%MAP%
-ItemDisplay[xap UNI !ID !ETH]: %RED%o %Peasant Crown %RED%o%MAP%
+ItemDisplay[xap UNI !ID !ETH]: %RED%o Peasant Crown o%MAP%
 ItemDisplay[xap UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] %RED%Peasant Crown %RED%o%MAP%
 ItemDisplay[xrn UNI !ID !ETH]: %RED%oo Crown of Thieves oo%MAP%
 ItemDisplay[xrn UNI !ID ETH]: %RED%ooo %GRAY%[%WHITE%eth%GRAY%] %RED%Crown of Thieves ooo%MAP%
@@ -1205,7 +1222,6 @@ ItemDisplay[jew UNI !ID]: %RED%>>%WHITE%>>%PURPLE%%NAME%%WHITE%<<%RED%<<%MAP%
 ItemDisplay[(rin OR amu) SET !ID]: %PURPLE%o %GREEN%%NAME% %PURPLE%o%MAP%
 ///CATCHALL
 ItemDisplay[RW]: %NAME% %TAN%[%SOCKETS%]
-ItemDisplay[(ARMOR OR WEAPON) (MAG OR RARE OR SET OR UNI) ID !ETH]: %NAME%
 ItemDisplay[(ARMOR OR WEAPON) UNI ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%%NAME%
 ItemDisplay[(ARMOR OR WEAPON) SET ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GREEN%%NAME%
 ItemDisplay[(UNI OR SET) AND !ETH !ID]: %NAME%
@@ -1282,25 +1298,51 @@ ItemDisplay[(7wn OR 7yw OR 7bw OR 7gw OR 9gw OR 9bw OR 9yw) MAG ETH !ID]: %GRAY%
 ItemDisplay[(ne8 OR ne9 OR nea OR ned OR nee OR nef) MAG !ETH !ID]: %BLUE%%NAME%
 ItemDisplay[(amc OR amb OR 6rx OR 8rx OR 6lb OR 6lw OR 8lw OR 8lb) MAG !ETH !ID]: %BLUE%%NAME%
 ///Season Start catch-all
-ItemDisplay[WEP (EXC OR ELT) MAG !ETH !ID (ILVL>56 AND CLVL<97)]: %BLUE%%NAME%
+ItemDisplay[(ARMOR OR WEAPON) (SET OR UNI) ID !ETH]: %NAME%
+ItemDisplay[WEP (EXC OR ELT) MAG !ETH !ID ILVL>56]: %BLUE%%NAME%
 ItemDisplay[ARMOR (EXC OR ELT) MAG !ETH !ID CLVL<97]: %BLUE%%NAME%
-ItemDisplay[(ARMOR OR WEAPON) MAG ETH !ID (ILVL>56 AND CLVL<97)]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
+ItemDisplay[(ARMOR OR WEAPON) MAG ETH !ID CLVL<97)]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
+ItemDisplay[(ARMOR CRAFT ELT !ETH ID]: %ORANGE%%NAME%
+ItemDisplay[(ARMOR CRAFT EXC !ETH ID]: %ORANGE%%NAME% {%WHITE%Upg %ORANGE%Craft %WHITE%+ %ORANGE%Ko %WHITE%+ %ORANGE%Pul %WHITE%+ %PURPLE%Amethyst}
+ItemDisplay[(ARMOR CRAFT !ETH ID]: %ORANGE%%NAME% {%WHITE%Upg %ORANGE%Craft %WHITE%+ %ORANGE%Ral %WHITE%+ %ORANGE%Thul %WHITE%+ %PURPLE%Amethyst}
+ItemDisplay[(ARMOR CRAFT ELT ETH ID]: %GRAY%[%WHITE%eth%GRAY%] %ORANGE%%NAME%
+ItemDisplay[(ARMOR CRAFT EXC ETH ID]: %GRAY%[%WHITE%eth%GRAY%] %ORANGE%%NAME% {%WHITE%Upg %ORANGE%Craft %WHITE%+ %ORANGE%Ko %WHITE%+ %ORANGE%Pul %WHITE%+ %PURPLE%Amethyst}
+ItemDisplay[(ARMOR CRAFT ETH ID]: %GRAY%[%WHITE%eth%GRAY%] %ORANGE%%NAME% {%WHITE%Upg %ORANGE%Craft %WHITE%+ %ORANGE%Ral %WHITE%+ %ORANGE%Thul %WHITE%+ %PURPLE%Amethyst}
+ItemDisplay[(WEAPON CRAFT ELT !ETH ID]: %ORANGE%%NAME%
+ItemDisplay[(WEAPON CRAFT EXC !ETH ID]: %ORANGE%%NAME% {%WHITE%Upg %ORANGE%Craft %WHITE%+ %ORANGE%Fal %WHITE%+ %ORANGE%Um %WHITE%+ %BLUE%Sapphire}
+ItemDisplay[(WEAPON CRAFT !ETH ID]: %ORANGE%%NAME% {%WHITE%Upg %ORANGE%Craft %WHITE%+ %ORANGE%Ort %WHITE%+ %ORANGE%Amn %WHITE%+ %BLUE%Sapphire}
+ItemDisplay[(WEAPON CRAFT ELT ETH ID]: %GRAY%[%WHITE%eth%GRAY%] %ORANGE%%NAME%
+ItemDisplay[(WEAPON CRAFT EXC ETH ID]: %GRAY%[%WHITE%eth%GRAY%] %ORANGE%%NAME% {%WHITE%Upg %ORANGE%Craft %WHITE%+ %ORANGE%Fal %WHITE%+ %ORANGE%Um %WHITE%+ %BLUE%Sapphire}
+ItemDisplay[(WEAPON CRAFT ETH ID]: %GRAY%[%WHITE%eth%GRAY%] %ORANGE%%NAME% {%WHITE%Upg %ORANGE%Craft %WHITE%+ %ORANGE%Ort %WHITE%+ %ORANGE%Amn %WHITE%+ %BLUE%Sapphire}
+ItemDisplay[(amu OR rin) CRAFT ID]: %ORANGE%%NAME%
+ItemDisplay[(ARMOR RARE ELT !ETH ID]: %YELLOW%%NAME%
+ItemDisplay[(ARMOR RARE EXC !ETH ID]: %YELLOW%%NAME% {%WHITE%Upg %YELLOW%Rare %WHITE%+ %ORANGE%Ko %WHITE%+ %ORANGE%Pul %WHITE%+ %PURPLE%Amethyst}
+ItemDisplay[(ARMOR RARE !ETH ID]: %YELLOW%%NAME% {%WHITE%Upg %YELLOW%Rare %WHITE%+ %ORANGE%Ral %WHITE%+ %ORANGE%Thul %WHITE%+ %PURPLE%Amethyst}
+ItemDisplay[(ARMOR RARE ELT ETH ID]: %GRAY%[%WHITE%eth%GRAY%] %YELLOW%%NAME%
+ItemDisplay[(ARMOR RARE EXC ETH ID]: %GRAY%[%WHITE%eth%GRAY%] %YELLOW%%NAME% {%WHITE%Upg %YELLOW%Rare %WHITE%+ %ORANGE%Ko %WHITE%+ %ORANGE%Pul %WHITE%+ %PURPLE%Amethyst}
+ItemDisplay[(ARMOR RARE ETH ID]: %GRAY%[%WHITE%eth%GRAY%] %YELLOW%%NAME% {%WHITE%Upg %YELLOW%Rare %WHITE%+ %ORANGE%Ral %WHITE%+ %ORANGE%Thul %WHITE%+ %PURPLE%Amethyst}
+ItemDisplay[(WEAPON RARE ELT !ETH ID]: %YELLOW%%NAME%
+ItemDisplay[(WEAPON RARE EXC !ETH ID]: %YELLOW%%NAME% {%WHITE%Upg %YELLOW%Rare %WHITE%+ %ORANGE%Fal %WHITE%+ %ORANGE%Um %WHITE%+ %BLUE%Sapphire}
+ItemDisplay[(WEAPON RARE !ETH ID]: %YELLOW%%NAME% {%WHITE%Upg %YELLOW%Rare %WHITE%+ %ORANGE%Ort %WHITE%+ %ORANGE%Amn %WHITE%+ %BLUE%Sapphire}
+ItemDisplay[(WEAPON RARE ELT ETH ID]: %GRAY%[%WHITE%eth%GRAY%] %YELLOW%%NAME%
+ItemDisplay[(WEAPON RARE EXC ETH ID]: %GRAY%[%WHITE%eth%GRAY%] %YELLOW%%NAME% {%WHITE%Upg %YELLOW%Rare %WHITE%+ %ORANGE%Fal %WHITE%+ %ORANGE%Um %WHITE%+ %BLUE%Sapphire}
+ItemDisplay[(WEAPON RARE ETH ID]: %GRAY%[%WHITE%eth%GRAY%] %YELLOW%%NAME% {%WHITE%Upg %YELLOW%Rare %WHITE%+ %ORANGE%Ort %WHITE%+ %ORANGE%Amn %WHITE%+ %BLUE%Sapphire}
 ///Crafting recipes append to ID items
-ItemDisplay[EQ1 !UNI !RARE !CRAFT !RW !ETH MAG ID]: %BLUE%%NAME% {%RED%Blood %WHITE%+ %ORANGE%Ral %GREEN%Safe %WHITE%+ %ORANGE%Ith %NL%%PURPLE%Cast %WHITE%+ %ORANGE%Nef %GRAY%Vamp %WHITE%+ %ORANGE%Lum}
-ItemDisplay[EQ2 !UNI !RARE !CRAFT !RW !ETH MAG ID]: %BLUE%%NAME% {%PURPLE%Cast %WHITE%+ %ORANGE%Tal %GREEN%Safe %WHITE%+ %ORANGE%Eth %NL%%GRAY%Vamp %WHITE%+ %ORANGE%Lum}
-ItemDisplay[EQ3 !UNI !RARE !CRAFT !RW !ETH MAG ID]: %BLUE%%NAME% {%PURPLE%Cast %WHITE%+ %ORANGE%Eth %GREEN%Safe %WHITE%+ %ORANGE%Nef}
-ItemDisplay[EQ4 !UNI !RARE !CRAFT !RW !ETH MAG ID]: %BLUE%%NAME% {%RED%Blood %WHITE%+ %ORANGE%Nef %BLUE%Hitpow %WHITE%+ %ORANGE%Ort %NL%%PURPLE%Cast %WHITE%+ %ORANGE%Ort %GRAY%Vamp %WHITE%+ %ORANGE%Io %NL%%YELLOW%Bount %WHITE%+ %ORANGE%Hel}
-ItemDisplay[EQ5 !UNI !RARE !CRAFT !RW !ETH MAG ID]: %BLUE%%NAME% {%RED%Blood %WHITE%+ %ORANGE%Eth %GREEN%Safe %WHITE%+ %ORANGE%Ort %NL%%PURPLE%Cast %WHITE%+ %ORANGE%Thul %YELLOW%Bount %WHITE%+ %ORANGE%Io}
-ItemDisplay[EQ6 !UNI !RARE !CRAFT !RW !ETH MAG ID]: %BLUE%%NAME% {%RED%Blood %WHITE%+ %ORANGE%Tal %GRAY%Vamp %WHITE%+ %ORANGE%Eld %NL%%PURPLE%Cast %WHITE%+ %ORANGE%Ith %YELLOW%Bount %WHITE%+ %ORANGE%El}
-ItemDisplay[WEAPON !BOW !XBOW !RARE !ETH !CRAFT !RW MAG ID]: %BLUE%%NAME% {%RED%Blood %WHITE%+ %ORANGE%Ort %BLUE%Hitpow %WHITE%+ %ORANGE%Tir %NL%%PURPLE%Cast %WHITE%+ %ORANGE%Tir %YELLOW%Bount %WHITE%+ %ORANGE%Shael %NL%%GRAY%Vamp %WHITE%+ %ORANGE%Shael}
-ItemDisplay[(BOW OR XBOW) !UNI !RARE !CRAFT !RW MAG ID]: %BLUE%%NAME% {%RED%Blood %WHITE%+ %ORANGE%Ort %BLUE%Hitpow %WHITE%+ %ORANGE%Tir %NL%%PURPLE%Cast %WHITE%+ %ORANGE%Tir %YELLOW%Bount %WHITE%+ %ORANGE%Shael %NL%%GRAY%Vamp %WHITE%+ %ORANGE%Shael %GREEN%Safe %WHITE%+ %ORANGE%Sol}
-ItemDisplay[EQ1 !UNI !RARE !CRAFT !RW ETH MAG ID]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME% {%RED%Blood %WHITE%+ %ORANGE%Ral %GREEN%Safe %WHITE%+ %ORANGE%Ith %NL%%PURPLE%Cast %WHITE%+ %ORANGE%Nef %GRAY%Vamp %WHITE%+ %ORANGE%Lum}
-ItemDisplay[EQ2 !UNI !RARE !CRAFT !RW ETH MAG ID]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME% {%PURPLE%Cast %WHITE%+ %ORANGE%Tal %GREEN%Safe %WHITE%+ %ORANGE%Eth %NL%%GRAY%Vamp %WHITE%+ %ORANGE%Lum}
-ItemDisplay[EQ3 !UNI !RARE !CRAFT !RW ETH MAG ID]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME% {%PURPLE%Cast %WHITE%+ %ORANGE%Eth %GREEN%Safe %WHITE%+ %ORANGE%Nef}
-ItemDisplay[EQ4 !UNI !RARE !CRAFT !RW ETH MAG ID]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME% {%RED%Blood %WHITE%+ %ORANGE%Nef %BLUE%Hitpow %WHITE%+ %ORANGE%Ort %NL%%PURPLE%Cast %WHITE%+ %ORANGE%Ort %GRAY%Vamp %WHITE%+ %ORANGE%Io %NL%%YELLOW%Bount %WHITE%+ %ORANGE%Hel}
-ItemDisplay[EQ5 !UNI !RARE !CRAFT !RW ETH MAG ID]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME% {%RED%Blood %WHITE%+ %ORANGE%Eth %GREEN%Safe %WHITE%+ %ORANGE%Ort %NL%%PURPLE%Cast %WHITE%+ %ORANGE%Thul %YELLOW%Bount %WHITE%+ %ORANGE%Io}
-ItemDisplay[EQ6 !UNI !RARE !CRAFT !RW ETH MAG ID]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME% {%RED%Blood %WHITE%+ %ORANGE%Tal %GRAY%Vamp %WHITE%+ %ORANGE%Eld %NL%%PURPLE%Cast %WHITE%+ %ORANGE%Ith %YELLOW%Bount %WHITE%+ %ORANGE%El}
-ItemDisplay[WEAPON !BOW !XBOW !RARE ETH !CRAFT !RW MAG ID]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME% {%RED%Blood %WHITE%+ %ORANGE%Ort %BLUE%Hitpow %WHITE%+ %ORANGE%Tir %NL%%PURPLE%Cast %WHITE%+ %ORANGE%Tir %YELLOW%Bount %WHITE%+ %ORANGE%Shael %NL%%GRAY%Vamp %WHITE%+ %ORANGE%Shael}
+ItemDisplay[EQ1 !UNI !RARE !CRAFT !RW !ETH MAG ID]: %BLUE%%NAME% {%RED%Blood %WHITE%+ %ORANGE%Ral %WHITE%| %GREEN%Safe %WHITE%+ %ORANGE%Ith %NL%%PURPLE%Cast %WHITE%+ %ORANGE%Nef %WHITE%| %GRAY%Vamp %WHITE%+ %ORANGE%Lum}
+ItemDisplay[EQ2 !UNI !RARE !CRAFT !RW !ETH MAG ID]: %BLUE%%NAME% {%PURPLE%Cast %WHITE%+ %ORANGE%Tal %WHITE%| %GREEN%Safe %WHITE%+ %ORANGE%Eth %NL%%GRAY%Vamp %WHITE%+ %ORANGE%Lum}
+ItemDisplay[EQ3 !UNI !RARE !CRAFT !RW !ETH MAG ID]: %BLUE%%NAME% {%PURPLE%Cast %WHITE%+ %ORANGE%Eth %WHITE%| %GREEN%Safe %WHITE%+ %ORANGE%Nef}
+ItemDisplay[EQ4 !UNI !RARE !CRAFT !RW !ETH MAG ID]: %BLUE%%NAME% {%RED%Blood %WHITE%+ %ORANGE%Nef %WHITE%| %BLUE%Hitpow %WHITE%+ %ORANGE%Ort %NL%%PURPLE%Cast %WHITE%+ %ORANGE%Ort %WHITE%| %GRAY%Vamp %WHITE%+ %ORANGE%Io %NL%%YELLOW%Bount %WHITE%+ %ORANGE%Hel}
+ItemDisplay[EQ5 !UNI !RARE !CRAFT !RW !ETH MAG ID]: %BLUE%%NAME% {%RED%Blood %WHITE%+ %ORANGE%Eth %WHITE%| %GREEN%Safe %WHITE%+ %ORANGE%Ort %NL%%PURPLE%Cast %WHITE%+ %ORANGE%Thul %WHITE%| %YELLOW%Bount %WHITE%+ %ORANGE%Io}
+ItemDisplay[EQ6 !UNI !RARE !CRAFT !RW !ETH MAG ID]: %BLUE%%NAME% {%RED%Blood %WHITE%+ %ORANGE%Tal %WHITE%| %GRAY%Vamp %WHITE%+ %ORANGE%Eld %NL%%PURPLE%Cast %WHITE%+ %ORANGE%Ith %WHITE%| %YELLOW%Bount %WHITE%+ %ORANGE%El}
+ItemDisplay[WEAPON !BOW !XBOW !RARE !ETH !CRAFT !RW MAG ID]: %BLUE%%NAME% {%RED%Blood %WHITE%+ %ORANGE%Ort %WHITE%| %BLUE%Hitpow %WHITE%+ %ORANGE%Tir %NL%%PURPLE%Cast %WHITE%+ %ORANGE%Tir %WHITE%| %YELLOW%Bount %WHITE%+ %ORANGE%Shael %NL%%GRAY%Vamp %WHITE%+ %ORANGE%Shael}
+ItemDisplay[(BOW OR XBOW) !UNI !RARE !CRAFT !RW MAG ID]: %BLUE%%NAME% {%RED%Blood %WHITE%+ %ORANGE%Ort %WHITE%| %BLUE%Hitpow %WHITE%+ %ORANGE%Tir %NL%%PURPLE%Cast %WHITE%+ %ORANGE%Tir %WHITE%| %YELLOW%Bount %WHITE%+ %ORANGE%Shael %NL%%GRAY%Vamp %WHITE%+ %ORANGE%Shael %WHITE%| %GREEN%Safe %WHITE%+ %ORANGE%Sol}
+ItemDisplay[EQ1 !UNI !RARE !CRAFT !RW ETH MAG ID]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME% {%RED%Blood %WHITE%+ %ORANGE%Ral %WHITE%| %GREEN%Safe %WHITE%+ %ORANGE%Ith %NL%%PURPLE%Cast %WHITE%+ %ORANGE%Nef %WHITE%| %GRAY%Vamp %WHITE%+ %ORANGE%Lum}
+ItemDisplay[EQ2 !UNI !RARE !CRAFT !RW ETH MAG ID]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME% {%PURPLE%Cast %WHITE%+ %ORANGE%Tal %WHITE%| %GREEN%Safe %WHITE%+ %ORANGE%Eth %NL%%GRAY%Vamp %WHITE%+ %ORANGE%Lum}
+ItemDisplay[EQ3 !UNI !RARE !CRAFT !RW ETH MAG ID]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME% {%PURPLE%Cast %WHITE%+ %ORANGE%Eth %WHITE%| %GREEN%Safe %WHITE%+ %ORANGE%Nef}
+ItemDisplay[EQ4 !UNI !RARE !CRAFT !RW ETH MAG ID]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME% {%RED%Blood %WHITE%+ %ORANGE%Nef %WHITE%| %BLUE%Hitpow %WHITE%+ %ORANGE%Ort %NL%%PURPLE%Cast %WHITE%+ %ORANGE%Ort %WHITE%| %GRAY%Vamp %WHITE%+ %ORANGE%Io %NL%%YELLOW%Bount %WHITE%+ %ORANGE%Hel}
+ItemDisplay[EQ5 !UNI !RARE !CRAFT !RW ETH MAG ID]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME% {%RED%Blood %WHITE%+ %ORANGE%Eth %WHITE%| %GREEN%Safe %WHITE%+ %ORANGE%Ort %NL%%PURPLE%Cast %WHITE%+ %ORANGE%Thul %WHITE%| %YELLOW%Bount %WHITE%+ %ORANGE%Io}
+ItemDisplay[EQ6 !UNI !RARE !CRAFT !RW ETH MAG ID]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME% {%RED%Blood %WHITE%+ %ORANGE%Tal %WHITE%| %GRAY%Vamp %WHITE%+ %ORANGE%Eld %NL%%PURPLE%Cast %WHITE%+ %ORANGE%Ith %WHITE%| %YELLOW%Bount %WHITE%+ %ORANGE%El}
+ItemDisplay[WEAPON !BOW !XBOW !RARE ETH !CRAFT !RW MAG ID]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME% {%RED%Blood %WHITE%+ %ORANGE%Ort %WHITE%| %BLUE%Hitpow %WHITE%+ %ORANGE%Tir %NL%%PURPLE%Cast %WHITE%+ %ORANGE%Tir %WHITE%| %YELLOW%Bount %WHITE%+ %ORANGE%Shael %NL%%GRAY%Vamp %WHITE%+ %ORANGE%Shael}
 //SOCKETS
 //Armors
 ItemDisplay[(xtp OR uui) (!INF AND !ETH) AND (NMAG OR RW) (SOCK=0 OR SOCK>2) DEF>440]: %GRAY%%NAME% %TAN%[%SOCKETS%]
