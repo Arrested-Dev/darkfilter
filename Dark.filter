@@ -1,4 +1,4 @@
-// Adev's Loot Filter for PD2, Dark Edition. S3 v3.51
+// Adev's Loot Filter for PD2, Dark Edition. S3 v3.52
 //twitch.tv/Adevelopment
 //twitch.tv/DarkHumility
 //INF
@@ -1302,6 +1302,8 @@ ItemDisplay[(ARMOR OR WEAPON) (SET OR UNI) ID !ETH]: %NAME%
 ItemDisplay[WEP (EXC OR ELT) MAG !ETH !ID ILVL>56]: %BLUE%%NAME%
 ItemDisplay[ARMOR (EXC OR ELT) MAG !ETH !ID CLVL<97]: %BLUE%%NAME%
 ItemDisplay[(ARMOR OR WEAPON) MAG ETH !ID CLVL<97)]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
+ItemDisplay[(ARMOR OR WEAPON) RARE ETH !ID]: %GRAY%[%WHITE%eth%GRAY%] %YELLOW%%NAME%
+ItemDisplay[(ARMOR OR WEAPON) RARE !ETH !ID]: %YELLOW%%NAME%
 ItemDisplay[(ARMOR CRAFT ELT !ETH ID]: %ORANGE%%NAME%
 ItemDisplay[(ARMOR CRAFT EXC !ETH ID]: %ORANGE%%NAME% {%WHITE%Upg %ORANGE%Craft %WHITE%+ %ORANGE%Ko %WHITE%+ %ORANGE%Pul %WHITE%+ %PURPLE%Amethyst}
 ItemDisplay[(ARMOR CRAFT !ETH ID]: %ORANGE%%NAME% {%WHITE%Upg %ORANGE%Craft %WHITE%+ %ORANGE%Ral %WHITE%+ %ORANGE%Thul %WHITE%+ %PURPLE%Amethyst}
