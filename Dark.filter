@@ -514,7 +514,7 @@ ItemDisplay[xkp UNI !ID ETH]: %GOLD%oo %GRAY%[%WHITE%eth%GRAY%] %GOLD%Rockstoppe
 ItemDisplay[xhm UNI !ID !ETH]: %RED%oo Valkyrie Wing oo%MAP%
 ItemDisplay[xhm UNI !ID ETH]: %RED%oo %GRAY%[%WHITE%eth%GRAY%] %RED%Valkyrie Wing oo%MAP%
 ItemDisplay[uhm UNI !ID !ETH]: %RED%ooo %PURPLE%Veil of Steel or Nightwing's Veil %RED%ooo%MAP%
-ItemDisplay[uhm UNI !ID ETH]: %RED%ooo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Veil of Steel or %GRAY%[%WHITE%eth%GRAY%] %GOLD%Nightwing's Veil %RED%ooo%MAP%
+ItemDisplay[uhm UNI !ID ETH]: %RED%ooo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Veil of Steel or %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Nightwing's Veil %RED%ooo%MAP%
 ItemDisplay[usk UNI !ID !ETH]: %RED%ooo %PURPLE%Andariel's Visage %RED%ooo%MAP%
 ItemDisplay[usk UNI !ID ETH]: %RED%ooo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Andariel's Visage %RED%ooo%MAP%
 ItemDisplay[urn UNI !ID !ETH]: %RED%oooo %PURPLE%Crown of Ages %RED%oooo%MAP%
@@ -607,6 +607,8 @@ ItemDisplay[ush UNI !ID !ETH]: %RED%oo Head Hunter's Glory oo%MAP%
 ItemDisplay[ush UNI !ID ETH]: %RED%oo %GRAY%[%WHITE%eth%GRAY%] %RED%Head Hunter's Glory oo%MAP%
 ItemDisplay[uts UNI !ID !ETH]: %RED%o %PURPLE%Spirit Ward %RED%o%MAP%
 ItemDisplay[uts UNI !ID !ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Spirit Ward %RED%o%MAP%
+ItemDisplay[sml UNI !ID !ETH]: %GOLD%Umbral Disk%MAP%
+ItemDisplay[sml UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%Umbral Disk%MAP%
 ItemDisplay[lrg UNI !ID !ETH]: %GOLD%Stormguild%MAP%
 ItemDisplay[lrg UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%Stormguild%MAP%
 ItemDisplay[kit UNI !ID !ETH]: %GOLD%o Steelclash o%MAP%
