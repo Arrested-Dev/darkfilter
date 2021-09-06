@@ -1777,10 +1777,10 @@ ItemDisplay[(7wa OR 7fl OR 7wh) (!ETH AND NMAG OR RW) (SOCK=4 OR SOCK=5)]: %NAME
 ItemDisplay[(7wa OR 7fb OR 7gd OR 7fl OR 7wh OR 7gm) (ETH AND NMAG OR RW) (SOCK>3]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]%MAP%
 ItemDisplay[7fb (ETH AND !INF) AND (NMAG OR RW) SOCK=0]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[(7wa OR 7gd OR 7wh OR 7gm) (ETH AND !INF AND !SUP) AND (NMAG OR RW) SOCK=0]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
-//Breath of the Dying/Last Wish
+//Breath of the Dying/Last Wish/wind
 ItemDisplay[7cr !INF AND (NMAG OR RW) (SOCK=0 OR SOCK=6)]: %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[(7wa OR 7gd OR 7p7) (ETH AND !INF) AND (NMAG OR RW) (SOCK=0 OR SOCK=6)]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
-ItemDisplay[6ws ETH NMAG (SOCK=0 OR SOCK=6)]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[6ws ETH NMAG (SOCK=0 OR SOCK=2 OR SOCK=6)]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
 //Lawbringer
 ItemDisplay[72h 7bs 7ls (ETH AND !INF) AND (NMAG OR RW) (SOCK=3)]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[7cr !INF AND (NMAG OR RW) (SOCK=3)]: %NAME% %TAN%[%SOCKETS%]
