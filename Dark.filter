@@ -580,7 +580,7 @@ ItemDisplay[uui UNI !ID !ETH]: %RED%o %PURPLE%Ormus' Robes %RED%o%MAP%
 ItemDisplay[uui UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %RED%Ormus' Robes%MAP%
 ItemDisplay[xng UNI !ID !ETH]: %GOLD%ooo Spirit Forge ooo%MAP%
 ItemDisplay[xld UNI !ID !ETH]: %RED%oo Toothrow oo%MAP%
-ItemDisplay[xld UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%]%RED%Toothrow%MAP%
+ItemDisplay[xld UNI !ID ETH]: %RED%oo %GRAY%[%WHITE%eth%GRAY%]%RED%Toothrow oo%MAP%
 ItemDisplay[ltp UNI !ID !ETH]: %GOLD%o Heavenly Garb o%MAP%
 ItemDisplay[ltp UNI !ID ETH]: %GOLD%ooo %GRAY%[%WHITE%eth%GRAY%] %GOLD%Heavenly Garb ooo%MAP%
 ItemDisplay[utu UNI !ID !ETH]: %RED%ooo The Gladiator's Bane ooo%MAP%
