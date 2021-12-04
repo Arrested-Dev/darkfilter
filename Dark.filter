@@ -1,4 +1,4 @@
-// Adev's Loot Filter for PD2, Dark Edition. S4 v4.00
+// Adev's Loot Filter for PD2, Dark Edition. S4 v4.01
 //twitch.tv/Adevelopment
 //twitch.tv/DarkHumility
 //INF
@@ -66,11 +66,17 @@ ItemDisplay[upmp]: %GRAY%o %NAME%%GRAY% o%MAP% {%WHITE%+ Three %WHITE%M%BLUE%A%Y
 ItemDisplay[scrb]: %PURPLE%o %NAME%%PURPLE% o%MAP% {%WHITE%+ Tier 3 %RED%Map %NL%%WHITE%Turns %RED%Map%WHITE% into %PURPLE%Dungeon%PURPLE%}
 ItemDisplay[lbox]: %WHITE%o %GOLD%%NAME% %WHITE%o%MAP%
 ItemDisplay[wss]: %GREEN%o %PURPLE%%NAME% %GREEN%o%MAP%
+ItemDisplay[cwss]: %RED%o %PURPLE%%NAME% %RED%o%MAP%
+ItemDisplay[ubtm]: %RED%o %PURPLE%%NAME%%RED% o%MAP%
 ItemDisplay[dcma]: %RED%o %NAME%%RED% o%MAP%
 ItemDisplay[dcbl]: %RED%o %NAME%%RED% o%MAP%
 ItemDisplay[dcho]: %RED%o %NAME%%RED% o%MAP%
 ItemDisplay[dcso]: %RED%o %NAME%%RED% o%MAP%
 ItemDisplay[imrn]: %RED%o %NAME%%RED% o%MAP%
+ItemDisplay[rtma]: %RED%o %NAME%%RED% o%MAP%
+ItemDisplay[rtmo]: %RED%o %NAME%%RED% o%MAP%
+ItemDisplay[jewf]: %BLUE%o %NAME% o%MAP%
+
 //Maps
 ///tier1
 ItemDisplay[t11 OR t12 OR t13 OR t14 MAG !ID]: %GREEN%o %BLUE%%NAME% %GREEN%o%MAP%
@@ -1528,6 +1534,13 @@ ItemDisplay[WP12 !wnd !ywn !9wn NMAG SK93>2 !SOCK=1]: %GRAY%[%WHITE%3spi%GRAY%] 
 ItemDisplay[WP12 !wnd !ywn !9wn NMAG SK89>2 !SOCK=1]: %GRAY%[%WHITE%3skar%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[WP12 !wnd !ywn !9wn NMAG SK80>2 !SOCK=1]: %GRAY%[%WHITE%3skma%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[WP12 !wnd !ywn !9wn NMAG SK70>2 !SOCK=1]: %GRAY%[%WHITE%3skwa%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[WP12 !wnd !ywn !9wn NMAG SK75>1 !SOCK=1 CLVL<71]: %GRAY%[%WHITE%2clag%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[WP12 !wnd !ywn !9wn NMAG SK94>1 !SOCK=1 CLVL<71]: %GRAY%[%WHITE%2firg%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[WP12 !wnd !ywn !9wn NMAG SK85>1 !SOCK=1 CLVL<71]: %GRAY%[%WHITE%2blog%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[WP12 !wnd !ywn !9wn NMAG SK89>1 !SOCK=1 CLVL<71]: %GRAY%[%WHITE%2skar%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[WP12 !wnd !ywn !9wn NMAG SK80>1 !SOCK=1 CLVL<71]: %GRAY%[%WHITE%2skma%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[WP12 !wnd !ywn !9wn NMAG SK70>1 !SOCK=1 CLVL<71]: %GRAY%[%WHITE%2skwa%GRAY%] %NAME% %TAN%[%SOCKETS%]
+///WP13 SCEPTERS
 //Shields
 ItemDisplay[(uit OR uow OR uts) NMAG !ETH ED=15 (SOCK=0 OR SOCK=4)]: %GRAY%[%WHITE%%15%GRAY%] %NAME% %WHITE%%TAN%[%SOCKETS%]%MAP%
 ItemDisplay[(uit OR uow OR uts) NMAG !ETH ED>0 ED<15 (SOCK=0 OR SOCK=4)]: %GRAY%[%WHITE%%ed%GRAY%] %NAME% %WHITE%%TAN%[%SOCKETS%]
