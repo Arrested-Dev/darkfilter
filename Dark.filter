@@ -1,4 +1,4 @@
-// Adev's Loot Filter for PD2, Dark Edition. S4 v4.01
+// Adev's Loot Filter for PD2, Dark Edition. S4 v4.02
 //twitch.tv/Adevelopment
 //twitch.tv/DarkHumility
 //INF
@@ -499,8 +499,8 @@ ItemDisplay[xlm UNI !ID !ETH]: %GOLD%oo Stealskull oo%MAP%
 ItemDisplay[xlm UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%Stealskull%MAP%
 ItemDisplay[dgr UNI !ID !ETH]: %GREEN%o %RED%Gull %GREEN%o%MAP%
 ItemDisplay[dgr UNI !ID ETH]: %GREEN%o %GRAY%[%WHITE%eth%GRAY%] %RED%Gull %GREEN%o%MAP%
-ItemDisplay[9bl UNI !ID !ETH]: %GOLD%Stormspike%MAP%
-ItemDisplay[9bl UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%Stormspike%MAP%
+ItemDisplay[9bl UNI !ID !ETH]: %RED%Stormspike%MAP%
+ItemDisplay[9bl UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %RED%Stormspike%MAP%
 ItemDisplay[9fc UNI !ID !ETH]: %RED%ooo Blade of Ali Baba ooo%MAP%
 ItemDisplay[9fc UNI !ID ETH]: %RED%ooo %GRAY%[%WHITE%eth%GRAY%] %RED%Blade of Ali Baba ooo%MAP%
 ItemDisplay[xh9 UNI !ID !ETH]: %RED%oo %PURPLE%Vampire Gaze %RED%oo%MAP%
@@ -539,14 +539,14 @@ ItemDisplay[stu UNI !ID !ETH]: %GOLD%oo Twitchthroe oo%MAP%
 ItemDisplay[stu UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%Twitchthroe%MAP%
 ItemDisplay[fld UNI !ID !ETH]: %GOLD%ooo Rockfleece ooo%MAP%
 ItemDisplay[fld UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%Rockfleece%MAP%
-ItemDisplay[rng UNI !ID !ETH]: %GOLD%Darkglow%MAP%
-ItemDisplay[rng UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%Darkglow%MAP%
+ItemDisplay[rng UNI !ID !ETH]: %RED%o Darkglow o%MAP%
+ItemDisplay[rng UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %RED%o Darkglow o%MAP%
 ItemDisplay[scl UNI !ID !ETH]: %GOLD%o Hawkmail o%MAP%
 ItemDisplay[scl UNI !ID ETH]: %GOLD%o %GRAY%[%WHITE%eth%GRAY%] %GOLD%Hawkmail o%MAP%
 ItemDisplay[brs UNI !ID !ETH]: %GOLD%o Venom Ward o%MAP%
 ItemDisplay[brs UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%Venom Ward%MAP%
-ItemDisplay[chn UNI !ID !ETH]: %GOLD%Sparking Mail%MAP%
-ItemDisplay[chn UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%Sparking Mail%MAP%
+ItemDisplay[chn UNI !ID !ETH]: %GOLD%o Sparking Mail o%MAP%
+ItemDisplay[chn UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%o Sparking Mail o%MAP%
 ItemDisplay[spl UNI !ID !ETH]: %GOLD%o Iceblink o%MAP%
 ItemDisplay[spl UNI !ID ETH]: %GOLD%o %GRAY%[%WHITE%eth%GRAY%] %GOLD%Iceblink o%MAP%
 ItemDisplay[plt UNI !ID !ETH]: %GOLD%o Boneflesh o%MAP%
@@ -639,8 +639,8 @@ ItemDisplay[mgl UNI !ID !ETH]: %RED%o Chance Guards o%MAP%
 ItemDisplay[mgl UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] %RED%Chance Guards o%MAP%
 ItemDisplay[tgl UNI !ID !ETH]: %RED%oo Magefist oo%MAP%
 ItemDisplay[tgl UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] Magefist o%MAP%
-ItemDisplay[hgl UNI !ID !ETH]: %GOLD%oo %GOLD%Frostburn oo%MAP%
-ItemDisplay[hgl UNI !ID ETH]: %GOLD%o %GRAY%[%WHITE%eth%GRAY%] %GOLD%Frostburn o%MAP%
+ItemDisplay[hgl UNI !ID !ETH]: %RED%o Frostburn o%MAP%
+ItemDisplay[hgl UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] %RED%Frostburn o%MAP%
 ItemDisplay[xlg UNI !ID !ETH]: %RED%o Venom Grip o%MAP%
 ItemDisplay[xlg UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] %RED%Venom Grip o%MAP%
 ItemDisplay[vgl UNI !ID !ETH]: %RED%o Bloodfist o%MAP%
