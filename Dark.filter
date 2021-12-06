@@ -540,7 +540,7 @@ ItemDisplay[stu UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%Twitchthroe%MAP%
 ItemDisplay[fld UNI !ID !ETH]: %GOLD%ooo Rockfleece ooo%MAP%
 ItemDisplay[fld UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%Rockfleece%MAP%
 ItemDisplay[rng UNI !ID !ETH]: %RED%o Darkglow o%MAP%
-ItemDisplay[rng UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %RED%o Darkglow o%MAP%
+ItemDisplay[rng UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] Darkglow o%MAP%
 ItemDisplay[scl UNI !ID !ETH]: %GOLD%o Hawkmail o%MAP%
 ItemDisplay[scl UNI !ID ETH]: %GOLD%o %GRAY%[%WHITE%eth%GRAY%] %GOLD%Hawkmail o%MAP%
 ItemDisplay[brs UNI !ID !ETH]: %GOLD%o Venom Ward o%MAP%
