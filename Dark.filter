@@ -796,7 +796,7 @@ ItemDisplay[9gm UNI !ID ETH]: %RED%oooo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%The Gav
 ItemDisplay[7fl UNI !ID !ETH]: %RED%oo %PURPLE%Horizon's Tornado or Stormlash %RED%oo%MAP%
 ItemDisplay[7fl UNI !ID ETH]: %RED%oo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Horizon's Tornado or %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Stormlash %RED%oo%MAP%
 ItemDisplay[7m7 UNI !ID !ETH]: %RED%o Windhammer o%MAP%
-ItemDisplay[7m7 UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Windhammer%RED%o%MAP%
+ItemDisplay[7m7 UNI !ID ETH]: %RED%ooo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Windhammer%RED%ooo%MAP%
 ItemDisplay[scm UNI !ID !ETH]: %GOLD%Blood Crescent%MAP%
 ItemDisplay[scm UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%Blood Crescent%MAP%
 ItemDisplay[sbr UNI !ID !ETH]: %GOLD%Skewer of Krintiz%MAP%
@@ -951,8 +951,8 @@ ItemDisplay[9pa UNI !ID !ETH]: %GOLD%Pierre Tombale Couant%MAP%
 ItemDisplay[9pa UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%Pierre Tombale Couant%MAP%
 ItemDisplay[9h9 UNI !ID !ETH]: %GOLD%Husoldal Evo%MAP%
 ItemDisplay[9h9 UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%Husoldal Evo%MAP%
-ItemDisplay[9wc UNI !ID !ETH]: %GOLD%Grim's Burning Dead%MAP%
-ItemDisplay[9wc UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%Grim's Burning Dead%MAP%
+ItemDisplay[9wc UNI !ID !ETH]: %GOLD%oo Grim's Burning Dead oo%MAP%
+ItemDisplay[9wc UNI !ID ETH]: %GOLD%oo %GRAY%[%WHITE%eth%GRAY%] %GOLD%Grim's Burning Dead oo%MAP%
 ItemDisplay[7s8 UNI !ID !ETH]: %RED%o %PURPLE%Reaper's Toll %RED%o%MAP%
 ItemDisplay[7s8 UNI !ID ETH]: %RED%oooo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Reaper's Toll %RED%oooo%MAP%
 ItemDisplay[7pa UNI !ID !ETH]: %RED%o Tomb Reaver o%MAP%
@@ -1583,6 +1583,10 @@ ItemDisplay[7wa ETH NMAG (SOCK=0 OR SOCK>2)]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %T
 ItemDisplay[7bt ETH NMAG ED=15 (SOCK=0 OR SOCK>3)]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%[%WHITE%%15%GRAY%] %NAME% %WHITE%%TAN%[%SOCKETS%]%MAP%
 ItemDisplay[7bt ETH NMAG ED>0 ED<15 SOCK>3]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%[%WHITE%%ed%GRAY%] %NAME% %WHITE%%TAN%[%SOCKETS%]%MAP%
 ItemDisplay[7bt ETH NMAG (SOCK=0 OR SOCK>3)]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]%MAP%
+//Feral Axe
+ItemDisplay[7la ETH NMAG ED=15 (SOCK=0 OR SOCK>3)]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%[%WHITE%%15%GRAY%] %NAME% %WHITE%%TAN%[%SOCKETS%]%MAP%
+ItemDisplay[7la ETH NMAG ED>0 ED<15 SOCK>3]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%[%WHITE%%ed%GRAY%] %NAME% %WHITE%%TAN%[%SOCKETS%]%MAP%
+ItemDisplay[7la ETH NMAG (SOCK=0 OR SOCK>3)]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]%MAP%
 //Glorious Axe
 ItemDisplay[7gi ETH NMAG ED=15 (SOCK=0 OR SOCK>3)]: %GRAY%[%WHITE%eth%GRAY%][%WHITE%%15%GRAY%] %NAME% %TAN%[%SOCKETS%]%MAP%
 ItemDisplay[7gi ETH NMAG ED>0 ED<15 SOCK>3]: %GRAY%[%WHITE%eth%GRAY%][%WHITE%%ED%GRAY%] %NAME% %TAN%[%SOCKETS%]%MAP%
