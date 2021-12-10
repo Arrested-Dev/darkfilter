@@ -833,8 +833,8 @@ ItemDisplay[92h UNI !ID !ETH]: %GOLD%Crainte Vomir%MAP%
 ItemDisplay[92h UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%Crainte Vomir%MAP%
 ItemDisplay[9cm UNI !ID !ETH]: %GOLD%Bing Sz Wang%MAP%
 ItemDisplay[9cm UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%Bing Sz Wang%MAP%
-ItemDisplay[9gs UNI !ID !ETH]: %GOLD%The Vile Husk%MAP%
-ItemDisplay[9gs UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%The Vile Husk%MAP%
+ItemDisplay[9gs UNI !ID !ETH]: %GOLD%ooo The Vile Husk ooo%MAP%
+ItemDisplay[9gs UNI !ID ETH]: %GRAY%ooo [%WHITE%eth%GRAY%] %GOLD%The Vile Husk ooo%MAP%
 ItemDisplay[9b9 UNI !ID !ETH]: %GOLD%Cloudcrack%MAP%
 ItemDisplay[9b9 UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%Cloudcrack%MAP%
 ItemDisplay[9fb UNI !ID !ETH]: %GOLD%Todesfaelle Flamme%MAP%
@@ -1020,7 +1020,7 @@ ItemDisplay[7gw UNI !ID !ETH]: %PURPLE%oooo Death's Web %PURPLE%oooo%MAP%
 ItemDisplay[7gw UNI !ID ETH]: %PURPLE%oooo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Death's Web %PURPLE%oooo%MAP%
 ItemDisplay[gsc UNI !ID !ETH]: %GOLD%Rusthandle%MAP%
 ItemDisplay[gsc UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%Rusthandle%MAP%
-ItemDisplay[wsp UNI !ID !ETH]: %GOLD%Stormeye%MAP%
+ItemDisplay[wsp UNI !ID !ETH]: %GOLD%oo Stormeye oo%MAP%
 ItemDisplay[wsp UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%Stormeye%MAP%
 ItemDisplay[9sc UNI !ID !ETH]: %GOLD%Zakarum's Hand%MAP%
 ItemDisplay[9sc UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%Zakarum's Hand%MAP%
@@ -1642,6 +1642,7 @@ ItemDisplay[7br NMAG ETH (SOCK=0 OR SOCK>2)]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %T
 ItemDisplay[7st NMAG ETH (SOCK=0 OR SOCK>2) ED=15]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%[%WHITE%%15%GRAY%] %NAME% %TAN%[%SOCKETS%]%MAP%
 ItemDisplay[7st NMAG ETH (SOCK=0 OR SOCK>2) ED>0 ED<15]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%[%WHITE%%ed%GRAY%] %NAME% %TAN%[%SOCKETS%]%MAP%
 ItemDisplay[7st NMAG !ETH (SOCK=0 OR SOCK>1) ED=15]: %GRAY%[%WHITE%%15%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[7st NMAG ETH !INF (SOCK=0 OR SOCK=2 OR SOCK=4)]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%%NAME% %TAN%[%SOCKETS%]
 ItemDisplay[7st NMAG !INF (SOCK=0 OR SOCK=2 OR SOCK=4)]: %GRAY%%NAME% %TAN%[%SOCKETS%]
 //Exceptional bases (levelling insight etc)
 ItemDisplay[(9br OR 9st OR 9b7)  ETH NMAG SOCK=4 CLVL<65]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
