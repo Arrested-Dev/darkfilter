@@ -76,7 +76,8 @@ ItemDisplay[imrn]: %RED%o %NAME%%RED% o%MAP%
 ItemDisplay[rtma]: %RED%o %NAME%%RED% o%MAP%
 ItemDisplay[rtmo]: %RED%o %NAME%%RED% o%MAP%
 ItemDisplay[jewf]: %BLUE%o %NAME% o%MAP%
-
+ItemDisplay[rtp]: %GREEN%!%GOLD%%NAME%%MAP%
+ItemDisplay[rid]: %GREEN%!%GOLD%%NAME%%MAP%
 //Maps
 ///tier1
 ItemDisplay[t11 OR t12 OR t13 OR t14 MAG !ID]: %GREEN%o %BLUE%%NAME% %GREEN%o%MAP%
@@ -439,6 +440,11 @@ ItemDisplay[rin MAG ILVL=93]: %BLUE%%NAME%%WHITE% [%TAN%CLVL 76+%WHITE%] {%RED%B
 ItemDisplay[rin MAG ILVL=94]: %BLUE%%NAME%%WHITE% [%TAN%CLVL 76+%WHITE%] {%RED%Blood %WHITE%+ %ORANGE%Sol %WHITE%| %YELLOW%Bount %WHITE%+ %ORANGE%Lum %NL%%GRAY%Vamp %WHITE%+ %ORANGE%Hel}
 ItemDisplay[rin MAG ILVL>94]: %BLUE%%NAME%%WHITE% [%TAN%CLVL 74+%WHITE%] {%RED%Blood %WHITE%+ %ORANGE%Sol %WHITE%| %YELLOW%Bount %WHITE%+ %ORANGE%Lum %NL%%GRAY%Vamp %WHITE%+ %ORANGE%Hel}
 ItemDisplay[rin MAG ILVL<86]: %BLUE%%NAME%%WHITE% {%RED%Blood %WHITE%+ %ORANGE%Sol %WHITE%| %YELLOW%Bount %WHITE%+ %ORANGE%Lum %NL%%GRAY%Vamp %WHITE%+ %ORANGE%Hel}
+//s4 PD2 Uniques
+ItemDisplay[uhn UNI !ID !ETH]: %GOLD%oooo %PURPLE%Band of Skulls %GOLD%oooo%MAP%
+ItemDisplay[uhn UNI !ID ETH]: %GOLD%oooo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Band of Skulls %GOLD%oooo%MAP%
+ItemDisplay[utc UNI !ID !ETH]: %GOLD%oooo %PURPLE%Cage of the Unsullied %GOLD%oooo%MAP%
+ItemDisplay[utc UNI !ID ETH]: %GOLD%oooo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Cage of the Unsullied %GOLD%oooo%MAP%
 //s3 PD2 Uniques
 ItemDisplay[am5 UNI !ID !ETH]: %BLUE%ooo %GOLD%True Silver %BLUE%ooo%MAP%
 ItemDisplay[am5 UNI !ID ETH]: %BLUE%ooo %GRAY%[%WHITE%eth%GRAY%] %GOLD%True Silver %BLUE%ooo%MAP%
