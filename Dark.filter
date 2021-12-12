@@ -1,4 +1,4 @@
-// Adev's Loot Filter for PD2, Dark Edition. S4 v4.04
+// Adev's Loot Filter for PD2, Dark Edition. S4 v4.05
 //twitch.tv/Adevelopment
 //twitch.tv/DarkHumility
 //INF
@@ -278,7 +278,8 @@ ItemDisplay[cm1 DEF>19 AND LIFE>16]: %RED%Life %WHITE%Def %BLUE%Small Charm
 ItemDisplay[cm1 MANA>13 AND LIFE>12]: %RED%Life %BLUE%Mana %BLUE%Small Charm
 ItemDisplay[cm1 LIFE>16]: %RED%Life %BLUE%Small Charm 
 //Skillers
-ItemDisplay[cm3 (TABSK0>0 AND FHR>0)]: %ORANGE%FHR %GOLD%Bowa Skiller 
+ItemDisplay[cm3 (TABSK0>0 AND FHR>0)]: %ORANGE%FHR %GOLD%Bowa Skiller
+ItemDisplay[cm3 (TABSK1>0 AND FHR>0)]: %ORANGE%FHR %GOLD%Passive Skiller  
 ItemDisplay[cm3 (TABSK2>0 AND FHR>0)]: %ORANGE%FHR %GOLD%Java Skiller 
 ItemDisplay[cm3 (TABSK8>0 AND FHR>0)]: %ORANGE%FHR %GOLD%Fire Skiller 
 ItemDisplay[cm3 (TABSK9>0 AND FHR>0)]: %ORANGE%FHR %GOLD%Light Skiller 
@@ -296,7 +297,8 @@ ItemDisplay[cm3 (TABSK42>0 AND FHR>0)]: %ORANGE%FHR %GOLD%Dru Ele Skiller
 ItemDisplay[cm3 (TABSK48>0 AND FHR>0)]: %ORANGE%FHR %GOLD%Trap Skiller
 ItemDisplay[cm3 (TABSK49>0 AND FHR>0)]: %ORANGE%FHR %GOLD%Shadow Skiller
 ItemDisplay[cm3 (TABSK50>0 AND FHR>0)]: %ORANGE%FHR %GOLD%Martial Skiller
-ItemDisplay[cm3 (TABSK0>0 AND FRW>0)]: %ORANGE%frw %GOLD%Bowa Skiller 
+ItemDisplay[cm3 (TABSK0>0 AND FRW>0)]: %ORANGE%frw %GOLD%Bowa Skiller
+ItemDisplay[cm3 (TABSK1>0 AND FRW>0)]: %ORANGE%frw %GOLD%Passive Skiller  
 ItemDisplay[cm3 (TABSK2>0 AND FRW>0)]: %ORANGE%frw %GOLD%Java Skiller 
 ItemDisplay[cm3 (TABSK16>0 AND FRW>0)]: %ORANGE%frw %GOLD%Curses Skiller 
 ItemDisplay[cm3 (TABSK17>0 AND FRW>0)]: %ORANGE%frw %GOLD%P&B Skiller 
@@ -312,6 +314,7 @@ ItemDisplay[cm3 (TABSK48>0 AND FRW>0)]: %ORANGE%frw %GOLD%Trap Skiller
 ItemDisplay[cm3 (TABSK49>0 AND FRW>0)]: %ORANGE%frw %GOLD%Shadow Skiller
 ItemDisplay[cm3 (TABSK50>0 AND FRW>0)]: %ORANGE%frw %GOLD%Martial Skiller
 ItemDisplay[cm3 (TABSK0>0 AND LIFE>0)]: %RED%Life %GOLD%Bowa Skiller 
+ItemDisplay[cm3 (TABSK1>0 AND LIFE>0)]: %RED%Life %GOLD%Passive Skiller 
 ItemDisplay[cm3 (TABSK2>0 AND LIFE>0)]: %RED%Life %GOLD%Java Skiller 
 ItemDisplay[cm3 (TABSK8>0 AND LIFE>0)]: %RED%Life %GOLD%Fire Skiller 
 ItemDisplay[cm3 (TABSK9>0 AND LIFE>0)]: %RED%Life %GOLD%Light Skiller 
@@ -330,6 +333,7 @@ ItemDisplay[cm3 (TABSK48>0 AND LIFE>0)]: %RED%Life %GOLD%Trap Skiller
 ItemDisplay[cm3 (TABSK49>0 AND LIFE>0)]: %RED%Life %GOLD%Shadow Skiller
 ItemDisplay[cm3 (TABSK50>0 AND LIFE>0)]: %RED%Life %GOLD%Martial Skiller
 ItemDisplay[cm3 TABSK0>0]: %GOLD%Bowa Skiller 
+ItemDisplay[cm3 TABSK0>0]: %GOLD%Passive Skiller 
 ItemDisplay[cm3 TABSK2>0]: %GOLD%Java Skiller 
 ItemDisplay[cm3 TABSK8>0]: %GOLD%Fire Skiller 
 ItemDisplay[cm3 TABSK9>0]: %GOLD%Light Skiller 
@@ -1011,8 +1015,8 @@ ItemDisplay[6ws UNI !ID !ETH]: %PURPLE%oooo %PURPLE%Mang Song's Lesson %PURPLE%o
 ItemDisplay[6ws UNI !ID ETH]: %PURPLE%oooo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Mang Song's Lesson %PURPLE%oooo%MAP%
 ItemDisplay[ywn UNI !ID !ETH]: %GOLD%Maelstrom%MAP%
 ItemDisplay[ywn UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%Maelstrom%MAP%
-ItemDisplay[bwn UNI !ID !ETH]: %GOLD%Gravenspine%MAP%
-ItemDisplay[bwn UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%Gravenspine%MAP%
+ItemDisplay[bwn UNI !ID !ETH]: %RED%o Gravenspine o%MAP%
+ItemDisplay[bwn UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] %RED%Gravenspine o%MAP%
 ItemDisplay[gwn UNI !ID !ETH]: %GOLD%Ume's Lament%MAP%
 ItemDisplay[gwn UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%Ume's Lament%MAP%
 ItemDisplay[bwn UNI !ID !ETH]: %GOLD%oo Gravenspine oo%MAP%
@@ -1051,6 +1055,7 @@ ItemDisplay[baa UNI !ID !ETH]: %RED%ooo %PURPLE%Arreat's Face %RED%ooo%MAP%
 ItemDisplay[baa UNI !ID ETH]: %RED%ooo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Arreat's Face %RED%ooo%MAP%
 ItemDisplay[bad UNI !ID !ETH]: %RED%oo Demonhorn's Edge oo%MAP%
 ItemDisplay[bac UNI !ID !ETH]: %RED%oo Wolfhowl oo%MAP%
+ItemDisplay[bac UNI !ID ETH]: %RED%oo %GRAY%[%WHITE%eth%GRAY%] %RED%Wolfhowl oo%MAP%
 ItemDisplay[bae UNI !ID !ETH]: %RED%o %PURPLE%Halaberd's Reign %RED%o%MAP%
 ItemDisplay[bae UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Halaberd's Reign %RED%o%MAP%
 ItemDisplay[pac UNI !ID !ETH]: %RED%o %PURPLE%Alma Negra %RED%o%MAP%
@@ -1529,9 +1534,9 @@ ItemDisplay[CL6 NMAG (SOCK=3) ETH SK376>2]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%[%WHI
 ///WP12 WANDS
 ItemDisplay[WP12 !wnd !ywn !9wn NMAG (SK67>2 AND SK84>2) !SOCK=1]: %GRAY%[%WHITE%bone%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[WP12 !wnd !ywn !9wn NMAG (SK92>2 AND SK83>2) !SOCK=1]: %GRAY%[%WHITE%psn%GRAY%] %NAME% %TAN%[%SOCKETS%]
-ItemDisplay[WP12 !wnd !ywn !9wn NMAG SK75>2 !SOCK=1]: %GRAY%[%WHITE%3clag%GRAY%] %NAME% %TAN%[%SOCKETS%]
-ItemDisplay[WP12 !wnd !ywn !9wn NMAG SK94>2 !SOCK=1]: %GRAY%[%WHITE%3firg%GRAY%] %NAME% %TAN%[%SOCKETS%]
-ItemDisplay[WP12 !wnd !ywn !9wn NMAG SK85>2 !SOCK=1]: %GRAY%[%WHITE%3blog%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[WP12 !wnd !ywn !9wn NMAG SK75>2 !SOCK=1]: %GRAY%[%WHITE%3cgo%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[WP12 !wnd !ywn !9wn NMAG SK94>2 !SOCK=1]: %GRAY%[%WHITE%3fgo%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[WP12 !wnd !ywn !9wn NMAG SK85>2 !SOCK=1]: %GRAY%[%WHITE%3bgo%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[WP12 !wnd !ywn !9wn NMAG SK67>2 !SOCK=1]: %GRAY%[%WHITE%3tee%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[WP12 !wnd !ywn !9wn NMAG SK84>2 !SOCK=1]: %GRAY%[%WHITE%3spe%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[WP12 !wnd !ywn !9wn NMAG SK92>2 !SOCK=1]: %GRAY%[%WHITE%3nov%GRAY%] %NAME% %TAN%[%SOCKETS%]
@@ -1541,9 +1546,9 @@ ItemDisplay[WP12 !wnd !ywn !9wn NMAG SK93>2 !SOCK=1]: %GRAY%[%WHITE%3spi%GRAY%] 
 ItemDisplay[WP12 !wnd !ywn !9wn NMAG SK89>2 !SOCK=1]: %GRAY%[%WHITE%3skar%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[WP12 !wnd !ywn !9wn NMAG SK80>2 !SOCK=1]: %GRAY%[%WHITE%3skma%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[WP12 !wnd !ywn !9wn NMAG SK70>2 !SOCK=1]: %GRAY%[%WHITE%3skwa%GRAY%] %NAME% %TAN%[%SOCKETS%]
-ItemDisplay[WP12 !wnd !ywn !9wn NMAG SK75>1 !SOCK=1 CLVL<71]: %GRAY%[%WHITE%2clag%GRAY%] %NAME% %TAN%[%SOCKETS%]
-ItemDisplay[WP12 !wnd !ywn !9wn NMAG SK94>1 !SOCK=1 CLVL<71]: %GRAY%[%WHITE%2firg%GRAY%] %NAME% %TAN%[%SOCKETS%]
-ItemDisplay[WP12 !wnd !ywn !9wn NMAG SK85>1 !SOCK=1 CLVL<71]: %GRAY%[%WHITE%2blog%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[WP12 !wnd !ywn !9wn NMAG SK75>1 !SOCK=1 CLVL<71]: %GRAY%[%WHITE%2cgo%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[WP12 !wnd !ywn !9wn NMAG SK94>1 !SOCK=1 CLVL<71]: %GRAY%[%WHITE%2fgo%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[WP12 !wnd !ywn !9wn NMAG SK85>1 !SOCK=1 CLVL<71]: %GRAY%[%WHITE%2bgo%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[WP12 !wnd !ywn !9wn NMAG SK89>1 !SOCK=1 CLVL<71]: %GRAY%[%WHITE%2skar%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[WP12 !wnd !ywn !9wn NMAG SK80>1 !SOCK=1 CLVL<71]: %GRAY%[%WHITE%2skma%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[WP12 !wnd !ywn !9wn NMAG SK70>1 !SOCK=1 CLVL<71]: %GRAY%[%WHITE%2skwa%GRAY%] %NAME% %TAN%[%SOCKETS%]
