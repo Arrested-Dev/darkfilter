@@ -290,6 +290,7 @@ ItemDisplay[cm3 (TABSK18>0 AND FHR>0)]: %ORANGE%FHR %GOLD%Nec Summon Skiller
 ItemDisplay[cm3 (TABSK24>0 AND FHR>0)]: %ORANGE%FHR %GOLD%Pal Combat Skiller 
 ItemDisplay[cm3 (TABSK25>0 AND FHR>0)]: %ORANGE%FHR %GOLD%Offens Skiller
 ItemDisplay[cm3 (TABSK34>0 AND FHR>0)]: %ORANGE%FHR %GOLD%Warcries Skiller 
+ItemDisplay[cm3 (TABSK32>0 AND FHR>0)]: %ORANGE%FHR %GOLD%Barb Combat Skiller 
 ItemDisplay[cm3 (TABSK40>0 AND FHR>0)]: %ORANGE%FHR %GOLD%Dru Summon Skiller 
 ItemDisplay[cm3 (TABSK41>0 AND FHR>0)]: %ORANGE%FHR %GOLD%ShapeShift Skiller 
 ItemDisplay[cm3 (TABSK42>0 AND FHR>0)]: %ORANGE%FHR %GOLD%Dru Ele Skiller 
@@ -304,7 +305,8 @@ ItemDisplay[cm3 (TABSK17>0 AND FRW>0)]: %ORANGE%frw %GOLD%P&B Skiller
 ItemDisplay[cm3 (TABSK18>0 AND FRW>0)]: %ORANGE%frw %GOLD%Nec Summon Skiller 
 ItemDisplay[cm3 (TABSK24>0 AND FRW>0)]: %ORANGE%frw %GOLD%Pal Combat Skiller 
 ItemDisplay[cm3 (TABSK25>0 AND FRW>0)]: %ORANGE%frw %GOLD%Offens Skiller
-ItemDisplay[cm3 (TABSK34>0 AND FRW>0)]: %ORANGE%frw %GOLD%Warcries Skiller 
+ItemDisplay[cm3 (TABSK34>0 AND FRW>0)]: %ORANGE%frw %GOLD%Warcries Skiller
+ItemDisplay[cm3 (TABSK32>0 AND FRW>0)]: %ORANGE%frw %GOLD%Barb Combat Skiller 
 ItemDisplay[cm3 (TABSK40>0 AND FRW>0)]: %ORANGE%frw %GOLD%Dru Summon Skiller 
 ItemDisplay[cm3 (TABSK41>0 AND FRW>0)]: %ORANGE%frw %GOLD%ShapeShift Skiller 
 ItemDisplay[cm3 (TABSK42>0 AND FRW>0)]: %ORANGE%frw %GOLD%Dru Ele Skiller 
@@ -323,6 +325,7 @@ ItemDisplay[cm3 (TABSK18>0 AND LIFE>0)]: %RED%Life %GOLD%Nec Summon Skiller
 ItemDisplay[cm3 (TABSK24>0 AND LIFE>0)]: %RED%Life %GOLD%Pal Combat Skiller 
 ItemDisplay[cm3 (TABSK25>0 AND LIFE>0)]: %RED%Life %GOLD%Offens Skiller
 ItemDisplay[cm3 (TABSK34>0 AND LIFE>0)]: %RED%Life %GOLD%Warcries Skiller 
+ItemDisplay[cm3 (TABSK32>0 AND LIFE>0)]: %RED%Life %GOLD%Barb Combat Skiller 
 ItemDisplay[cm3 (TABSK40>0 AND LIFE>0)]: %RED%Life %GOLD%Dru Summon Skiller 
 ItemDisplay[cm3 (TABSK41>0 AND LIFE>0)]: %RED%Life %GOLD%ShapeShift Skiller 
 ItemDisplay[cm3 (TABSK42>0 AND LIFE>0)]: %RED%Life %GOLD%Dru Ele Skiller 
@@ -341,6 +344,7 @@ ItemDisplay[cm3 TABSK18>0]: %GOLD%Nec Summon Skiller
 ItemDisplay[cm3 TABSK24>0]: %GOLD%Pal Combat Skiller 
 ItemDisplay[cm3 TABSK25>0]: %GOLD%Offens Skiller
 ItemDisplay[cm3 TABSK34>0]: %GOLD%Warcries Skiller 
+ItemDisplay[cm3 TABSK32>0]: %GOLD%Barb Combat Skiller 
 ItemDisplay[cm3 TABSK40>0]: %GOLD%Dru Summon Skiller 
 ItemDisplay[cm3 TABSK41>0]: %GOLD%ShapeShift Skiller 
 ItemDisplay[cm3 TABSK42>0]: %GOLD%Dru Ele Skiller 
@@ -672,7 +676,7 @@ ItemDisplay[vbt UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%Gorefoot%MAP%
 ItemDisplay[mbt UNI !ID !ETH]: %GOLD%ooo Treads of Cthon ooo%MAP%
 ItemDisplay[mbt UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%Treads of Cthon%MAP%
 ItemDisplay[tbt UNI !ID !ETH]: %RED%o %RED%Goblin Toe %RED%o%MAP%
-ItemDisplay[tbt UNI !ID ETH]: %RED%o [%WHITE%eth%GRAY%]%RED%Goblin Toe %RED%o%MAP%
+ItemDisplay[tbt UNI !ID ETH]: %RED%o [%WHITE%eth%GRAY%] %RED%Goblin Toe %RED%o%MAP%
 ItemDisplay[hbt UNI !ID !ETH]: %GOLD%o Tearhaunch o%MAP%
 ItemDisplay[hbt UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %RED%Tearhaunch%MAP%
 ItemDisplay[xlb UNI !ID !ETH]: %RED%o Infernostride o%MAP%
@@ -844,12 +848,12 @@ ItemDisplay[9gs UNI !ID !ETH]: %GOLD%ooo The Vile Husk ooo%MAP%
 ItemDisplay[9gs UNI !ID ETH]: %GRAY%ooo [%WHITE%eth%GRAY%] %GOLD%The Vile Husk ooo%MAP%
 ItemDisplay[9b9 UNI !ID !ETH]: %GOLD%Cloudcrack%MAP%
 ItemDisplay[9b9 UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%Cloudcrack%MAP%
-ItemDisplay[9fb UNI !ID !ETH]: %GOLD%Todesfaelle Flamme%MAP%
-ItemDisplay[9fb UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%Todesfaelle Flamme%MAP%
+ItemDisplay[9fb UNI !ID !ETH]: %GOLD%ooo Todesfaelle Flamme ooo%MAP%
+ItemDisplay[9fb UNI !ID ETH]: %GOLD%ooo %GRAY%[%WHITE%eth%GRAY%] %GOLD%Todesfaelle Flamme ooo%MAP%
 ItemDisplay[9gd UNI !ID !ETH]: %GOLD%o Swordguard o%MAP%
 ItemDisplay[9gd UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %RED%Swordguard%MAP%
-ItemDisplay[7sm UNI !ID !ETH]: %GOLD%Djinn Slayer%MAP%
-ItemDisplay[7sm UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%Djinn Slayer%MAP%
+ItemDisplay[7sm UNI !ID !ETH]: %GOLD%ooo Djinn Slayer ooo%MAP%
+ItemDisplay[7sm UNI !ID ETH]: %GOLD%ooo %GRAY%[%WHITE%eth%GRAY%] %GOLD%Djinn Slayer ooo%MAP%
 ItemDisplay[7sb UNI !ID !ETH]: %GOLD%Bloodmoon%MAP%
 ItemDisplay[7sb UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%Bloodmoon%MAP%
 ItemDisplay[7gs UNI !ID !ETH]: %GOLD%o Flamebellow o%MAP%
@@ -887,8 +891,8 @@ ItemDisplay[7b7 UNI !ID !ETH]: %RED%o Doombringer o%MAP%
 ItemDisplay[7b7 UNI !ID ETH]: %RED%oo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Doombringer %RED%oo%MAP%
 ItemDisplay[7gd UNI !ID !ETH]: %RED%oooo %PURPLE%The Grandfather %RED%oooo%MAP%
 ItemDisplay[7gd UNI !ID ETH]: %PURPLE%oooo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%The Grandfather oooo%MAP%
-ItemDisplay[7ls UNI !ID !ETH]: %RED%o Frostwind o%MAP%
-ItemDisplay[7ls UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] %RED%Frostwind %RED%o%MAP%
+ItemDisplay[7ls UNI !ID !ETH]: %RED%oo Frostwind oo%MAP%
+ItemDisplay[7ls UNI !ID ETH]: %RED%oo %GRAY%[%WHITE%eth%GRAY%] %RED%Frostwind %RED%oo%MAP%
 ItemDisplay[7gs UNI !ID !ETH]: %GOLD%ooo Flamebellow ooo%MAP%
 ItemDisplay[7gs UNI !ID ETH]: %RED%oo %GRAY%[%WHITE%eth%GRAY%] %RED%Flamebellow oo%MAP%
 ItemDisplay[9gs UNI !ID !ETH]: %GOLD%ooo The Vile Husk ooo%MAP%
