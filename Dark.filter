@@ -549,7 +549,7 @@ ItemDisplay[hla UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%The Centurion%MAP%
 ItemDisplay[stu UNI !ID !ETH]: %GOLD%oo Twitchthroe oo%MAP%
 ItemDisplay[stu UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%Twitchthroe%MAP%
 ItemDisplay[fld UNI !ID !ETH]: %GOLD%ooo Rockfleece ooo%MAP%
-ItemDisplay[fld UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%Rockfleece%MAP%
+ItemDisplay[fld UNI !ID ETH]: %GOLD%oo %GRAY%[%WHITE%eth%GRAY%] %GOLD%Rockfleece oo%MAP%
 ItemDisplay[rng UNI !ID !ETH]: %RED%o Darkglow o%MAP%
 ItemDisplay[rng UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] Darkglow o%MAP%
 ItemDisplay[scl UNI !ID !ETH]: %GOLD%o Hawkmail o%MAP%
@@ -1056,6 +1056,7 @@ ItemDisplay[drd UNI !ID ETH]: %RED%ooo %GRAY%[%WHITE%eth%GRAY%] %RED%Spirit Keep
 ItemDisplay[baa UNI !ID !ETH]: %RED%ooo %PURPLE%Arreat's Face %RED%ooo%MAP%
 ItemDisplay[baa UNI !ID ETH]: %RED%ooo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Arreat's Face %RED%ooo%MAP%
 ItemDisplay[bad UNI !ID !ETH]: %RED%oo Demonhorn's Edge oo%MAP%
+ItemDisplay[bad UNI !ID ETH]: %RED%oo %GRAY%[%WHITE%eth%GRAY%] %RED%Demonhorn's Edge oo%MAP%
 ItemDisplay[bac UNI !ID !ETH]: %RED%oo Wolfhowl oo%MAP%
 ItemDisplay[bac UNI !ID ETH]: %RED%oo %GRAY%[%WHITE%eth%GRAY%] %RED%Wolfhowl oo%MAP%
 ItemDisplay[bae UNI !ID !ETH]: %RED%o %PURPLE%Halaberd's Reign %RED%o%MAP%
