@@ -1,4 +1,4 @@
-// Adev's Loot Filter for PD2, Dark Edition. S4 v4.05
+// Adev's Loot Filter for PD2, Dark Edition. S4 v4.06
 //twitch.tv/Adevelopment
 //twitch.tv/DarkHumility
 //INF
@@ -585,6 +585,7 @@ ItemDisplay[xhn UNI !ID ETH]: %RED%ooo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Shaftsto
 ItemDisplay[xpl UNI !ID !ETH]: %RED%o %PURPLE%Skullder's Ire %RED%o%MAP%
 ItemDisplay[xpl UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Skullder's Ire %RED%o%MAP%
 ItemDisplay[xtp UNI !ID !ETH]: %RED%o %PURPLE%Que-Hegan's Wisdom %RED%o%MAP%
+ItemDisplay[xtp UNI !ID ETH]: %RED%oo %GRAY%[%WHITE%eth%GRAY%] %RED%Que-Hegan's Wisdom %RED%oo%MAP%
 ItemDisplay[xlt UNI !ID !ETH]: %RED%ooo Guardian Angel %RED%ooo%MAP%
 ItemDisplay[xlt UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] %RED%Guardian Angel o%MAP%
 ItemDisplay[xth UNI !ID !ETH]: %RED%o %PURPLE%Atma's Wail %RED%o%MAP%
