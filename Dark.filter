@@ -1,4 +1,4 @@
-// Adev's Loot Filter for PD2, Dark Edition. S4 v4.06
+// Adev's Loot Filter for PD2, Dark Edition. S4 v4.07
 //twitch.tv/Adevelopment
 //twitch.tv/DarkHumility
 //INF
@@ -597,8 +597,9 @@ ItemDisplay[xar UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%Corpsemourn%MAP%
 ItemDisplay[uui UNI !ID !ETH]: %RED%o %PURPLE%Ormus' Robes %RED%o%MAP%
 ItemDisplay[uui UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %RED%Ormus' Robes%MAP%
 ItemDisplay[xng UNI !ID !ETH]: %GOLD%ooo Spirit Forge ooo%MAP%
+ItemDisplay[xng UNI !ID ETH]: %GOLD%oo %GRAY%[%WHITE%eth%GRAY%] %GOLD%Spirit Forge oo%MAP%
 ItemDisplay[xld UNI !ID !ETH]: %RED%oo Toothrow oo%MAP%
-ItemDisplay[xld UNI !ID ETH]: %RED%oo %GRAY%[%WHITE%eth%GRAY%]%RED%Toothrow oo%MAP%
+ItemDisplay[xld UNI !ID ETH]: %RED%oo %GRAY%[%WHITE%eth%GRAY%] %RED%Toothrow oo%MAP%
 ItemDisplay[ltp UNI !ID !ETH]: %GOLD%o Heavenly Garb o%MAP%
 ItemDisplay[ltp UNI !ID ETH]: %GOLD%ooo %GRAY%[%WHITE%eth%GRAY%] %GOLD%Heavenly Garb ooo%MAP%
 ItemDisplay[utu UNI !ID !ETH]: %RED%ooo The Gladiator's Bane ooo%MAP%
@@ -663,7 +664,6 @@ ItemDisplay[xhg UNI !ID !ETH]: %RED%oo Hellmouth oo%MAP%
 ItemDisplay[xhg UNI !ID ETH]: %RED%oo %GRAY%[%WHITE%eth%GRAY%] Hellmouth oo%MAP%
 ItemDisplay[xmg UNI !ID !ETH]: %GOLD%Ghoulhide%MAP%
 ItemDisplay[xmg UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%Ghoulhide%MAP%
-ItemDisplay[xhg UNI !ID ETH]: %RED%oo %GRAY%[%WHITE%eth%GRAY%] %RED%Hellmouth oo%MAP%
 ItemDisplay[xtg UNI !ID !ETH]: %RED%o Lava Gout o%MAP%
 ItemDisplay[xtg UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] %RED%Lava Gout%MAP%
 ItemDisplay[uvg UNI !ID !ETH]: %RED%oo %PURPLE%Dracul's Grasp %RED%oo%MAP%
@@ -703,6 +703,7 @@ ItemDisplay[mbl UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%Nightsmoke%MAP%
 ItemDisplay[hbl UNI !ID !ETH]: %GOLD%Bladebuckle%MAP%
 ItemDisplay[hbl UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%Bladebuckle%MAP%
 ItemDisplay[tbl UNI !ID !ETH]: %RED%oo Goldwrap oo%MAP%
+ItemDisplay[tbl UNI !ID !ETH]:  %RED%o %GRAY%[%WHITE%eth%GRAY%] %RED%Goldwrap o%MAP%
 ItemDisplay[zlb UNI !ID !ETH]: %RED%ooo String of Ears ooo%MAP%
 ItemDisplay[zlb UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %RED%String of Ears%MAP%
 ItemDisplay[zvb UNI !ID !ETH]: %RED%oo Razortail oo%MAP%
