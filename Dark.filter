@@ -75,6 +75,7 @@ ItemDisplay[dcso]: %RED%o %NAME%%RED% o%MAP%
 ItemDisplay[imrn]: %RED%o %NAME%%RED% o%MAP%
 ItemDisplay[rtma]: %RED%o %NAME%%RED% o%MAP%
 ItemDisplay[rtmo]: %RED%o %NAME%%RED% o%MAP%
+ItemDisplay[rtmf]: %RED%o %NAME%%RED% o%MAP%
 ItemDisplay[rtmv]: %RED%o %NAME%%RED% o%MAP%
 ItemDisplay[jewf]: %BLUE%o %NAME% o%MAP%
 ItemDisplay[rtp]: %GREEN%!%GOLD%%NAME%%MAP%
