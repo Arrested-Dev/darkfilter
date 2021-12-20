@@ -848,7 +848,7 @@ ItemDisplay[92h UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%Crainte Vomir%MAP%
 ItemDisplay[9cm UNI !ID !ETH]: %GOLD%Bing Sz Wang%MAP%
 ItemDisplay[9cm UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%Bing Sz Wang%MAP%
 ItemDisplay[9gs UNI !ID !ETH]: %GOLD%ooo The Vile Husk ooo%MAP%
-ItemDisplay[9gs UNI !ID ETH]: %GRAY%ooo [%WHITE%eth%GRAY%] %GOLD%The Vile Husk ooo%MAP%
+ItemDisplay[9gs UNI !ID ETH]: %GOLD%ooo %GRAY%[%WHITE%eth%GRAY%] %GOLD%The Vile Husk ooo%MAP%
 ItemDisplay[9b9 UNI !ID !ETH]: %GOLD%Cloudcrack%MAP%
 ItemDisplay[9b9 UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%Cloudcrack%MAP%
 ItemDisplay[9fb UNI !ID !ETH]: %GOLD%ooo Todesfaelle Flamme ooo%MAP%
