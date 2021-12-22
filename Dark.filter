@@ -714,7 +714,7 @@ ItemDisplay[zmb UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%Gloom's Trap%MAP%
 ItemDisplay[ztb UNI !ID !ETH]: %RED%o %PURPLE%Snowclash o%MAP%
 ItemDisplay[ztb UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %RED%Snowclash%MAP%
 ItemDisplay[zhb UNI !ID !ETH]: %RED%o %PURPLE%Thundergod's Vigor %RED%o%MAP%
-ItemDisplay[zhb UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Thundergod's Vigor%MAP%
+ItemDisplay[zhb UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Thundergod's Vigor %RED%o%MAP%
 ItemDisplay[ulc UNI !ID !ETH]: %RED%ooo %PURPLE%Arachnid Mesh %RED%ooo%MAP%
 ItemDisplay[ulc UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Arachnid Mesh%MAP%
 ItemDisplay[uvc UNI !ID !ETH]: %RED%oo %PURPLE%Nosferatu's Coil %RED%oo%MAP%
