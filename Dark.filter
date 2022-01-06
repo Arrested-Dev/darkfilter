@@ -60,7 +60,7 @@ ItemDisplay[std]: %RED%%NAME%%MAP%
 ItemDisplay[imma]: %YELLOW%o %NAME%%YELLOW% o%MAP% {%WHITE%+ %BLUE%Jewel %NL%%WHITE% Imbue White to %BLUE%Magic Map}
 ItemDisplay[imra]: %RED%o %NAME%%RED% o%MAP% {%WHITE%+ %BLUE%Jewel %WHITE%+ %TAN%Thul>%NL%%WHITE%White to %YELLOW%Rare Map}
 ItemDisplay[rera]: %ORANGE%o %NAME%%ORANGE% o%MAP% {%WHITE%+ PGem + %TAN%Thul>%NL%%WHITE%Reroll %YELLOW%Rare Map}
-ItemDisplay[scou]: %GREEN%o %NAME%%GREEN% o%MAP% {%WHITE%+ %ORANGE%Hel%NL%%WHITE%Return to White Map}
+ItemDisplay[scou]: %GREEN%o %NAME%%GREEN% o%MAP% {%WHITE%Return to White Map}
 ItemDisplay[upma]: %BLUE%o %NAME%%BLUE% o%MAP% {%WHITE%+ PSkull + %TAN%Thul>%NL%%WHITE%Upg %BLUE%Magic %WHITE%to %YELLOW%Rare Map}
 ItemDisplay[upmp]: %GRAY%o %NAME%%GRAY% o%MAP% {%WHITE%+ Three %WHITE%M%BLUE%A%YELLOW%P%WHITE%s of Same Tier %NL%%WHITE%Upg Maps to Next Tier}
 ItemDisplay[scrb]: %PURPLE%o %NAME%%PURPLE% o%MAP% {%WHITE%+ Tier 3 %RED%Map %NL%%WHITE%Turns %RED%Map%WHITE% into %PURPLE%Dungeon%PURPLE%}
