@@ -704,7 +704,7 @@ ItemDisplay[mbl UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%Nightsmoke%MAP%
 ItemDisplay[hbl UNI !ID !ETH]: %GOLD%Bladebuckle%MAP%
 ItemDisplay[hbl UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%Bladebuckle%MAP%
 ItemDisplay[tbl UNI !ID !ETH]: %RED%oo Goldwrap oo%MAP%
-ItemDisplay[tbl UNI !ID !ETH]:  %RED%o %GRAY%[%WHITE%eth%GRAY%] %RED%Goldwrap o%MAP%
+ItemDisplay[tbl UNI !ID ETH]:  %RED%o %GRAY%[%WHITE%eth%GRAY%] %RED%Goldwrap o%MAP%
 ItemDisplay[zlb UNI !ID !ETH]: %RED%ooo String of Ears ooo%MAP%
 ItemDisplay[zlb UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %RED%String of Ears%MAP%
 ItemDisplay[zvb UNI !ID !ETH]: %RED%oo Razortail oo%MAP%
