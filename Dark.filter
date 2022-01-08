@@ -572,7 +572,7 @@ ItemDisplay[aar UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%Silks of the Victor
 ItemDisplay[xtu UNI !ID !ETH]: %GOLD%Iron Pelt%MAP%
 ItemDisplay[xtu UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%Iron Pelt%MAP%
 ItemDisplay[xcl UNI !ID !ETH]: %GOLD%oo Crow Caw oo%MAP%
-ItemDisplay[xcl UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %RED%Crow Caw%MAP%
+ItemDisplay[xcl UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] %RED%Crow Caw o%MAP%
 ItemDisplay[xui UNI !ID !ETH]: %RED%o The Spirit Shroud o%MAP%
 ItemDisplay[xui UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] %RED%The Spirit Shroud o%MAP%
 ItemDisplay[xea UNI !ID !ETH]: %RED%oo %PURPLE%Skin of the Vipermagi %RED%oo%MAP%
@@ -607,7 +607,7 @@ ItemDisplay[utu UNI !ID !ETH]: %RED%ooo The Gladiator's Bane ooo%MAP%
 ItemDisplay[utu UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] %PURPLE%The Gladiator's Bane o%MAP%
 ItemDisplay[upl UNI !ID !ETH]: %RED%ooo %PURPLE%Arkaine's Valor %RED%ooo%MAP%
 ItemDisplay[upl UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Arkaine's Valor %RED%o%MAP%
-ItemDisplay[uld UNI !ID !ETH]: %RED%ooo %PURPLE%Leviathan ooo%MAP%
+ItemDisplay[uld UNI !ID !ETH]: %RED%ooo %PURPLE%Leviathan %RED%ooo%MAP%
 ItemDisplay[uul UNI !ID !ETH]: %RED%ooo Steel Carapace ooo%MAP%
 ItemDisplay[uul UNI !ID ETH]: %RED%ooo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Steel Carapace %RED%ooo%MAP%
 ItemDisplay[uar UNI !ID !ETH]: %PURPLE%oooo %PURPLE%Tyrael's Might or Templar's Might %PURPLE%oooo%MAP%
@@ -711,7 +711,7 @@ ItemDisplay[zvb UNI !ID !ETH]: %RED%oo Razortail oo%MAP%
 ItemDisplay[zvb UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %RED%Razortail%MAP%
 ItemDisplay[zmb UNI !ID !ETH]: %GOLD%ooo Gloom's Trap ooo%MAP%
 ItemDisplay[zmb UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%Gloom's Trap%MAP%
-ItemDisplay[ztb UNI !ID !ETH]: %RED%o %PURPLE%Snowclash o%MAP%
+ItemDisplay[ztb UNI !ID !ETH]: %RED%o %PURPLE%Snowclash %RED%o%MAP%
 ItemDisplay[ztb UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %RED%Snowclash%MAP%
 ItemDisplay[zhb UNI !ID !ETH]: %RED%o %PURPLE%Thundergod's Vigor %RED%o%MAP%
 ItemDisplay[zhb UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Thundergod's Vigor %RED%o%MAP%
