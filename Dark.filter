@@ -904,7 +904,7 @@ ItemDisplay[7dg UNI !ID !ETH]: %RED%oo Wizardspike oo%MAP%
 ItemDisplay[9kr UNI !ID !ETH]: %RED%o Blackbog's Sharp o%MAP%
 ItemDisplay[9kr UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%Blackbog's Sharp%MAP%
 ItemDisplay[7kr UNI !ID !ETH]: %RED%ooo Fleshripper ooo%MAP%
-ItemDisplay[7kr UNI !ID ETH]: %RED%ooo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Fleshripper ooo%MAP%
+ItemDisplay[7kr UNI !ID ETH]: %RED%ooo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Fleshripper %RED%ooo%MAP%
 ItemDisplay[9tk UNI !ID !ETH]: %GOLD%Deathbit%MAP%
 ItemDisplay[9tk UNI !ID ETH]: %GOLD%o %GRAY%[%WHITE%eth%GRAY%] Deathbit %GOLD%o%MAP%
 ItemDisplay[9ta UNI !ID !ETH]: %GOLD%The Scalper%MAP%
