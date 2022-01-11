@@ -652,7 +652,7 @@ ItemDisplay[xpk UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%Lance Guard%MAP%
 ItemDisplay[mgl UNI !ID !ETH]: %RED%o Chance Guards o%MAP%
 ItemDisplay[mgl UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] %RED%Chance Guards o%MAP%
 ItemDisplay[tgl UNI !ID !ETH]: %RED%oo Magefist oo%MAP%
-ItemDisplay[tgl UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] Magefist o%MAP%
+ItemDisplay[tgl UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] %RED%Magefist o%MAP%
 ItemDisplay[hgl UNI !ID !ETH]: %RED%o Frostburn o%MAP%
 ItemDisplay[hgl UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] %RED%Frostburn o%MAP%
 ItemDisplay[xlg UNI !ID !ETH]: %RED%o Venom Grip o%MAP%
@@ -660,9 +660,9 @@ ItemDisplay[xlg UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] %RED%Venom Grip o%
 ItemDisplay[vgl UNI !ID !ETH]: %RED%o Bloodfist o%MAP%
 ItemDisplay[vgl UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] %RED%Bloodfist o%MAP%
 ItemDisplay[xvg UNI !ID !ETH]: %RED%oo Gravepalm oo%MAP%
-ItemDisplay[xvg UNI !ID ETH]: %RED%oo %GRAY%[%WHITE%eth%GRAY%] Gravepalm oo%MAP%
+ItemDisplay[xvg UNI !ID ETH]: %RED%oo %GRAY%[%WHITE%eth%GRAY%] %RED%Gravepalm oo%MAP%
 ItemDisplay[xhg UNI !ID !ETH]: %RED%oo Hellmouth oo%MAP%
-ItemDisplay[xhg UNI !ID ETH]: %RED%oo %GRAY%[%WHITE%eth%GRAY%] Hellmouth oo%MAP%
+ItemDisplay[xhg UNI !ID ETH]: %RED%oo %GRAY%[%WHITE%eth%GRAY%] %RED%Hellmouth oo%MAP%
 ItemDisplay[xmg UNI !ID !ETH]: %GOLD%Ghoulhide%MAP%
 ItemDisplay[xmg UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%Ghoulhide%MAP%
 ItemDisplay[xtg UNI !ID !ETH]: %RED%o Lava Gout o%MAP%
@@ -802,7 +802,7 @@ ItemDisplay[9ba UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%Spellsteel%MAP%
 ItemDisplay[7ga UNI !ID !ETH]: %GOLD%oo Messerschmidt's Reaver oo%MAP%
 ItemDisplay[7ga UNI !ID ETH]: %RED%ooo %GRAY%[%WHITE%eth%GRAY%] %RED%Messerschmidt's Reaver ooo%MAP%
 ItemDisplay[7sp UNI !ID !ETH]: %RED%oo Demon Limb oo%MAP%
-ItemDisplay[7sp UNI !ID ETH]: %RED%ooo %GRAY%[%WHITE%eth%GRAY%] Demon Limb ooo%MAP%
+ItemDisplay[7sp UNI !ID ETH]: %RED%ooo %GRAY%[%WHITE%eth%GRAY%] %RED%Demon Limb ooo%MAP%
 ItemDisplay[9wh UNI !ID !ETH]: %RED%oo Earthshaker oo%MAP%
 ItemDisplay[9wh UNI !ID ETH]: %RED%oo %GRAY%[%WHITE%eth%GRAY%] %RED%Earthshaker oo%MAP%
 ItemDisplay[9gm UNI !ID !ETH]: %RED%oo The Gavel of Pain oo%MAP%
@@ -906,9 +906,9 @@ ItemDisplay[9kr UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%Blackbog's Sharp%MA
 ItemDisplay[7kr UNI !ID !ETH]: %RED%ooo Fleshripper ooo%MAP%
 ItemDisplay[7kr UNI !ID ETH]: %RED%ooo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Fleshripper %RED%ooo%MAP%
 ItemDisplay[9tk UNI !ID !ETH]: %GOLD%Deathbit%MAP%
-ItemDisplay[9tk UNI !ID ETH]: %GOLD%o %GRAY%[%WHITE%eth%GRAY%] Deathbit %GOLD%o%MAP%
+ItemDisplay[9tk UNI !ID ETH]: %GOLD%o %GRAY%[%WHITE%eth%GRAY%] %GOLD%Deathbit %GOLD%o%MAP%
 ItemDisplay[9ta UNI !ID !ETH]: %GOLD%The Scalper%MAP%
-ItemDisplay[9ta UNI !ID ETH]: %GOLD%o %GRAY%[%WHITE%eth%GRAY%] The Scalper %GOLD%o%MAP%
+ItemDisplay[9ta UNI !ID ETH]: %GOLD%o %GRAY%[%WHITE%eth%GRAY%] %GOLD%The Scalper %GOLD%o%MAP%
 ItemDisplay[7bk UNI !ID !ETH]: %RED%ooo %RED%Warshrike %RED%ooo%MAP%
 ItemDisplay[7bk UNI !ID ETH]: %RED%ooo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Warshrike %RED%ooo%MAP%
 ItemDisplay[7ta UNI !ID !ETH]: %RED%oo Gimmershred oo%MAP%
