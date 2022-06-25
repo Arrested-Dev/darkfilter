@@ -1,4 +1,4 @@
-// Adev's Loot Filter for PD2, Dark Edition. S5 v5.01
+// Adev's Loot Filter for PD2, Dark Edition. S5 v5.02
 //twitch.tv/Adevelopment
 //twitch.tv/DarkHumility
 //INF
@@ -1880,12 +1880,12 @@ ItemDisplay[WP11 NMAG SOCK=4 SK58=2 CLVL<86]: %GRAY%[%WHITE%+2es%GRAY%] %NAME% %
 ItemDisplay[WP9 !CL7 (NORM AND NMAG) SOCK=4]: %GRAY%%NAME% %WHITE%%TAN%[%SOCKETS%]
 ItemDisplay[hbw OR 8sb OR 6sb OR 6lx OR 8lx NMAG SOCK=4]: %GRAY%%NAME% %TAN%[%SOCKETS%]
 //Mist
-ItemDisplay[6cb OR 6lb OR 6s7 OR 6lw (NMAG OR RW) (SUP AND ED=15) SOCK=5] %GRAY%[%WHITE%%15%GRAY%] %NAME% %TAN%[%SOCKETS%]
-ItemDisplay[6cb OR 6lb OR 6s7 OR 6lw (NMAG OR RW) (SUP AND ED>12) SOCK=5] %GRAY%[%WHITE%ED%GRAY%] %NAME% %TAN%[%SOCKETS%]
-ItemDisplay[6cb OR 6lb OR 6s7 OR 6lw (NMAG OR RW) SOCK=5] %GRAY%NAME% %TAN%[%SOCKETS%]
-ItemDisplay[6hx OR 6rx (NMAG OR RW) (SUP AND ED=15) SOCK=5] %GRAY%[%WHITE%%15%GRAY%] %NAME% %TAN%[%SOCKETS%]
-ItemDisplay[6hx OR 6rx (NMAG OR RW) (SUP AND ED>12) SOCK=5] %GRAY%[%WHITE%ED%GRAY%] %NAME% %TAN%[%SOCKETS%]
-ItemDisplay[6hx OR 6rx (NMAG OR RW) SOCK=5] %GRAY%NAME% %TAN%[%SOCKETS%]
+ItemDisplay[6cb OR 6lb OR 6s7 OR 6lw (NMAG OR RW) (SUP AND ED=15) SOCK=5]: %GRAY%[%WHITE%%15%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[6cb OR 6lb OR 6s7 OR 6lw (NMAG OR RW) (SUP AND ED>12) SOCK=5]: %GRAY%[%WHITE%ED%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[6cb OR 6lb OR 6s7 OR 6lw (NMAG OR RW) SOCK=5]: %GRAY%NAME% %TAN%[%SOCKETS%]
+ItemDisplay[6hx OR 6rx (NMAG OR RW) (SUP AND ED=15) SOCK=5]: %GRAY%[%WHITE%%15%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[6hx OR 6rx (NMAG OR RW) (SUP AND ED>12) SOCK=5]: %GRAY%[%WHITE%ED%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[6hx OR 6rx (NMAG OR RW) SOCK=5]: %GRAY%NAME% %TAN%[%SOCKETS%]
 //Faith
 ItemDisplay[amc (NMAG OR RW) TABSK0>2 SOCK=4]: %GRAY%[%WHITE%3bow%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[amc (NMAG OR RW) TABSK0>2 SOCK=0 (!INF AND !SUP)]: %GRAY%[%WHITE%3bow%GRAY%] %NAME% %TAN%[%SOCKETS%]
