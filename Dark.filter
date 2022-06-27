@@ -1034,16 +1034,16 @@ ItemDisplay[9yw UNI !ID !ETH]: %RED%oo Carin Shard oo%MAP%
 ItemDisplay[9yw UNI !ID ETH]: %RED%oo %GRAY%[%WHITE%eth%GRAY%] %RED%Carin Shard oo%MAP%
 ItemDisplay[lst UNI !ID !ETH]: %GOLD%Serpent Lord%MAP%
 ItemDisplay[lst UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%Serpent Lord%MAP%
-ItemDisplay[cst UNI !ID !ETH]: %GOLD%Spire of Lazarus%MAP%
-ItemDisplay[cst UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%Spire of Lazarus%MAP%
+ItemDisplay[cst UNI !ID !ETH]: %GOLD%o Spire of Lazarus o%MAP%
+ItemDisplay[cst UNI !ID ETH]: %GOLD%o %GRAY%[%WHITE%eth%GRAY%] %GOLD%Spire of Lazarus o%MAP%
 ItemDisplay[bst UNI !ID !ETH]: %GOLD%The Salamander%MAP%
 ItemDisplay[bst UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%The Salamander%MAP%
 ItemDisplay[wst UNI !ID !ETH]: %GOLD%o The Iron Jang Bong o%MAP%
 ItemDisplay[wst UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%The Iron Jang Bong%MAP%
-ItemDisplay[8ss UNI !ID !ETH]: %GOLD%Razorswitch%MAP%
-ItemDisplay[8ss UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%Razorswitch%MAP%
-ItemDisplay[8cs UNI !ID !ETH]: %GOLD%o Chromatic Ire o%MAP%
-ItemDisplay[8cs UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%Chromatic Ire%MAP%
+ItemDisplay[8ss UNI !ID !ETH]: %RED%o Razorswitch o%MAP%
+ItemDisplay[8ss UNI !ID ETH]: %RED%o [%WHITE%eth%GRAY%] %RED%Razorswitch o%MAP%
+ItemDisplay[8cs UNI !ID !ETH]: %RED%oo Chromatic Ire oo%MAP%
+ItemDisplay[8cs UNI !ID ETH]: %RED%oo %GRAY%[%WHITE%eth%GRAY%] %RED%Chromatic Ire %RED%oo%MAP%
 ItemDisplay[8bs UNI !ID !ETH]: %GOLD%Warpspear%MAP%
 ItemDisplay[8bs UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%Warpspear%MAP%
 ItemDisplay[6cs UNI !ID !ETH]: %RED%oo Ondal's Wisdom oo%MAP%
