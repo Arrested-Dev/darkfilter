@@ -1,4 +1,4 @@
-// Adev's Loot Filter for PD2, Dark Edition. S5 v5.02
+// Adev's Loot Filter for PD2, Dark Edition. S5 v5.03
 //twitch.tv/Adevelopment
 //twitch.tv/DarkHumility
 //INF
@@ -947,7 +947,7 @@ ItemDisplay[7bk UNI !ID !ETH]: %RED%ooo %RED%Warshrike %RED%ooo%MAP%
 ItemDisplay[7bk UNI !ID ETH]: %RED%oo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Warshrike %RED%oo%MAP%
 ItemDisplay[7ta UNI !ID !ETH]: %RED%oo Gimmershred oo%MAP%
 ItemDisplay[7ta UNI !ID ETH]: %RED%oo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Gimmershred %RED%oo%MAP%
-ItemDisplay[7b8 UNI !ID !ETH]: %RED%oo %PURPLE%Lacerator oo%MAP%
+ItemDisplay[7b8 UNI !ID !ETH]: %RED%oo %PURPLE%Lacerator %RED%oo%MAP%
 ItemDisplay[7b8 UNI !ID ETH]: %RED%oo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Lacerator %RED%oo%MAP%
 ItemDisplay[7s7 UNI !ID !ETH]: %RED%o Demon's Arch %RED%o%MAP%
 ItemDisplay[7s7 UNI !ID ETH]: %RED%oo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Demon's Arch %RED%oo%MAP%
@@ -1044,8 +1044,8 @@ ItemDisplay[8ss UNI !ID !ETH]: %RED%o Razorswitch o%MAP%
 ItemDisplay[8ss UNI !ID ETH]: %RED%o [%WHITE%eth%GRAY%] %RED%Razorswitch o%MAP%
 ItemDisplay[8cs UNI !ID !ETH]: %RED%oo Chromatic Ire oo%MAP%
 ItemDisplay[8cs UNI !ID ETH]: %RED%oo %GRAY%[%WHITE%eth%GRAY%] %RED%Chromatic Ire %RED%oo%MAP%
-ItemDisplay[8bs UNI !ID !ETH]: %GOLD%Warpspear%MAP%
-ItemDisplay[8bs UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%Warpspear%MAP%
+ItemDisplay[8bs UNI !ID !ETH]: %RED%o Warpspear o%MAP%
+ItemDisplay[8bs UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] %RED%Warpspear o%MAP%
 ItemDisplay[6cs UNI !ID !ETH]: %RED%oo Ondal's Wisdom oo%MAP%
 ItemDisplay[6cs UNI !ID !ETH]: %RED%oo [%WHITE%eth%GRAY%] %RED%Ondal's Wisdom oo%MAP%
 ItemDisplay[6ws UNI !ID !ETH]: %PURPLE%oooo %GOLD%Mang Song's Lesson %PURPLE%oooo%MAP%
