@@ -791,7 +791,7 @@ ItemDisplay[9ga UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%Boneslayer Blade%MA
 ItemDisplay[9gi UNI !ID !ETH]: %GOLD%o The Minotaur o%MAP%
 ItemDisplay[9gi UNI !ID ETH]: %GOLD%o %GRAY%[%WHITE%eth%GRAY%] %GOLD%The Minotaur o%MAP%
 ItemDisplay[7ha UNI !ID !ETH]: %GOLD%ooo Razor's Edge ooo%MAP%
-ItemDisplay[7ha UNI !ID ETH]: %GOLD%ooo %GRAY%[%WHITE%eth%GRAY%] %GOLD%Razor's Edge ooo%MAP%
+ItemDisplay[7ha UNI !ID ETH]: %RED%ooo %GRAY%[%WHITE%eth%GRAY%] %RED%Razor's Edge ooo%MAP%
 ItemDisplay[7mp UNI !ID !ETH]: %GOLD%Cranebeak %MAP%
 ItemDisplay[7mp UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%Cranebeak%MAP%
 ItemDisplay[7ba UNI !ID ETH]: %GOLD%ooo [%WHITE%eth%GRAY%] %GOLD%Ethereal Edge ooo%MAP%
