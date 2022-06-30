@@ -1,4 +1,4 @@
-// Adev's Loot Filter for PD2, Dark Edition. S5 v5.04
+// Adev's Loot Filter for PD2, Dark Edition. S5 v5.05
 //twitch.tv/Adevelopment
 //twitch.tv/DarkHumility
 //INF
@@ -68,7 +68,7 @@ ItemDisplay[lbox]: %WHITE%o %GOLD%%NAME% %WHITE%o%MAP%
 ItemDisplay[lpp]: %WHITE%o %GOLD%%NAME% %WHITE%o%MAP%
 ItemDisplay[llmr]: %PURPLE%ooo %WHITE%%NAME% %PURPLE%ooo%MAP%
 ItemDisplay[lsvl]: %PURPLE%ooo %GOLD%%NAME% %PURPLE%ooo%MAP%
-ItemDisplay[rkey]: %GREY%o %GOLD%%NAME% %GREY%o%MAP%
+ItemDisplay[rkey]: %GRAY%o %GOLD%%NAME% %GRAY%o%MAP%
 ItemDisplay[wss]: %GREEN%o %PURPLE%%NAME% %GREEN%o%MAP%
 ItemDisplay[cwss]: %RED%o %PURPLE%%NAME% %RED%o%MAP%
 ItemDisplay[ubtm]: %RED%o %PURPLE%%NAME%%RED% o%MAP%
