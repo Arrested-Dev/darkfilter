@@ -230,16 +230,16 @@ ItemDisplay[cm2 (MAXDMG>3 AND STR>0)]: %TAN%Max Dmg %DARK_GREEN%str %BLUE%Large 
 ItemDisplay[cm2 (MAXDMG>3 AND FRW>0)]: %TAN%Max Dmg %ORANGE%frw %BLUE%Large Charm 
 ItemDisplay[cm2 (MAXDMG>3 AND FHR>0)]: %TAN%Max Dmg %ORANGE%FHR %BLUE%Large Charm 
 ItemDisplay[cm2 MAXDMG>4]: %TAN%Max Dmg %BLUE%Large Charm
-ItemDisplay[cm2 !UNI ((FRES>9 AND LIFE>0) OR (FRES>0 AND LIFE>19))]: %RED%Fire %WHITE%Res %RED%Life %BLUE%Large Charm 
-ItemDisplay[cm2 !UNI ((LRES>9 AND LIFE>0) OR (LRES>0 AND LIFE>19))]: %YELLOW%Light %WHITE%Res %RED%Life %BLUE%Large Charm 
-ItemDisplay[cm2 !UNI ((CRES>9 AND LIFE>0) OR (CRES>0 AND LIFE>19))]: %BLUE%Cold %WHITE%Res %RED%Life %BLUE%Large Charm 
-ItemDisplay[cm2 !UNI ((PRES>9 AND LIFE>0) OR (PRES>0 AND LIFE>19))]: %GREEN%Psn %WHITE%Res %RED%Life %BLUE%Large Charm 
 ItemDisplay[cm2 !UNI (RES>4 AND FRW>0)]: %PURPLE%ALL %WHITE%Res %ORANGE%frw %BLUE%Large Charm 
 ItemDisplay[cm2 !UNI (RES>4 AND FHR>0)]: %PURPLE%ALL %WHITE%Res %ORANGE%FHR %BLUE%Large Charm 
 ItemDisplay[cm2 !UNI (RES>4 AND STR>0)]: %PURPLE%ALL %WHITE%Res %DARK_GREEN%str %BLUE%Large Charm 
 ItemDisplay[cm2 !UNI (RES>4 AND DEX>0)]: %PURPLE%ALL %WHITE%Res %GREEN%dex %BLUE%Large Charm 
-ItemDisplay[cm2 !UNI ((RES>4 AND LIFE>0) OR (RES>0 AND LIFE>29))]: %PURPLE%ALL %WHITE%Res %RED%Life %BLUE%Large Charm 
 ItemDisplay[cm2 !UNI RES>5]: %PURPLE%ALL %WHITE%Res %BLUE%Large Charm
+ItemDisplay[cm2 !UNI ((RES>4 AND LIFE>0) OR (RES>0 AND LIFE>29))]: %PURPLE%ALL %WHITE%Res %RED%Life %BLUE%Large Charm
+ItemDisplay[cm2 !UNI ((FRES>9 AND LIFE>0) OR (FRES>0 AND LIFE>19))]: %RED%Fire %WHITE%Res %RED%Life %BLUE%Large Charm 
+ItemDisplay[cm2 !UNI ((LRES>9 AND LIFE>0) OR (LRES>0 AND LIFE>19))]: %YELLOW%Light %WHITE%Res %RED%Life %BLUE%Large Charm 
+ItemDisplay[cm2 !UNI ((CRES>9 AND LIFE>0) OR (CRES>0 AND LIFE>19))]: %BLUE%Cold %WHITE%Res %RED%Life %BLUE%Large Charm 
+ItemDisplay[cm2 !UNI ((PRES>9 AND LIFE>0) OR (PRES>0 AND LIFE>19))]: %GREEN%Psn %WHITE%Res %RED%Life %BLUE%Large Charm 
 ItemDisplay[cm2 (STAT357>2 AND LIFE>0)]: %BLUE%Magic %TAN%Dmg %RED%Life %BLUE%Large Charm
 ItemDisplay[cm2 (STAT329>2 AND LIFE>0)]: %RED%Fire %TAN%Dmg %RED%Life %BLUE%Large Charm
 ItemDisplay[cm2 (STAT330>2 AND LIFE>0)]: %YELLOW%Light %TAN%Dmg %RED%Life %BLUE%Large Charm
@@ -270,7 +270,7 @@ ItemDisplay[cm2 STAT329>2]: %RED%Fire %TAN%Dmg %BLUE%Large Charm
 ItemDisplay[cm2 STAT330>2]: %YELLOW%Light %TAN%Dmg %BLUE%Large Charm
 ItemDisplay[cm2 STAT331>2]: %BLUE%Cold %TAN%Dmg %BLUE%Large Charm
 ItemDisplay[cm2 STAT332>2]: %GREEN%Psn %TAN%Dmg %BLUE%Large Charm
-ItemDisplay[cm2 MANA>25 AND LIFE>30]: %RED%Life %BLUE%Mana %BLUE%Large Charm
+ItemDisplay[cm2 MANA>19 AND LIFE>19]: %RED%Life %BLUE%Mana %BLUE%Large Charm
 ItemDisplay[cm2 MANA>32]: %BLUE%Mana %BLUE%Large Charm
 ItemDisplay[cm2 LIFE>33]: %RED%Life %BLUE%Large Charm 
 ItemDisplay[cm1 ((MAXDMG>1 AND LIFE>0) OR (MAXDMG>0 AND LIFE>9))]: %TAN%Max Dmg %RED%Life %BLUE%Small Charm 
@@ -318,7 +318,7 @@ ItemDisplay[cm1 MFIND>5 AND AR>19]: %GREEN%MF %ORANGE%AR %BLUE%Small Charm
 ItemDisplay[cm1 MFIND>5 AND DEF>19]: %GREEN%MF %WHITE%Def %BLUE%Small Charm
 ItemDisplay[cm1 MFIND>5]: %GREEN%MF %BLUE%Small Charm
 ItemDisplay[cm1 DEF>19 AND LIFE>14]: %RED%Life %WHITE%Def %BLUE%Small Charm
-ItemDisplay[cm1 MANA>10 AND LIFE>12]: %RED%Life %BLUE%Mana %BLUE%Small Charm
+ItemDisplay[cm1 MANA>9 AND LIFE>9]: %RED%Life %BLUE%Mana %BLUE%Small Charm
 ItemDisplay[cm1 LIFE>15 AND AR>19]: %RED%Life %ORANGE%AR %BLUE%Small Charm
 ItemDisplay[cm1 MANA>15]: %BLUE%Mana %BLUE%Small Charm
 ItemDisplay[cm1 LIFE>16]: %RED%Life %BLUE%Small Charm 
