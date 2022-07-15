@@ -1376,7 +1376,7 @@ ItemDisplay[6cs SET !ID]: %RED%oo %GREEN%Naj's Weapon %RED%oo%MAP%
 ItemDisplay[xhm SET !ID]: %RED%oo %GREEN%Guillaume's Face Helmet %RED%oo%MAP%
 ItemDisplay[xml SET !ID]: %RED%o %GREEN%Whitstan's Guard Shield %RED%o%MAP%
 ItemDisplay[xvg SET !ID]: %RED%oo %GREEN%Magnus' Skin Gloves %RED%oo%MAP%
-ItemDisplay[ztb SET !ID]: %RED%o %GREEN%Wilhelm's Pride Belt%RED%o%MAP%
+ItemDisplay[ztb SET !ID]: %RED%o %GREEN%Wilhelm's Pride Belt %RED%o%MAP%
 ItemDisplay[bwn SET !ID]: %GREEN%Sander's Weapon%MAP%
 ItemDisplay[vgl SET !ID]: %GREEN%Sander's Gloves%MAP%
 ItemDisplay[xhl SET !ID]: %GREEN%Sazabi's Helmet%MAP%
@@ -1952,8 +1952,8 @@ ItemDisplay[WP13 NMAG ETH SK114>2 (SOCK=0 OR SOCK>2)]: %GRAY%[%WHITE%eth%GRAY%] 
 ItemDisplay[WP13 NMAG ETH SK102>2 (SOCK=0 OR SOCK>2)]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%[%WHITE%3fire%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[WP13 NMAG ETH SK121>2 (SOCK=0 OR SOCK>2)]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%[%WHITE%3foh%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[WP13 NMAG ETH SK111>2 (SOCK=0 OR SOCK>2)]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%[%WHITE%3veng%GRAY%] %NAME% %TAN%[%SOCKETS%]
-ItemDisplay[WP13 NMAG !ETH SK117>1 (SOCK=3 OR SOCK=5)]: %GRAY%[%WHITE%3holy%GRAY%] %NAME% %TAN%[%SOCKETS%]%MAP%
-ItemDisplay[WP13 NMAG ETH SK117>1 (SOCK=3 OR SOCK=5)]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%[%WHITE%3holy%GRAY%] %NAME% %TAN%[%SOCKETS%]%MAP%
+ItemDisplay[WP13 NMAG !ETH SK117>1 (SOCK=3 OR SOCK=5)]: %GRAY%[%WHITE%holy%GRAY%] %NAME% %TAN%[%SOCKETS%]%MAP%
+ItemDisplay[WP13 NMAG ETH SK117>1 (SOCK=3 OR SOCK=5)]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%[%WHITE%holy%GRAY%] %NAME% %TAN%[%SOCKETS%]%MAP%
 //Clubs (Plague)
 ItemDisplay[(clb OR 9cl OR 7cl OR spc OR 9sp OR 7sp) NMAG !ETH SOCK=3 SK225>2]: %GRAY%[%WHITE%3Fstorm%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[(clb OR 9cl OR 7cl OR spc OR 9sp OR 7sp) NMAG !ETH SOCK=3 SK229>2]: %GRAY%[%WHITE%3MBou%GRAY%] %NAME% %TAN%[%SOCKETS%]
