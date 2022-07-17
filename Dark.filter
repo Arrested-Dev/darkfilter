@@ -224,32 +224,32 @@ ItemDisplay[cm3 !UNI RES>9]: %PURPLE%ALL %WHITE%Res %BLUE%Grand Charm
 ItemDisplay[cm3 !UNI ((FRES>24 AND LIFE>19) OR (FRES>19 AND LIFE>34))]: %RED%Fire %WHITE%Res %RED%Life %BLUE%Grand Charm 
 ItemDisplay[cm3 !UNI ((LRES>24 AND LIFE>19) OR (LRES>19 AND LIFE>34))]: %YELLOW%Light %WHITE%Res %RED%Life %BLUE%Grand Charm 
 ItemDisplay[cm3 !UNI ((CRES>24 AND LIFE>19) OR (CRES>19 AND LIFE>34))]: %BLUE%Cold %WHITE%Res %RED%Life %BLUE%Grand Charm 
-ItemDisplay[cm3 !UNI PRES>24 AND FRW>0]: %GREEN%Psn %WHITE%Res %ORANGE%frw %BLUE%Grand Charm
-ItemDisplay[cm3 !UNI FRES>24 AND FRW>0]: %RED%Fire %WHITE%Res %ORANGE%frw %BLUE%Grand Charm 
-ItemDisplay[cm3 !UNI LRES>24 AND FRW>0]: %YELLOW%Light %WHITE%Res %ORANGE%frw %BLUE%Grand Charm 
-ItemDisplay[cm3 !UNI CRES>24 AND FRW>0]: %BLUE%Cold %WHITE%Res %ORANGE%frw %BLUE%Grand Charm
-ItemDisplay[cm3 !UNI PRES>24 AND FHR>0]: %GREEN%Psn %WHITE%Res %ORANGE%FHR %BLUE%Grand Charm
-ItemDisplay[cm3 !UNI FRES>24 AND FHR>0]: %RED%Fire %WHITE%Res %ORANGE%FHR %BLUE%Grand Charm 
-ItemDisplay[cm3 !UNI LRES>24 AND FHR>0]: %YELLOW%Light %WHITE%Res %ORANGE%FHR %BLUE%Grand Charm 
-ItemDisplay[cm3 !UNI CRES>24 AND FHR>0]: %BLUE%Cold %WHITE%Res %ORANGE%FHR %BLUE%Grand Charm
-ItemDisplay[cm3 !UNI PRES>24 AND DEX>0]: %GREEN%Psn %WHITE%Res %GREEN%dex %BLUE%Grand Charm
-ItemDisplay[cm3 !UNI FRES>24 AND DEX>0]: %RED%Fire %WHITE%Res %GREEN%dex %BLUE%Grand Charm 
-ItemDisplay[cm3 !UNI LRES>24 AND DEX>0]: %YELLOW%Light %WHITE%Res %GREEN%dex %BLUE%Grand Charm 
-ItemDisplay[cm3 !UNI CRES>24 AND DEX>0]: %BLUE%Cold %WHITE%Res %GREEN%dex %BLUE%Grand Charm
-ItemDisplay[cm3 !UNI PRES>24 AND STR>0]: %GREEN%Psn %WHITE%Res %DARK_GREEN%str %BLUE%Grand Charm
-ItemDisplay[cm3 !UNI FRES>24 AND STR>0]: %RED%Fire %WHITE%Res %DARK_GREEN%str %BLUE%Grand Charm 
-ItemDisplay[cm3 !UNI LRES>24 AND STR>0]: %YELLOW%Light %WHITE%Res %DARK_GREEN%str %BLUE%Grand Charm 
-ItemDisplay[cm3 !UNI CRES>24 AND STR>0]: %BLUE%Cold %WHITE%Res %DARK_GREEN%str %BLUE%Grand Charm
+ItemDisplay[cm3 !UNI (PRES>24 AND FRW>0)]: %GREEN%Psn %WHITE%Res %ORANGE%frw %BLUE%Grand Charm
+ItemDisplay[cm3 !UNI (FRES>24 AND FRW>0)]: %RED%Fire %WHITE%Res %ORANGE%frw %BLUE%Grand Charm 
+ItemDisplay[cm3 !UNI (LRES>24 AND FRW>0)]: %YELLOW%Light %WHITE%Res %ORANGE%frw %BLUE%Grand Charm 
+ItemDisplay[cm3 !UNI (CRES>24 AND FRW>0)]: %BLUE%Cold %WHITE%Res %ORANGE%frw %BLUE%Grand Charm
+ItemDisplay[cm3 !UNI (PRES>24 AND FHR>0)]: %GREEN%Psn %WHITE%Res %ORANGE%FHR %BLUE%Grand Charm
+ItemDisplay[cm3 !UNI (FRES>24 AND FHR>0)]: %RED%Fire %WHITE%Res %ORANGE%FHR %BLUE%Grand Charm 
+ItemDisplay[cm3 !UNI (LRES>24 AND FHR>0)]: %YELLOW%Light %WHITE%Res %ORANGE%FHR %BLUE%Grand Charm 
+ItemDisplay[cm3 !UNI (CRES>24 AND FHR>0)]: %BLUE%Cold %WHITE%Res %ORANGE%FHR %BLUE%Grand Charm
+ItemDisplay[cm3 !UNI (PRES>24 AND DEX>0)]: %GREEN%Psn %WHITE%Res %GREEN%dex %BLUE%Grand Charm
+ItemDisplay[cm3 !UNI (FRES>24 AND DEX>0)]: %RED%Fire %WHITE%Res %GREEN%dex %BLUE%Grand Charm 
+ItemDisplay[cm3 !UNI (LRES>24 AND DEX>0)]: %YELLOW%Light %WHITE%Res %GREEN%dex %BLUE%Grand Charm 
+ItemDisplay[cm3 !UNI (CRES>24 AND DEX>0)]: %BLUE%Cold %WHITE%Res %GREEN%dex %BLUE%Grand Charm
+ItemDisplay[cm3 !UNI (PRES>24 AND STR>0)]: %GREEN%Psn %WHITE%Res %DARK_GREEN%str %BLUE%Grand Charm
+ItemDisplay[cm3 !UNI (FRES>24 AND STR>0)]: %RED%Fire %WHITE%Res %DARK_GREEN%str %BLUE%Grand Charm 
+ItemDisplay[cm3 !UNI (LRES>24 AND STR>0)]: %YELLOW%Light %WHITE%Res %DARK_GREEN%str %BLUE%Grand Charm 
+ItemDisplay[cm3 !UNI (CRES>24 AND STR>0)]: %BLUE%Cold %WHITE%Res %DARK_GREEN%str %BLUE%Grand Charm
 ItemDisplay[cm3 !UNI PRES>29]: %GREEN%Psn %WHITE%Res %BLUE%Grand Charm
 ItemDisplay[cm3 !UNI FRES>29]: %RED%Fire %WHITE%Res %BLUE%Grand Charm 
 ItemDisplay[cm3 !UNI LRES>29]: %YELLOW%Light %WHITE%Res %BLUE%Grand Charm 
 ItemDisplay[cm3 !UNI CRES>29]: %BLUE%Cold %WHITE%Res %BLUE%Grand Charm
-ItemDisplay[cm3 !UNI AR>100 AND LIFE>35]: %RED%Life %ORANGE%AR %BLUE%Grand Charm
-ItemDisplay[cm3 !UNI MANA>45 AND LIFE>35]: %RED%Life %BLUE%Mana %BLUE%Grand Charm
-ItemDisplay[cm3 !UNI MANA>34 AND FRW>0]: %BLUE%Mana %ORANGE%frw %BLUE%Grand Charm
-ItemDisplay[cm3 !UNI MANA>34 AND FHR>0]: %BLUE%Mana %ORANGE%FHR %BLUE%Grand Charm
-ItemDisplay[cm3 !UNI MANA>34 AND DEX>0]: %BLUE%Mana %GREEN%dex %BLUE%Grand Charm
-ItemDisplay[cm3 !UNI MANA>34 AND STR>0]: %BLUE%Mana %DARK_GREEN%str %BLUE%Grand Charm
+ItemDisplay[cm3 !UNI (AR>100 AND LIFE>35)]: %RED%Life %ORANGE%AR %BLUE%Grand Charm
+ItemDisplay[cm3 !UNI (MANA>45 AND LIFE>35)]: %RED%Life %BLUE%Mana %BLUE%Grand Charm
+ItemDisplay[cm3 !UNI (MANA>34 AND FRW>0)]: %BLUE%Mana %ORANGE%frw %BLUE%Grand Charm
+ItemDisplay[cm3 !UNI (MANA>34 AND FHR>0)]: %BLUE%Mana %ORANGE%FHR %BLUE%Grand Charm
+ItemDisplay[cm3 !UNI (MANA>34 AND DEX>0)]: %BLUE%Mana %GREEN%dex %BLUE%Grand Charm
+ItemDisplay[cm3 !UNI (MANA>34 AND STR>0)]: %BLUE%Mana %DARK_GREEN%str %BLUE%Grand Charm
 ItemDisplay[cm3 !UNI MANA>50]: %BLUE%Mana %BLUE%Grand Charm
 ItemDisplay[cm2 (MAXDMG>3 AND LIFE>0)]: %TAN%Max Dmg %RED%Life %BLUE%Large Charm 
 ItemDisplay[cm2 (MAXDMG>3 AND DEX>0)]: %TAN%Max Dmg %GREEN%dex %BLUE%Large Charm 
@@ -267,22 +267,22 @@ ItemDisplay[cm2 !UNI ((FRES>12 AND LIFE>19) OR (FRES>0 AND LIFE>29))]: %RED%Fire
 ItemDisplay[cm2 !UNI ((LRES>12 AND LIFE>19) OR (LRES>0 AND LIFE>29))]: %YELLOW%Light %WHITE%Res %RED%Life %BLUE%Large Charm 
 ItemDisplay[cm2 !UNI ((CRES>12 AND LIFE>19) OR (CRES>0 AND LIFE>29))]: %BLUE%Cold %WHITE%Res %RED%Life %BLUE%Large Charm 
 ItemDisplay[cm2 !UNI ((PRES>12 AND LIFE>19) OR (PRES>0 AND LIFE>29))]: %GREEN%Psn %WHITE%Res %RED%Life %BLUE%Large Charm
-ItemDisplay[cm2 !UNI PRES>9 AND FRW>0]: %GREEN%Psn %WHITE%Res %ORANGE%frw %BLUE%Large Charm
-ItemDisplay[cm2 !UNI FRES>9 AND FRW>0]: %RED%Fire %WHITE%Res %ORANGE%frw %BLUE%Large Charm 
-ItemDisplay[cm2 !UNI LRES>9 AND FRW>0]: %YELLOW%Light %WHITE%Res %ORANGE%frw %BLUE%Large Charm 
-ItemDisplay[cm2 !UNI CRES>9 AND FRW>0]: %BLUE%Cold %WHITE%Res %ORANGE%frw %BLUE%Large Charm
-ItemDisplay[cm2 !UNI PRES>9 AND FHR>0]: %GREEN%Psn %WHITE%Res %ORANGE%FHR %BLUE%Large Charm
-ItemDisplay[cm2 !UNI FRES>9 AND FHR>0]: %RED%Fire %WHITE%Res %ORANGE%FHR %BLUE%Large Charm 
-ItemDisplay[cm2 !UNI LRES>9 AND FHR>0]: %YELLOW%Light %WHITE%Res %ORANGE%FHR %BLUE%Large Charm 
-ItemDisplay[cm2 !UNI CRES>9 AND FHR>0]: %BLUE%Cold %WHITE%Res %ORANGE%FHR %BLUE%Large Charm
-ItemDisplay[cm2 !UNI PRES>9 AND DEX>0]: %GREEN%Psn %WHITE%Res %GREEN%dex %BLUE%Large Charm
-ItemDisplay[cm2 !UNI FRES>9 AND DEX>0]: %RED%Fire %WHITE%Res %GREEN%dex %BLUE%Large Charm 
-ItemDisplay[cm2 !UNI LRES>9 AND DEX>0]: %YELLOW%Light %WHITE%Res %GREEN%dex %BLUE%Large Charm 
-ItemDisplay[cm2 !UNI CRES>9 AND DEX>0]: %BLUE%Cold %WHITE%Res %GREEN%dex %BLUE%Large Charm
-ItemDisplay[cm2 !UNI PRES>9 AND STR>0]: %GREEN%Psn %WHITE%Res %DARK_GREEN%str %BLUE%Large Charm
-ItemDisplay[cm2 !UNI FRES>9 AND STR>0]: %RED%Fire %WHITE%Res %DARK_GREEN%str %BLUE%Large Charm 
-ItemDisplay[cm2 !UNI LRES>9 AND STR>0]: %YELLOW%Light %WHITE%Res %DARK_GREEN%str %BLUE%Large Charm 
-ItemDisplay[cm2 !UNI CRES>9 AND STR>0]: %BLUE%Cold %WHITE%Res %DARK_GREEN%str %BLUE%Large Charm 
+ItemDisplay[cm2 !UNI (PRES>9 AND FRW>0)]: %GREEN%Psn %WHITE%Res %ORANGE%frw %BLUE%Large Charm
+ItemDisplay[cm2 !UNI (FRES>9 AND FRW>0)]: %RED%Fire %WHITE%Res %ORANGE%frw %BLUE%Large Charm 
+ItemDisplay[cm2 !UNI (LRES>9 AND FRW>0)]: %YELLOW%Light %WHITE%Res %ORANGE%frw %BLUE%Large Charm 
+ItemDisplay[cm2 !UNI (CRES>9 AND FRW>0)]: %BLUE%Cold %WHITE%Res %ORANGE%frw %BLUE%Large Charm
+ItemDisplay[cm2 !UNI (PRES>9 AND FHR>0)]: %GREEN%Psn %WHITE%Res %ORANGE%FHR %BLUE%Large Charm
+ItemDisplay[cm2 !UNI (FRES>9 AND FHR>0)]: %RED%Fire %WHITE%Res %ORANGE%FHR %BLUE%Large Charm 
+ItemDisplay[cm2 !UNI (LRES>9 AND FHR>0)]: %YELLOW%Light %WHITE%Res %ORANGE%FHR %BLUE%Large Charm 
+ItemDisplay[cm2 !UNI (CRES>9 AND FHR>0)]: %BLUE%Cold %WHITE%Res %ORANGE%FHR %BLUE%Large Charm
+ItemDisplay[cm2 !UNI (PRES>9 AND DEX>0)]: %GREEN%Psn %WHITE%Res %GREEN%dex %BLUE%Large Charm
+ItemDisplay[cm2 !UNI (FRES>9 AND DEX>0)]: %RED%Fire %WHITE%Res %GREEN%dex %BLUE%Large Charm 
+ItemDisplay[cm2 !UNI (LRES>9 AND DEX>0)]: %YELLOW%Light %WHITE%Res %GREEN%dex %BLUE%Large Charm 
+ItemDisplay[cm2 !UNI (CRES>9 AND DEX>0)]: %BLUE%Cold %WHITE%Res %GREEN%dex %BLUE%Large Charm
+ItemDisplay[cm2 !UNI (PRES>9 AND STR>0)]: %GREEN%Psn %WHITE%Res %DARK_GREEN%str %BLUE%Large Charm
+ItemDisplay[cm2 !UNI (FRES>9 AND STR>0)]: %RED%Fire %WHITE%Res %DARK_GREEN%str %BLUE%Large Charm 
+ItemDisplay[cm2 !UNI (LRES>9 AND STR>0)]: %YELLOW%Light %WHITE%Res %DARK_GREEN%str %BLUE%Large Charm 
+ItemDisplay[cm2 !UNI (CRES>9 AND STR>0)]: %BLUE%Cold %WHITE%Res %DARK_GREEN%str %BLUE%Large Charm 
 ItemDisplay[cm2 (STAT357>2 AND LIFE>0)]: %BLUE%Magic %TAN%Dmg %RED%Life %BLUE%Large Charm
 ItemDisplay[cm2 (STAT329>2 AND LIFE>0)]: %RED%Fire %TAN%Dmg %RED%Life %BLUE%Large Charm
 ItemDisplay[cm2 (STAT330>2 AND LIFE>0)]: %YELLOW%Light %TAN%Dmg %RED%Life %BLUE%Large Charm
@@ -313,11 +313,11 @@ ItemDisplay[cm2 STAT329>2]: %RED%Fire %TAN%Dmg %BLUE%Large Charm
 ItemDisplay[cm2 STAT330>2]: %YELLOW%Light %TAN%Dmg %BLUE%Large Charm
 ItemDisplay[cm2 STAT331>2]: %BLUE%Cold %TAN%Dmg %BLUE%Large Charm
 ItemDisplay[cm2 STAT332>2]: %GREEN%Psn %TAN%Dmg %BLUE%Large Charm
-ItemDisplay[cm2 !UNI MANA>19 AND LIFE>19]: %RED%Life %BLUE%Mana %BLUE%Large Charm
-ItemDisplay[cm2 !UNI MANA>9 AND FRW>0]: %BLUE%Mana %ORANGE%frw %BLUE%Large Charm
-ItemDisplay[cm2 !UNI MANA>9 AND FHR>0]: %BLUE%Mana %ORANGE%FHR %BLUE%Large Charm
-ItemDisplay[cm2 !UNI MANA>9 AND DEX>0]: %BLUE%Mana %GREEN%dex %BLUE%Large Charm
-ItemDisplay[cm2 !UNI MANA>9 AND STR>0]: %BLUE%Mana %DARK_GREEN%str %BLUE%Large Charm
+ItemDisplay[cm2 !UNI (MANA>19 AND LIFE>19)]: %RED%Life %BLUE%Mana %BLUE%Large Charm
+ItemDisplay[cm2 !UNI (MANA>9 AND FRW>0)]: %BLUE%Mana %ORANGE%frw %BLUE%Large Charm
+ItemDisplay[cm2 !UNI (MANA>9 AND FHR>0)]: %BLUE%Mana %ORANGE%FHR %BLUE%Large Charm
+ItemDisplay[cm2 !UNI (MANA>9 AND DEX>0)]: %BLUE%Mana %GREEN%dex %BLUE%Large Charm
+ItemDisplay[cm2 !UNI (MANA>9 AND STR>0)]: %BLUE%Mana %DARK_GREEN%str %BLUE%Large Charm
 ItemDisplay[cm2 !UNI MANA>32]: %BLUE%Mana %BLUE%Large Charm
 ItemDisplay[cm2 !UNI LIFE>33]: %RED%Life %BLUE%Large Charm 
 ItemDisplay[cm1 ((MAXDMG>1 AND LIFE>0) OR (MAXDMG>0 AND LIFE>9))]: %TAN%Max Dmg %RED%Life %BLUE%Small Charm 
@@ -361,16 +361,16 @@ ItemDisplay[cm1 !UNI FRES>9]: %RED%Fire %WHITE%Res %BLUE%Small Charm
 ItemDisplay[cm1 !UNI LRES>9]: %YELLOW%Light %WHITE%Res %BLUE%Small Charm 
 ItemDisplay[cm1 !UNI CRES>9]: %BLUE%Cold %WHITE%Res %BLUE%Small Charm 
 ItemDisplay[cm1 !UNI PRES>9]: %GREEN%Psn %WHITE%Res %BLUE%Small Charm
-ItemDisplay[cm1 MFIND>5 AND AR>19]: %GREEN%MF %ORANGE%AR %BLUE%Small Charm
-ItemDisplay[cm1 MFIND>5 AND DEF>19]: %GREEN%MF %WHITE%Def %BLUE%Small Charm
+ItemDisplay[cm1 (MFIND>5 AND AR>19)]: %GREEN%MF %ORANGE%AR %BLUE%Small Charm
+ItemDisplay[cm1 (MFIND>5 AND DEF>19)]: %GREEN%MF %WHITE%Def %BLUE%Small Charm
 ItemDisplay[cm1 MFIND>5]: %GREEN%MF %BLUE%Small Charm
-ItemDisplay[cm1 DEF>19 AND LIFE>14]: %RED%Life %WHITE%Def %BLUE%Small Charm
-ItemDisplay[cm1 !UNI MANA>9 AND LIFE>9]: %RED%Life %BLUE%Mana %BLUE%Small Charm
-ItemDisplay[cm1 !UNI LIFE>15 AND AR>19]: %RED%Life %ORANGE%AR %BLUE%Small Charm
-ItemDisplay[cm1 !UNI MANA>9 AND FRW>0]: %BLUE%Mana %ORANGE%frw %BLUE%Small Charm
-ItemDisplay[cm1 !UNI MANA>9 AND FHR>0]: %BLUE%Mana %ORANGE%FHR %BLUE%Small Charm
-ItemDisplay[cm1 !UNI MANA>9 AND DEX>0]: %BLUE%Mana %GREEN%dex %BLUE%Small Charm
-ItemDisplay[cm1 !UNI MANA>9 AND STR>0]: %BLUE%Mana %DARK_GREEN%str %BLUE%Small Charm
+ItemDisplay[cm1 (DEF>19 AND LIFE>14)]: %RED%Life %WHITE%Def %BLUE%Small Charm
+ItemDisplay[cm1 !UNI (MANA>9 AND LIFE>9)]: %RED%Life %BLUE%Mana %BLUE%Small Charm
+ItemDisplay[cm1 !UNI (LIFE>15 AND AR>19)]: %RED%Life %ORANGE%AR %BLUE%Small Charm
+ItemDisplay[cm1 !UNI (MANA>9 AND FRW>0)]: %BLUE%Mana %ORANGE%frw %BLUE%Small Charm
+ItemDisplay[cm1 !UNI (MANA>9 AND FHR>0)]: %BLUE%Mana %ORANGE%FHR %BLUE%Small Charm
+ItemDisplay[cm1 !UNI (MANA>9 AND DEX>0)]: %BLUE%Mana %GREEN%dex %BLUE%Small Charm
+ItemDisplay[cm1 !UNI (MANA>9 AND STR>0)]: %BLUE%Mana %DARK_GREEN%str %BLUE%Small Charm
 ItemDisplay[cm1 !UNI MANA>15]: %BLUE%Mana %BLUE%Small Charm
 ItemDisplay[cm1 !UNI LIFE>16]: %RED%Life %BLUE%Small Charm 
 //Skillers
