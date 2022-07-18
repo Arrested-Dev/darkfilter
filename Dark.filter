@@ -514,6 +514,7 @@ ItemDisplay[cm3 (TABSK1>0 AND FRW>0)]: %ORANGE%frw %GOLD%Passive Skiller
 ItemDisplay[cm3 (TABSK2>0 AND FRW>0)]: %ORANGE%frw %GOLD%Java Skiller 
 ItemDisplay[cm3 (TABSK16>0 AND FRW>0)]: %ORANGE%frw %GOLD%Curses Skiller 
 ItemDisplay[cm3 (TABSK17>0 AND FRW>0)]: %ORANGE%frw %GOLD%P&B Skiller 
+ItemDisplay[cm3 (TABSK10>0 AND FRW>0)]: %ORANGE%frw %GOLD%Cold Skiller 
 ItemDisplay[cm3 (TABSK18>0 AND FRW>0)]: %ORANGE%frw %GOLD%Nec Summon Skiller 
 ItemDisplay[cm3 (TABSK24>0 AND FRW>0)]: %ORANGE%frw %GOLD%Pal Combat Skiller 
 ItemDisplay[cm3 (TABSK25>0 AND FRW>0)]: %ORANGE%frw %GOLD%Offens Skiller
