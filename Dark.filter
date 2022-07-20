@@ -68,7 +68,7 @@ ItemDisplay[lbox]: %WHITE%ooo %GOLD%%NAME% %WHITE%ooo%MAP%
 ItemDisplay[lpp]: %WHITE%o %GOLD%%NAME% %WHITE%o%MAP%
 ItemDisplay[llmr]: %PURPLE%ooooooo %WHITE%%NAME% %PURPLE%ooooooo%MAP%
 ItemDisplay[lsvl]: %PURPLE%oooooo %WHITE%%NAME% %PURPLE%oooooo%MAP%
-ItemDisplay[rkey]: %PURPLE%ooooo %WHITE%%NAME% %PURPLE%ooooo%MAP%
+ItemDisplay[rkey]: %PURPLE%oooo %WHITE%%NAME% %PURPLE%oooo%MAP%
 ItemDisplay[wss]: %GREEN%o %PURPLE%%NAME% %GREEN%o%MAP%
 ItemDisplay[cwss]: %RED%o %PURPLE%%NAME% %RED%o%MAP%
 ItemDisplay[ubtm]: %RED%o %PURPLE%%NAME%%RED% o%MAP%
@@ -299,9 +299,9 @@ ItemDisplay[cm3 !UNI (RES>5 AND FHR>0)]: %PURPLE%ALL %WHITE%Res %ORANGE%FHR %BLU
 ItemDisplay[cm3 !UNI (RES>5 AND DEX>0)]: %PURPLE%ALL %WHITE%Res %GREEN%dex %BLUE%Grand Charm 
 ItemDisplay[cm3 !UNI (RES>5 AND STR>0)]: %PURPLE%ALL %WHITE%Res %DARK_GREEN%str %BLUE%Grand Charm 
 ItemDisplay[cm3 !UNI RES>9]: %PURPLE%ALL %WHITE%Res %BLUE%Grand Charm
-ItemDisplay[cm3 !UNI ((FRES>24 AND LIFE>19) OR (FRES>19 AND LIFE>34))]: %RED%Fire %WHITE%Res %RED%Life %BLUE%Grand Charm 
-ItemDisplay[cm3 !UNI ((LRES>24 AND LIFE>19) OR (LRES>19 AND LIFE>34))]: %YELLOW%Light %WHITE%Res %RED%Life %BLUE%Grand Charm 
-ItemDisplay[cm3 !UNI ((CRES>24 AND LIFE>19) OR (CRES>19 AND LIFE>34))]: %BLUE%Cold %WHITE%Res %RED%Life %BLUE%Grand Charm 
+ItemDisplay[cm3 !UNI ((FRES>29 AND LIFE>19) OR (FRES>19 AND LIFE>38))]: %RED%Fire %WHITE%Res %RED%Life %BLUE%Grand Charm 
+ItemDisplay[cm3 !UNI ((LRES>29 AND LIFE>19) OR (LRES>19 AND LIFE>38))]: %YELLOW%Light %WHITE%Res %RED%Life %BLUE%Grand Charm 
+ItemDisplay[cm3 !UNI ((CRES>29 AND LIFE>19) OR (CRES>19 AND LIFE>38))]: %BLUE%Cold %WHITE%Res %RED%Life %BLUE%Grand Charm 
 ItemDisplay[cm3 !UNI (PRES>24 AND FRW>0)]: %GREEN%Psn %WHITE%Res %ORANGE%frw %BLUE%Grand Charm
 ItemDisplay[cm3 !UNI (FRES>24 AND FRW>0)]: %RED%Fire %WHITE%Res %ORANGE%frw %BLUE%Grand Charm 
 ItemDisplay[cm3 !UNI (LRES>24 AND FRW>0)]: %YELLOW%Light %WHITE%Res %ORANGE%frw %BLUE%Grand Charm 
@@ -675,8 +675,8 @@ ItemDisplay[6bs UNI !ID !ETH]: %RED%ooo %PURPLE%Brimstone Rain %RED%ooo%MAP%
 ItemDisplay[6bs UNI !ID ETH]: %RED%ooo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Brimstone Rain %RED%ooo%MAP%
 ItemDisplay[7qs UNI !ID !ETH]: %RED%ooo %PURPLE%Akarat's Devotion %RED%ooo%MAP%
 ItemDisplay[7qs UNI !ID ETH]: %RED%ooo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Akarat's Devotion %RED%ooo%MAP%
-ItemDisplay[7tw UNI !ID !ETH]: %RED%o %RED%Stalker's Cull %RED%o%MAP%
-ItemDisplay[7tw UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] %RED%Stalker's Cull %RED%o%MAP%
+ItemDisplay[7tw UNI !ID !ETH]: %RED%ooo %RED%Stalker's Cull %RED%ooo%MAP%
+ItemDisplay[7tw UNI !ID ETH]: %RED%ooo %GRAY%[%WHITE%eth%GRAY%] %RED%Stalker's Cull %RED%ooo%MAP%
 ItemDisplay[baf UNI !ID !ETH]: %RED%ooo %PURPLE%Raekor's Virtue %RED%ooo%MAP%
 ItemDisplay[baf UNI !ID ETH]: %RED%ooo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Raekor's Virtue %RED%ooo%MAP%
 ItemDisplay[utp UNI !ID !ETH]: %RED%oo %PURPLE%Purgatory %RED%oo%MAP%
