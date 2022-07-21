@@ -66,8 +66,8 @@ ItemDisplay[upmp]: %GRAY%o %NAME%%GRAY% o%MAP% {%WHITE%+ Three %WHITE%M%BLUE%A%Y
 ItemDisplay[scrb]: %PURPLE%o %NAME%%PURPLE% o%MAP% {%WHITE%+ Tier 3 %RED%Map %NL%%WHITE%Turns %RED%Map%WHITE% into %PURPLE%Dungeon%PURPLE%}
 ItemDisplay[lbox]: %WHITE%ooo %GOLD%%NAME% %WHITE%ooo%MAP%
 ItemDisplay[lpp]: %WHITE%o %GOLD%%NAME% %WHITE%o%MAP%
-ItemDisplay[llmr]: %PURPLE%ooooooo %WHITE%%NAME% %PURPLE%ooooooo%MAP%
-ItemDisplay[lsvl]: %PURPLE%oooooo %WHITE%%NAME% %PURPLE%oooooo%MAP%
+ItemDisplay[llmr]: %RED%oo%WHITE%oo%RED%oo%WHITE%o %NAME% %WHITE%o%RED%oo%WHITE%oo%RED%oo%MAP%
+ItemDisplay[lsvl]: %RED%oo%WHITE%oo%RED%oo %NAME% %RED%oo%WHITE%oo%RED%oo%MAP%
 ItemDisplay[rkey]: %PURPLE%oooo %WHITE%%NAME% %PURPLE%oooo%MAP%
 ItemDisplay[wss]: %GREEN%o %PURPLE%%NAME% %GREEN%o%MAP%
 ItemDisplay[cwss]: %RED%o %PURPLE%%NAME% %RED%o%MAP%
@@ -1081,8 +1081,8 @@ ItemDisplay[9cr UNI !ID !ETH]: %GOLD%Ginther's Rift%MAP%
 ItemDisplay[9cr UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %RED%Ginther's Rift%MAP%
 ItemDisplay[9wd UNI !ID !ETH]: %GOLD%The Atlantean%MAP%
 ItemDisplay[9wd UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%The Atlantean%MAP%
-ItemDisplay[92h UNI !ID !ETH]: %GOLD%Crainte Vomir%MAP%
-ItemDisplay[92h UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%Crainte Vomir%MAP%
+ItemDisplay[92h UNI !ID !ETH]: %GOLD%ooo Crainte Vomir ooo%MAP%
+ItemDisplay[92h UNI !ID ETH]: %GOLD%ooo %GRAY%[%WHITE%eth%GRAY%] %GOLD%Crainte Vomir ooo%MAP%
 ItemDisplay[9cm UNI !ID !ETH]: %GOLD%Bing Sz Wang%MAP%
 ItemDisplay[9cm UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%Bing Sz Wang%MAP%
 ItemDisplay[9gs UNI !ID !ETH]: %GOLD%ooo The Vile Husk ooo%MAP%
@@ -1221,7 +1221,7 @@ ItemDisplay[8sb UNI !ID]: %GOLD%Skystrike%MAP%
 ItemDisplay[8hb UNI !ID]: %GOLD%Riphook%MAP%
 ItemDisplay[8lb UNI !ID]: %GOLD%o Kuko Shakaku o%MAP%
 ItemDisplay[8cb UNI !ID]: %GOLD%o Endlesshail o%MAP%
-ItemDisplay[8l8 UNI !ID]: %GOLD%Cliffkiller%MAP%
+ItemDisplay[8l8 UNI !ID]: %GOLD%oo Cliffkiller oo%MAP%
 ItemDisplay[8sw UNI !ID]: %GOLD%o Magewrath o%MAP%
 ItemDisplay[8s8 UNI !ID]: %RED%o Witchwild String o%MAP%
 ItemDisplay[6l7 UNI !ID]: %RED%ooo Eaglehorn ooo%MAP%
@@ -1352,117 +1352,116 @@ ItemDisplay[7sr UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Arioc's Ne
 ItemDisplay[7bl UNI !ID ETH]: %RED%oo %GRAY%[%WHITE%eth%GRAY%] %RED%Ghostflame oo%MAP%
 ItemDisplay[7o7 UNI !ID !ETH]: %RED%oo Bonehew oo%MAP%
 ItemDisplay[7o7 UNI !ID ETH]: %RED%oo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Bonehew %RED%oo%MAP%
-ItemDisplay[xtb SET !ID]: %RED%ooo %GREEN%Aldur's Boots %RED%ooo%MAP%
-ItemDisplay[dr8 SET !ID]: %RED%ooo %GREEN%Aldur's Helmet %RED%ooo%MAP%
-ItemDisplay[uul SET !ID]: %RED%ooo %GREEN%Aldur's Armor %RED%ooo%MAP%
-ItemDisplay[9mt SET !ID]: %RED%o %GREEN%Aldur's Weapon %RED%o%MAP%
-ItemDisplay[xh9 SET !ID]: %RED%o %GREEN%Natalya's Helmet %RED%o%MAP%
-ItemDisplay[7qr SET !ID]: %RED%oo %GREEN%Natalya's Weapon %RED%oo%MAP%
-ItemDisplay[ucl SET !ID]: %RED%ooo %GREEN%Natalya's Armor %RED%ooo%MAP%
-ItemDisplay[xmb SET !ID]: %RED%oo %GREEN%Natalya's Boots %RED%oo%MAP%
-ItemDisplay[oba SET !ID]: %RED%oo %GREEN%Tal Rasha's Weapon %RED%oo%MAP%
-ItemDisplay[xsk SET !ID]: %RED%oo %GREEN%Tal Rasha's Helmet %RED%oo%MAP%
-ItemDisplay[uth SET !ID]: %RED%oooo %GREEN%Tal Rasha's Armor %RED%oooo%MAP%
-ItemDisplay[zmb SET !ID]: %RED%oo %GREEN%Tal Rasha's Belt %RED%oo%MAP%
-ItemDisplay[uh9 SET !ID]: %RED%o %GREEN%Trang-Oul's Helmet %RED%o%MAP%
-ItemDisplay[xul SET !ID]: %RED%oo %GREEN%Trang-Oul's Armor %RED%oo%MAP%
-ItemDisplay[ne9 SET !ID]: %RED%oo %GREEN%Trang-Oul's Shield %RED%oo%MAP%
-ItemDisplay[utc SET !ID]: %RED%ooo %GREEN%Trang-Oul's Belt %RED%ooo%MAP%
-ItemDisplay[xmg SET !ID]: %RED%ooo %GREEN%Trang-Oul's Gloves %RED%ooo%MAP%
-ItemDisplay[xar SET !ID]: %RED%oo %GREEN%Griswold's Armor %RED%oo%MAP%
-ItemDisplay[urn SET !ID]: %RED%ooo %GREEN%Griswold's Helmet %RED%ooo%MAP%
-ItemDisplay[7ws SET !ID]: %RED%oooo %GREEN%Griswold's Weapon %RED%oooo%MAP%
-ItemDisplay[paf SET !ID]: %RED%oooo %GREEN%Griswold's Shield %RED%oooo%MAP%
-ItemDisplay[ci3 SET !ID]: %RED%ooo %GREEN%Mavina's Helmet %RED%ooo%MAP%
-ItemDisplay[amc SET !ID]: %RED%oo %GREEN%Mavina's Weapon %RED%oo%MAP%
-ItemDisplay[uld SET !ID]: %RED%ooo %GREEN%Mavina's Armor %RED%ooo%MAP%
-ItemDisplay[xtg SET !ID]: %RED%oo %GREEN%Mavina's Gloves %RED%oo%MAP%
-ItemDisplay[zvb SET !ID]: %RED%o %GREEN%Mavina's Belt %RED%o%MAP%
-ItemDisplay[ba5 SET !ID]: %RED%oo %GREEN%Immortal King's Helmet %RED%oo%MAP%
-ItemDisplay[7m7 SET !ID]: %RED%o %GREEN%Immortal King's Weapon %RED%o%MAP%
-ItemDisplay[uar SET !ID]: %RED%ooo %GREEN%Immortal King's Armor %RED%ooo%MAP%
-ItemDisplay[zhb SET !ID]: %RED%o %GREEN%Immortal King's Belt %RED%o%MAP%
-ItemDisplay[xhg SET !ID]: %RED%o %GREEN%Immortal King's Gloves %RED%o%MAP%
-ItemDisplay[xhb SET !ID]: %RED%o %GREEN%Immortal King's Boots %RED%o%MAP%
-ItemDisplay[7gd SET !ID]: %RED%o %GREEN%Bul-Kathos' Sacred Charge %RED%o%MAP%
-ItemDisplay[7fb SET !ID]: %RED%o %GREEN%Bul-Kathos' Tribal Guardian %RED%o%MAP%
-ItemDisplay[lgl SET !ID]: %GREEN%o %GREEN%Death's Gloves o%MAP%
-ItemDisplay[lbl SET !ID]: %GREEN%o %GREEN%Death's Belt o%MAP%
-ItemDisplay[wsd SET !ID]: %GREEN%Death's Weapon%MAP%
-ItemDisplay[xap SET !ID]: %RED%oo %GREEN%Cow King's Helmet %RED%oo%MAP%
-ItemDisplay[stu SET !ID]: %RED%oo %GREEN%Cow King's Armor %RED%oo%MAP%
-ItemDisplay[vbt SET !ID]: %RED%oo %GREEN%Sander's or Cow King's Boots %RED%oo%MAP%
-ItemDisplay[rng SET !ID]: %GREEN%Angelic Armor%MAP%
-ItemDisplay[sbr SET !ID]: %GREEN%Angelic Weapon%MAP%
-ItemDisplay[skp SET !ID]: %GREEN%Arcanna's Helmet%MAP%
-ItemDisplay[ltp SET !ID]: %GREEN%Arcanna's Armor%MAP%
-ItemDisplay[wst SET !ID]: %GREEN%Arcanna's Weapon%MAP%
-ItemDisplay[qui SET !ID]: %GREEN%Arctic Armor%MAP%
-ItemDisplay[vbl SET !ID]: %GREEN%Arctic Belt%MAP%
-ItemDisplay[tgl SET !ID]: %GREEN%Arctic or Iratha's Gloves%MAP%
-ItemDisplay[swb SET !ID]: %GREEN%Arctic Bow%MAP%
-ItemDisplay[hlm SET !ID]: %GREEN%Berserker's Helmet%MAP%
-ItemDisplay[spl SET !ID]: %GREEN%Berserker's Armor%MAP%
-ItemDisplay[2ax SET !ID]: %GREEN%Berserker's Weapon%MAP%
-ItemDisplay[msk SET !ID]: %GREEN%Cathan's Helmet%MAP%
-ItemDisplay[chn SET !ID]: %GREEN%Cathan's Armor%MAP%
-ItemDisplay[bst SET !ID]: %GREEN%Cathan's Weapon%MAP%
-ItemDisplay[gsc SET !ID]: %GREEN%Civerb's Weapon%MAP%
-ItemDisplay[lrg SET !ID]: %GREEN%Civerb's Shield%MAP%
-ItemDisplay[lsd SET !ID]: %GREEN%Cleglaw's Weapon%MAP%
-ItemDisplay[mgl SET !ID]: %GREEN%Cleglaw's Gloves%MAP%
-ItemDisplay[sml SET !ID]: %GREEN%Cleglaw's Shield%MAP%
-ItemDisplay[buc SET !ID]: %GREEN%Hsarus' Shield%MAP%
-ItemDisplay[mbl SET !ID]: %GREEN%Hsarus' or Hwanin's Belt%MAP%
-ItemDisplay[mbt SET !ID]: %GREEN%Hsarus' Boots%MAP%
-ItemDisplay[cap SET !ID]: %GREEN%Infernal or Sander's Helmet%MAP%
-ItemDisplay[tbl SET !ID]: %GREEN%Infernal or Iratha's Belt%MAP%
-ItemDisplay[dgr SET !ID]: %GREEN%Infernal Weapon%MAP%
-ItemDisplay[crn SET !ID]: %GREEN%Iratha's or Milabrega's Helmet%MAP%
-ItemDisplay[bsd SET !ID]: %GREEN%Isenhart's Weapon%MAP%
-ItemDisplay[fhl SET !ID]: %GREEN%Isenhart's Helmet%MAP%
-ItemDisplay[brs SET !ID]: %GREEN%Isenhart's Armor%MAP%
-ItemDisplay[gts SET !ID]: %GREEN%Isenhart's Shield%MAP%
-ItemDisplay[aar SET !ID]: %GREEN%Milabrega's Armor%MAP% 
-ItemDisplay[kit SET !ID]: %GREEN%Milabrega's Shield%MAP%
-ItemDisplay[wsp SET !ID]: %GREEN%Milabrega's Weapon%MAP%
-ItemDisplay[ghm SET !ID]: %GREEN%Sigon's Helmet%MAP%
-ItemDisplay[gth SET !ID]: %GREEN%Sigon's Armor%MAP%
-ItemDisplay[hbt SET !ID]: %GREEN%Sigon's Boots%MAP%
-ItemDisplay[tow SET !ID]: %GREEN%Sigon's Shield%MAP%
-ItemDisplay[hbl SET !ID]: %GREEN%Sigon's Belt%MAP%
-ItemDisplay[hgl SET !ID]: %GREEN%Sigon's Gloves%MAP%
-ItemDisplay[bhm SET !ID]: %GREEN%Tancred's Helmet%MAP%
-ItemDisplay[ful SET !ID]: %GREEN%Tancred's Armor%MAP%
-ItemDisplay[lbt SET !ID]: %GREEN%Tancred's Boots%MAP%
-ItemDisplay[mpi SET !ID]: %GREEN%Tancred's Weapon%MAP%
-ItemDisplay[lbb SET !ID]: %GREEN%Vidala's Weapon%MAP%
-ItemDisplay[lea SET !ID]: %GREEN%Vidala's Armor%MAP%
-ItemDisplay[tbt SET !ID]: %GREEN%Vidala's Boots%MAP%
-ItemDisplay[ulg SET !ID]: %RED%oo %GREEN%Laying of Hands Gloves %RED%oo%MAP%
-ItemDisplay[uui SET !ID]: %RED%o %GREEN%Dark Adherent Armor %RED%o%MAP%
-ItemDisplay[xlb SET !ID]: %RED%o %GREEN%Rite of Passage Boots %RED%o%MAP%
-ItemDisplay[umc SET !ID]: %GREEN%Credendum Belt%MAP%
-ItemDisplay[xrs SET !ID]: %RED%oo %GREEN%Haemosu's Adamant Armor %RED%oo%MAP%
-ItemDisplay[7ma SET !ID]: %RED%o %GREEN%Dangoon's Teaching Weapon %RED%o%MAP%
-ItemDisplay[uts SET !ID]: %RED%oo %GREEN%Taebaek's Glory Shield %RED%oo%MAP%
-ItemDisplay[uhm SET !ID]: %RED%oo %GREEN%Ondal's Almighty Helmet %RED%oo%MAP%
-ItemDisplay[xrn SET !ID]: %GREEN%Hwanin's Helmet%MAP%
-ItemDisplay[9vo SET !ID]: %GREEN%Hwanin's Weapon%MAP%
-ItemDisplay[xcl SET !ID]: %GREEN%Hwanin's Armor%MAP%
-ItemDisplay[mbl SET !ID]: %GREEN%Hsarus' or Hwanin's Belt%MAP%
-ItemDisplay[ci0 SET !ID]: %RED%o %GREEN%Naj's Helmet %RED%o%MAP%
-ItemDisplay[ult SET !ID]: %RED%oo %GREEN%Naj's Armor %RED%oo%MAP%
-ItemDisplay[6cs SET !ID]: %RED%oo %GREEN%Naj's Weapon %RED%oo%MAP%
-ItemDisplay[xhm SET !ID]: %RED%oo %GREEN%Guillaume's Face Helmet %RED%oo%MAP%
-ItemDisplay[xml SET !ID]: %RED%o %GREEN%Whitstan's Guard Shield %RED%o%MAP%
-ItemDisplay[xvg SET !ID]: %RED%oo %GREEN%Magnus' Skin Gloves %RED%oo%MAP%
-ItemDisplay[ztb SET !ID]: %RED%o %GREEN%Wilhelm's Pride Belt %RED%o%MAP%
-ItemDisplay[bwn SET !ID]: %GREEN%Sander's Weapon%MAP%
-ItemDisplay[vgl SET !ID]: %GREEN%Sander's Gloves%MAP%
-ItemDisplay[xhl SET !ID]: %GREEN%Sazabi's Helmet%MAP%
-ItemDisplay[7ls SET !ID]: %GREEN%Sazabi's Weapon%MAP%
-ItemDisplay[upl SET !ID]: %GREEN%Sazabi's Armor%MAP%
+ItemDisplay[xtb SET !ID]: %RED%ooo %GREEN%Aldur's %NAME% %RED%ooo%MAP%
+ItemDisplay[dr8 SET !ID]: %RED%ooo %GREEN%Aldur's %NAME% %RED%ooo%MAP%
+ItemDisplay[uul SET !ID]: %RED%ooo %GREEN%Aldur's %NAME% %RED%ooo%MAP%
+ItemDisplay[9mt SET !ID]: %RED%o %GREEN%Aldur's %NAME% %RED%o%MAP%
+ItemDisplay[xh9 SET !ID]: %RED%o %GREEN%Natalya's %NAME% %RED%o%MAP%
+ItemDisplay[7qr SET !ID]: %RED%oo %GREEN%Natalya's %NAME% %RED%oo%MAP%
+ItemDisplay[ucl SET !ID]: %RED%ooo %GREEN%Natalya's %NAME% %RED%ooo%MAP%
+ItemDisplay[xmb SET !ID]: %RED%oo %GREEN%Natalya's %NAME% %RED%oo%MAP%
+ItemDisplay[oba SET !ID]: %RED%oo %GREEN%Tal Rasha's %NAME% %RED%oo%MAP%
+ItemDisplay[xsk SET !ID]: %RED%oo %GREEN%Tal Rasha's %NAME% %RED%oo%MAP%
+ItemDisplay[uth SET !ID]: %RED%oooo %GREEN%Tal Rasha's %NAME% %RED%oooo%MAP%
+ItemDisplay[zmb SET !ID]: %RED%oo %GREEN%Tal Rasha's %NAME% %RED%oo%MAP%
+ItemDisplay[uh9 SET !ID]: %RED%o %GREEN%Trang-Oul's %NAME% %RED%o%MAP%
+ItemDisplay[xul SET !ID]: %RED%oo %GREEN%Trang-Oul's %NAME% %RED%oo%MAP%
+ItemDisplay[ne9 SET !ID]: %RED%oo %GREEN%Trang-Oul's %NAME% %RED%oo%MAP%
+ItemDisplay[utc SET !ID]: %RED%ooo %GREEN%Trang-Oul's %NAME% %RED%ooo%MAP%
+ItemDisplay[xmg SET !ID]: %RED%ooo %GREEN%Trang-Oul's %NAME% %RED%ooo%MAP%
+ItemDisplay[xar SET !ID]: %RED%oo %GREEN%Griswold's %NAME% %RED%oo%MAP%
+ItemDisplay[urn SET !ID]: %RED%ooo %GREEN%Griswold's %NAME% %RED%ooo%MAP%
+ItemDisplay[7ws SET !ID]: %RED%oooo %GREEN%Griswold's %NAME% %RED%oooo%MAP%
+ItemDisplay[paf SET !ID]: %RED%oooo %GREEN%Griswold's %NAME% %RED%oooo%MAP%
+ItemDisplay[ci3 SET !ID]: %RED%ooo %GREEN%Mavina's %NAME% %RED%ooo%MAP%
+ItemDisplay[amc SET !ID]: %RED%oo %GREEN%Mavina's %NAME% %RED%oo%MAP%
+ItemDisplay[uld SET !ID]: %RED%ooo %GREEN%Mavina's %NAME% %RED%ooo%MAP%
+ItemDisplay[xtg SET !ID]: %RED%oo %GREEN%Mavina's %NAME% %RED%oo%MAP%
+ItemDisplay[zvb SET !ID]: %RED%o %GREEN%Mavina's %NAME% %RED%o%MAP%
+ItemDisplay[ba5 SET !ID]: %RED%oo %GREEN%Immortal King's %NAME% %RED%oo%MAP%
+ItemDisplay[7m7 SET !ID]: %RED%o %GREEN%Immortal King's %NAME% %RED%o%MAP%
+ItemDisplay[uar SET !ID]: %RED%ooo %GREEN%Immortal King's %NAME% %RED%ooo%MAP%
+ItemDisplay[zhb SET !ID]: %RED%o %GREEN%Immortal King's %NAME% %RED%o%MAP%
+ItemDisplay[xhg SET !ID]: %RED%o %GREEN%Immortal King's %NAME% %RED%o%MAP%
+ItemDisplay[xhb SET !ID]: %RED%o %GREEN%Immortal King's %NAME% %RED%o%MAP%
+ItemDisplay[7gd SET !ID]: %RED%o %GREEN%Bul-Kathos' %NAME% %RED%o%MAP%
+ItemDisplay[7fb SET !ID]: %RED%o %GREEN%Bul-Kathos' %NAME% %RED%o%MAP%
+ItemDisplay[lgl SET !ID]: %GREEN%o %GREEN%Death's %NAME% o%MAP%
+ItemDisplay[lbl SET !ID]: %GREEN%o %GREEN%Death's %NAME% o%MAP%
+ItemDisplay[wsd SET !ID]: %GREEN%Death's %NAME%%MAP%
+ItemDisplay[xap SET !ID]: %RED%oo %GREEN%Cow King's %NAME% %RED%oo%MAP%
+ItemDisplay[stu SET !ID]: %RED%oo %GREEN%Cow King's %NAME% %RED%oo%MAP%
+ItemDisplay[vbt SET !ID]: %RED%oo %GREEN%Sander's or Cow King's %NAME% %RED%oo%MAP%
+ItemDisplay[rng SET !ID]: %GREEN%Angelic %NAME%%MAP%
+ItemDisplay[sbr SET !ID]: %GREEN%Angelic %NAME%%MAP%
+ItemDisplay[skp SET !ID]: %GREEN%Arcanna's %NAME%%MAP%
+ItemDisplay[ltp SET !ID]: %GREEN%Arcanna's %NAME%%MAP%
+ItemDisplay[wst SET !ID]: %GREEN%Arcanna's %NAME%%MAP%
+ItemDisplay[qui SET !ID]: %GREEN%Arctic %NAME%%MAP%
+ItemDisplay[vbl SET !ID]: %GREEN%Arctic %NAME%%MAP%
+ItemDisplay[tgl SET !ID]: %GREEN%Arctic or Iratha's %NAME%%MAP%
+ItemDisplay[swb SET !ID]: %GREEN%Arctic %NAME%%MAP%
+ItemDisplay[hlm SET !ID]: %GREEN%Berserker's %NAME%%MAP%
+ItemDisplay[spl SET !ID]: %GREEN%Berserker's %NAME%%MAP%
+ItemDisplay[2ax SET !ID]: %GREEN%Berserker's %NAME%%MAP%
+ItemDisplay[msk SET !ID]: %GREEN%Cathan's %NAME%%MAP%
+ItemDisplay[chn SET !ID]: %GREEN%Cathan's %NAME%%MAP%
+ItemDisplay[bst SET !ID]: %GREEN%Cathan's %NAME%%MAP%
+ItemDisplay[gsc SET !ID]: %GREEN%Civerb's %NAME%%MAP%
+ItemDisplay[lrg SET !ID]: %GREEN%Civerb's %NAME%%MAP%
+ItemDisplay[lsd SET !ID]: %GREEN%Cleglaw's %NAME%%MAP%
+ItemDisplay[mgl SET !ID]: %GREEN%Cleglaw's %NAME%%MAP%
+ItemDisplay[sml SET !ID]: %GREEN%Cleglaw's %NAME%%MAP%
+ItemDisplay[buc SET !ID]: %GREEN%Hsarus' %NAME%%MAP%
+ItemDisplay[mbl SET !ID]: %GREEN%Hsarus' %NAME%%MAP%
+ItemDisplay[mbt SET !ID]: %GREEN%Hsarus' %NAME%%MAP%
+ItemDisplay[cap SET !ID]: %GREEN%Infernal or Sander's %NAME%%MAP%
+ItemDisplay[tbl SET !ID]: %GREEN%Infernal or Iratha's %NAME%%MAP%
+ItemDisplay[dgr SET !ID]: %GREEN%Infernal %NAME%%MAP%
+ItemDisplay[crn SET !ID]: %GREEN%Iratha's or Milabrega's %NAME%%MAP%
+ItemDisplay[bsd SET !ID]: %GREEN%Isenhart's %NAME%%MAP%
+ItemDisplay[fhl SET !ID]: %GREEN%Isenhart's %NAME%%MAP%
+ItemDisplay[brs SET !ID]: %GREEN%Isenhart's %NAME%%MAP%
+ItemDisplay[gts SET !ID]: %GREEN%Isenhart's %NAME%%MAP%
+ItemDisplay[aar SET !ID]: %GREEN%Milabrega's %NAME%%MAP% 
+ItemDisplay[kit SET !ID]: %GREEN%Milabrega's %NAME%%MAP%
+ItemDisplay[wsp SET !ID]: %GREEN%Milabrega's %NAME%%MAP%
+ItemDisplay[ghm SET !ID]: %GREEN%Sigon's %NAME%%MAP%
+ItemDisplay[gth SET !ID]: %GREEN%Sigon's %NAME%%MAP%
+ItemDisplay[hbt SET !ID]: %GREEN%Sigon's %NAME%%MAP%
+ItemDisplay[tow SET !ID]: %GREEN%Sigon's %NAME%%MAP%
+ItemDisplay[hbl SET !ID]: %GREEN%Sigon's %NAME%%MAP%
+ItemDisplay[hgl SET !ID]: %GREEN%Sigon's %NAME%%MAP%
+ItemDisplay[bhm SET !ID]: %GREEN%Tancred's %NAME%%MAP%
+ItemDisplay[ful SET !ID]: %GREEN%Tancred's %NAME%%MAP%
+ItemDisplay[lbt SET !ID]: %GREEN%Tancred's %NAME%%MAP%
+ItemDisplay[mpi SET !ID]: %GREEN%Tancred's %NAME%%MAP%
+ItemDisplay[lbb SET !ID]: %GREEN%Vidala's %NAME%%MAP%
+ItemDisplay[lea SET !ID]: %GREEN%Vidala's %NAME%%MAP%
+ItemDisplay[tbt SET !ID]: %GREEN%Vidala's %NAME%%MAP%
+ItemDisplay[ulg SET !ID]: %RED%oo %GREEN%Laying of Hands %NAME% %RED%oo%MAP%
+ItemDisplay[uui SET !ID]: %RED%o %GREEN%Dark Adherent %NAME% %RED%o%MAP%
+ItemDisplay[xlb SET !ID]: %RED%o %GREEN%Rite of Passage %NAME% %RED%o%MAP%
+ItemDisplay[umc SET !ID]: %GREEN%Credendum %NAME%%MAP%
+ItemDisplay[xrs SET !ID]: %RED%oo %GREEN%Haemosu's Adamant %NAME% %RED%oo%MAP%
+ItemDisplay[7ma SET !ID]: %RED%o %GREEN%Dangoon's Teaching %NAME% %RED%o%MAP%
+ItemDisplay[uts SET !ID]: %RED%oo %GREEN%Taebaek's Glory %NAME% %RED%oo%MAP%
+ItemDisplay[uhm SET !ID]: %RED%oo %GREEN%Ondal's Almighty %NAME% %RED%oo%MAP%
+ItemDisplay[xrn SET !ID]: %GREEN%Hwanin's %NAME%%MAP%
+ItemDisplay[9vo SET !ID]: %GREEN%Hwanin's %NAME%%MAP%
+ItemDisplay[xcl SET !ID]: %GREEN%Hwanin's %NAME%%MAP%
+ItemDisplay[ci0 SET !ID]: %RED%o %GREEN%Naj's %NAME% %RED%o%MAP%
+ItemDisplay[ult SET !ID]: %RED%oo %GREEN%Naj's %NAME% %RED%oo%MAP%
+ItemDisplay[6cs SET !ID]: %RED%oo %GREEN%Naj's %NAME% %RED%oo%MAP%
+ItemDisplay[xhm SET !ID]: %RED%oo %GREEN%Guillaume's Face %NAME% %RED%oo%MAP%
+ItemDisplay[xml SET !ID]: %RED%o %GREEN%Whitstan's Guard %NAME% %RED%o%MAP%
+ItemDisplay[xvg SET !ID]: %RED%oo %GREEN%Magnus' Skin %NAME% %RED%oo%MAP%
+ItemDisplay[ztb SET !ID]: %RED%o %GREEN%Wilhelm's Pride %NAME% %RED%o%MAP%
+ItemDisplay[bwn SET !ID]: %GREEN%Sander's %NAME%%MAP%
+ItemDisplay[vgl SET !ID]: %GREEN%Sander's %NAME%%MAP%
+ItemDisplay[xhl SET !ID]: %GREEN%Sazabi's %NAME%%MAP%
+ItemDisplay[7ls SET !ID]: %GREEN%Sazabi's %NAME%%MAP%
+ItemDisplay[upl SET !ID]: %GREEN%Sazabi's %NAME%%MAP%
 ///DClone Uniques
 ItemDisplay[uth UNI !ETH !ID]: %YELLOW%ooooo %PURPLE%Dark Abyss %YELLOW%ooooo%MAP%
 ItemDisplay[uth UNI ETH !ID]: %YELLOW%ooooo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Dark Abyss %YELLOW%ooooo%MAP%
